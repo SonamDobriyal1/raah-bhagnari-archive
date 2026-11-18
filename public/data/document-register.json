@@ -1,0 +1,50 @@
+[
+  {
+    "id": "history",
+    "title": "History of We Bhagnaris",
+    "pages": 18,
+    "localUrl": "/documents/bhagnari-history.pdf",
+    "originalUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/BHAGNARIS-History-PDF-1.pdf",
+    "sha256": "6711931250b18ede5d061c8daabd3523a4c30c1702567f50cc747ad813986bb2",
+    "bytes": 2307122,
+    "retrieved": "2026-11-03",
+    "status": "in-review",
+    "rights": "Original rights and credits retained. Access copy; no claim of institutional clearance."
+  },
+  {
+    "id": "cookbook",
+    "title": "From Bhagnari Kitchen",
+    "pages": 60,
+    "localUrl": "/documents/bhagnari-kitchen.pdf",
+    "originalUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf",
+    "sha256": "345d7a7da2a1ac6451cd3bee5b6d5cea9db75543fe6b297b7212b0ae73e6489a",
+    "bytes": 9796869,
+    "retrieved": "2026-11-03",
+    "status": "in-review",
+    "rights": "Original rights and credits retained. Access copy; no claim of institutional clearance."
+  },
+  {
+    "id": "panchayat",
+    "title": "Panchayat after Partition",
+    "pages": 11,
+    "localUrl": "/documents/panchayat-after-partition.pdf",
+    "originalUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/History-of-panchayat-immediately-after-partition-1.pdf",
+    "sha256": "24ecf32852dc69a40e299ed85332005f18a2741e9960dcb01e7dfcea42b16bd9",
+    "bytes": 12394881,
+    "retrieved": "2026-11-03",
+    "status": "in-review",
+    "rights": "Original rights and credits retained. Access copy; no claim of institutional clearance."
+  },
+  {
+    "id": "aarti",
+    "title": "Aarti book",
+    "pages": 36,
+    "localUrl": "/documents/aarti-book.pdf",
+    "originalUrl": "https://ebhagnaris.in/wp-content/uploads/2023/12/Aarti-book-by-Moti-Jham.pdf",
+    "sha256": "63143ae4eaa2b5d1f0df5f01873e2ddcf56c3f3d63ef50bce7ddb88e66594f39",
+    "bytes": 26227430,
+    "retrieved": "2026-11-03",
+    "status": "in-review",
+    "rights": "Original rights and credits retained. Access copy; no claim of institutional clearance."
+  }
+]

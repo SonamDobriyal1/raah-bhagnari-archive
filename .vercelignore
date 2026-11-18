@@ -1,0 +1,27 @@
+# Deploy only the website implementation. Keep research and supplied originals local.
+archive/
+deliverables/
+docs/
+tmp/
+tests/
+supabase/
+node_modules/
+dist/
+*.docx
+RAAH — Design Review.md
+.env
+.env.*
+scripts/preserve-sources.py
+scripts/import-dictionary.py
+scripts/extract-original.mjs
+
+RAAH — Change brief remove meta content.md
+scripts/catalogue-cookbook.mjs
+scripts/prepare-recipe-reading.mjs
+scripts/recipe-catalogue-sql.mjs
+scripts/prepare-preservation.py
+
+.firebase/
+firebase-debug*.log
+firebase.json
+.firebaserc

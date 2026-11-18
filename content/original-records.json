@@ -1,0 +1,1235 @@
+{
+  "chapters": [
+    {
+      "id": "stage-1",
+      "numeral": "I",
+      "title": "Home & livelihood",
+      "period": "Bhag, Kachhi plain · before 1947",
+      "summary": "Bhag, a market town on the Kachhi plain of Balochistan, where Bhagnari families kept shops, traded grain and cloth, and cooked at open fires in courtyards shared by three generations.",
+      "expects": [
+        {
+          "kind": "voice",
+          "label": "Oral histories of home"
+        },
+        {
+          "kind": "dish",
+          "label": "Everyday and festival dishes"
+        },
+        {
+          "kind": "photo",
+          "label": "Household photographs"
+        }
+      ],
+      "map": {
+        "x": 120,
+        "y": 470,
+        "label": "Bhag"
+      },
+      "status": "demo",
+      "related": [
+        "voice-1",
+        "dish-2",
+        "photo-2",
+        "photo-9"
+      ]
+    },
+    {
+      "id": "stage-2",
+      "numeral": "II",
+      "title": "Leaving",
+      "period": "1947 – 1948",
+      "summary": "Partition drew a border across the subcontinent. For Hindu families in Bhag the decision came house by house: what to sell, what to carry, and which recipes would travel by memory alone.",
+      "expects": [
+        {
+          "kind": "voice",
+          "label": "Accounts of departure"
+        },
+        {
+          "kind": "photo",
+          "label": "Documents and objects"
+        },
+        {
+          "kind": "word",
+          "label": "Words for leaving and loss"
+        }
+      ],
+      "map": {
+        "x": 285,
+        "y": 270,
+        "label": "Leaving Bhag"
+      },
+      "status": "demo",
+      "related": [
+        "voice-1",
+        "voice-3",
+        "word-1",
+        "photo-5"
+      ]
+    },
+    {
+      "id": "stage-3",
+      "numeral": "III",
+      "title": "The crossing",
+      "period": "1947 – 1948",
+      "summary": "By cart to the railhead, by train through Sindh, by ship or rail onward to Bombay: the routes families recall differ, and the archive records each as it was told.",
+      "expects": [
+        {
+          "kind": "place",
+          "label": "Waystations and routes"
+        },
+        {
+          "kind": "voice",
+          "label": "Journey testimonies"
+        },
+        {
+          "kind": "photo",
+          "label": "Travel photographs"
+        }
+      ],
+      "map": {
+        "x": 520,
+        "y": 345,
+        "label": "Through Sindh"
+      },
+      "status": "demo",
+      "related": [
+        "photo-5",
+        "voice-1",
+        "photo-1"
+      ]
+    },
+    {
+      "id": "stage-4",
+      "numeral": "IV",
+      "title": "Arrival",
+      "period": "Bombay · 1948 onward",
+      "summary": "First kitchens in Bombay chawls and shared rooms: Bhagnari dishes made with Bombay ingredients, and a language spoken at home while Hindi and Marathi were learnt at the door.",
+      "expects": [
+        {
+          "kind": "dish",
+          "label": "Recipes adapted to new places"
+        },
+        {
+          "kind": "word",
+          "label": "Words that travelled"
+        },
+        {
+          "kind": "voice",
+          "label": "Accounts of settling"
+        }
+      ],
+      "map": {
+        "x": 730,
+        "y": 190,
+        "label": "Bombay"
+      },
+      "status": "demo",
+      "related": [
+        "dish-3",
+        "word-4",
+        "photo-3",
+        "voice-1"
+      ]
+    },
+    {
+      "id": "stage-5",
+      "numeral": "V",
+      "title": "Rebuilding & remembering",
+      "period": "1950s – today",
+      "summary": "Panchayat, weddings and festivals re-formed in a new city. Today descendants record their grandparents so that the food and the words outlast the kitchens they came from.",
+      "expects": [
+        {
+          "kind": "photo",
+          "label": "Family and community photographs"
+        },
+        {
+          "kind": "dish",
+          "label": "Dishes passed down"
+        },
+        {
+          "kind": "contribute",
+          "label": "Contributions from descendants"
+        }
+      ],
+      "map": {
+        "x": 885,
+        "y": 335,
+        "label": "Mumbai today"
+      },
+      "status": "demo",
+      "related": [
+        "photo-6",
+        "dish-1",
+        "voice-2",
+        "contribute"
+      ]
+    }
+  ],
+  "voices": [
+    {
+      "id": "voice-1",
+      "status": "demo",
+      "title": "Oral history 001",
+      "accession": "RAAH-OH-0001",
+      "speaker": "Pushpa Bai",
+      "facts": [
+        {
+          "label": "Accession",
+          "value": "RAAH-OH-0001"
+        },
+        {
+          "label": "Recorded",
+          "value": "March 2024"
+        },
+        {
+          "label": "Language",
+          "value": "Bhagnari, with Hindi"
+        },
+        {
+          "label": "Place",
+          "value": "Mumbai"
+        }
+      ],
+      "duration": 168,
+      "scene": "portrait",
+      "image": "/images/plate-04-elder.jpg",
+      "imageCredit": "Illustrative portrait — not the speaker. Shaun D. Metcalfe, CC BY 2.0, via Wikimedia Commons.",
+      "cues": [
+        {
+          "start": 0,
+          "text": "My name is Pushpa. I was born in Bhag. My mother did not count years by numbers — she counted them by floods, and I was born the year of the big one."
+        },
+        {
+          "start": 24,
+          "text": "Our house had one courtyard and three kitchens, because three brothers lived there with their wives. In the morning you could tell whose fire was lit by the smell."
+        },
+        {
+          "start": 52,
+          "text": "When we left, my father sold the shop for almost nothing. My mother took the brass parāt and her own mother’s grinding stone. Everything else stayed on the shelves."
+        },
+        {
+          "start": 81,
+          "text": "[In Bhagnari] “The road is long, but the bread is in the bundle.” That is what my grandmother said to anyone who was afraid."
+        },
+        {
+          "start": 110,
+          "text": "In Bombay the first meal was dāl and rice from a neighbour who was not from our community. We had no stove of our own for two weeks."
+        },
+        {
+          "start": 138,
+          "text": "What did we keep? The words. Even my grandchildren say some of them without knowing they are ours."
+        }
+      ],
+      "related": [
+        "dish-2",
+        "word-1",
+        "stage-2",
+        "photo-4"
+      ]
+    },
+    {
+      "id": "voice-2",
+      "status": "demo",
+      "title": "Oral history 002",
+      "accession": "RAAH-OH-0002",
+      "speaker": "Hari Ram",
+      "facts": [
+        {
+          "label": "Accession",
+          "value": "RAAH-OH-0002"
+        },
+        {
+          "label": "Recorded",
+          "value": "January 2024"
+        },
+        {
+          "label": "Language",
+          "value": "Bhagnari and Hindi"
+        },
+        {
+          "label": "Place",
+          "value": "Mumbai"
+        }
+      ],
+      "duration": 212,
+      "scene": "courtyard",
+      "image": "/images/voice-02-portrait.jpg",
+      "imageCredit": "Illustrative portrait — not the speaker. Christopher Michel, CC BY 2.0, via Wikimedia Commons.",
+      "cues": [
+        {
+          "start": 0,
+          "text": "I am Hari Ram, son of Tulsi Ram of Bhag. We are speaking in my son’s flat, which is on the fourth floor — in Bhag nobody lived above the ground."
+        },
+        {
+          "start": 38,
+          "text": "For a wedding the men would roast sajji in the open ground behind the houses. Twenty, thirty skewers leaning into the fire, and the boys turning them. The women said we only cooked once a year and made a festival of it."
+        },
+        {
+          "start": 96,
+          "text": "In Bombay there was no open ground. The first years we roasted on the terrace of the building and the neighbours complained about the smoke — then they came up to eat."
+        },
+        {
+          "start": 150,
+          "text": "[Sings two lines in Bhagnari] It is a song for grinding grain. My mother sang it, so I know it, but I never ground grain in my life."
+        },
+        {
+          "start": 190,
+          "text": "I want my grandchildren to know that we were not poor people who ran. We were shopkeepers with a town of our own. We left it standing."
+        }
+      ],
+      "related": [
+        "dish-1",
+        "word-3",
+        "stage-5",
+        "photo-6"
+      ]
+    },
+    {
+      "id": "voice-3",
+      "status": "demo",
+      "title": "Oral history 003",
+      "accession": "RAAH-OH-0003",
+      "speaker": "Kishan Lal",
+      "facts": [
+        {
+          "label": "Accession",
+          "value": "RAAH-OH-0003"
+        },
+        {
+          "label": "Recorded",
+          "value": "November 2023"
+        },
+        {
+          "label": "Language",
+          "value": "Hindi, with Bhagnari phrases"
+        },
+        {
+          "label": "Place",
+          "value": "Mumbai"
+        }
+      ],
+      "duration": 95,
+      "scene": "doorway",
+      "image": "/images/voice-03-portrait.jpg",
+      "imageCredit": "Illustrative portrait — not the speaker. Aditya Siva, CC0, via Wikimedia Commons / Unsplash.",
+      "cues": [
+        {
+          "start": 0,
+          "text": "I was six when we left, so what I remember is the house, not the town. A carved door, very heavy. I could not open it alone."
+        },
+        {
+          "start": 22,
+          "text": "Inside the door, the courtyard; and in the evenings my grandfather sat on the step with his back to the door so that nobody could leave without telling him."
+        },
+        {
+          "start": 58,
+          "text": "The last meal in that house was gosht — my mother cooked all the meat we had because it could not travel. I remember that we ate well and that she was crying."
+        }
+      ],
+      "related": [
+        "dish-3",
+        "word-2",
+        "stage-2",
+        "photo-2"
+      ]
+    }
+  ],
+  "dishes": [
+    {
+      "id": "dish-1",
+      "status": "demo",
+      "number": "001",
+      "name": "Sajji",
+      "gloss": "A whole roast, salted and cooked leaning into an open fire.",
+      "scene": "table",
+      "photoId": "photo-7",
+      "quote": "You cannot hurry sajji. You can only sit beside it and talk.",
+      "quoteBy": "Hari Ram, Mumbai, 2024",
+      "threads": {
+        "food": {
+          "body": "Ingredients, quantities and method as the cook described them — not as a cookbook would standardise them.",
+          "slots": [
+            {
+              "label": "Ingredients",
+              "value": "A whole leg of goat or a whole chicken; coarse salt; in Bombay, a paste of raw papaya to tenderise. Nothing else — the smoke is the spice."
+            },
+            {
+              "label": "Method, in the cook’s order",
+              "value": "Score the meat deep. Salt it the night before. Thread it on a green branch or an iron skewer and lean it toward the fire, not over it. Turn it every time the talk pauses — two to three hours."
+            },
+            {
+              "label": "Utensils and vessels",
+              "value": "Skewers (sīkh); a fire of dry wood; later a drum tandoor; now, reluctantly, the gas oven."
+            },
+            {
+              "label": "Occasions",
+              "value": "Weddings, the first cold of winter, a guest who has come a long way."
+            }
+          ],
+          "links": [
+            "photo-7"
+          ]
+        },
+        "language": {
+          "body": "The dish’s name and the words around it: utensils, stages of cooking, and the terms used at the table.",
+          "slots": [
+            {
+              "label": "Name in the original language",
+              "value": "Sajjī — a word shared with Balochi neighbours in Kachhi."
+            },
+            {
+              "label": "Kitchen vocabulary",
+              "value": "sīkh (skewer), lūṇ (salt), āg (fire), bhuṇṇaṇ (to roast)"
+            },
+            {
+              "label": "Spoken variants",
+              "value": "sajji · sajjī · “the roast” (in Mumbai English)"
+            }
+          ],
+          "links": [
+            "word-3"
+          ]
+        },
+        "migration": {
+          "body": "Where the recipe was first cooked, where it changed, and what stood in for what could not be found.",
+          "slots": [
+            {
+              "label": "Place first cooked",
+              "value": "Open ground behind the houses in Bhag; wood from the riverbed."
+            },
+            {
+              "label": "Substitutions",
+              "value": "Mutton for the goat of home; an oven for the fire; papaya for time."
+            },
+            {
+              "label": "Where it is cooked now",
+              "value": "Mumbai terraces, a few winter evenings a year — and at weddings, by caterers who were taught."
+            }
+          ],
+          "links": [
+            "stage-1",
+            "stage-5"
+          ]
+        },
+        "memory": {
+          "body": "A relative’s account of who cooked it, when, and for whom — the dish as an occasion, not an instruction.",
+          "slots": [
+            {
+              "label": "Who cooked it",
+              "value": "The men of the house, as a rule — the one dish they claimed."
+            },
+            {
+              "label": "Who it was cooked for",
+              "value": "The whole lane. A sajji was never for one family."
+            },
+            {
+              "label": "What it recalls",
+              "value": "The smell of woodsmoke in wool shawls the next morning."
+            }
+          ],
+          "links": [
+            "voice-2",
+            "photo-6"
+          ]
+        }
+      },
+      "related": [
+        "voice-2",
+        "word-3",
+        "stage-5"
+      ]
+    },
+    {
+      "id": "dish-2",
+      "status": "demo",
+      "number": "002",
+      "name": "Kaak",
+      "gloss": "Hard bread baked on a hot stone; in Bombay, a thick roti on the tawā.",
+      "scene": "courtyard",
+      "photoId": "photo-3",
+      "quote": "In Bhag the bread was baked on a stone and kept for a week. In Bombay we had no stone, so we had soft bread and no week.",
+      "quoteBy": "Pushpa Bai, Mumbai, 2024",
+      "threads": {
+        "food": {
+          "body": "Ingredients, quantities and method as the cook described them — not as a cookbook would standardise them.",
+          "slots": [
+            {
+              "label": "Ingredients",
+              "value": "Wheat flour, water, salt. Ghee on top if there was ghee."
+            },
+            {
+              "label": "Method, in the cook’s order",
+              "value": "A stiff dough, rested. Wrapped round a smooth stone heated in the embers and set back beside the fire until the crust knocks hollow. In Bombay: rolled thick and cooked slowly on a tawā, then held over the flame."
+            },
+            {
+              "label": "Utensils and vessels",
+              "value": "A river stone kept for the purpose; a parāt for kneading; later a tawā and tongs."
+            },
+            {
+              "label": "Occasions",
+              "value": "Every day. Also the journey: hard bread travels."
+            }
+          ],
+          "links": [
+            "photo-3"
+          ]
+        },
+        "language": {
+          "body": "The dish’s name and the words around it: utensils, stages of cooking, and the terms used at the table.",
+          "slots": [
+            {
+              "label": "Name in the original language",
+              "value": "Kāk — the stone-baked bread of Balochistan; the family also simply said roṭī."
+            },
+            {
+              "label": "Kitchen vocabulary",
+              "value": "parāt (kneading dish), aṭo (flour), ghiu (ghee), randhaṇ (to cook)"
+            },
+            {
+              "label": "Spoken variants",
+              "value": "kaak · kāk · “stone roti”"
+            }
+          ],
+          "links": [
+            "word-2"
+          ]
+        },
+        "migration": {
+          "body": "Where the recipe was first cooked, where it changed, and what stood in for what could not be found.",
+          "slots": [
+            {
+              "label": "Place first cooked",
+              "value": "Every courtyard kitchen in Bhag."
+            },
+            {
+              "label": "Substitutions",
+              "value": "The tawā for the stone; a gas flame for embers; Bombay’s humid air for the dry heat that kept the bread."
+            },
+            {
+              "label": "Where it is cooked now",
+              "value": "Rarely as kaak. The thick tawā roti survives in a handful of Mumbai kitchens."
+            }
+          ],
+          "links": [
+            "stage-1",
+            "stage-4"
+          ]
+        },
+        "memory": {
+          "body": "A relative’s account of who cooked it, when, and for whom — the dish as an occasion, not an instruction.",
+          "slots": [
+            {
+              "label": "Who cooked it",
+              "value": "Grandmothers; it was the first thing a girl was taught."
+            },
+            {
+              "label": "Who it was cooked for",
+              "value": "The household, and the bundle packed for the journey."
+            },
+            {
+              "label": "What it recalls",
+              "value": "“The bread is in the bundle” — the family saying for being ready."
+            }
+          ],
+          "links": [
+            "voice-1",
+            "word-4"
+          ]
+        }
+      },
+      "related": [
+        "voice-1",
+        "word-2",
+        "stage-1"
+      ]
+    },
+    {
+      "id": "dish-3",
+      "status": "demo",
+      "number": "003",
+      "name": "Gosht",
+      "gloss": "Mutton cooked slowly with onion, tomato and whole spices.",
+      "scene": "doorway",
+      "photoId": "photo-8",
+      "quote": "She cooked all the meat we had, because it could not travel. We ate well and she was crying.",
+      "quoteBy": "Kishan Lal, Mumbai, 2023",
+      "threads": {
+        "food": {
+          "body": "Ingredients, quantities and method as the cook described them — not as a cookbook would standardise them.",
+          "slots": [
+            {
+              "label": "Ingredients",
+              "value": "Mutton on the bone; onions, many; tomato; ginger and garlic pounded on the stone; whole black pepper, cumin, a stick of cinnamon; salt; ghee."
+            },
+            {
+              "label": "Method, in the cook’s order",
+              "value": "Brown the onions until dark — “until you think you have burnt them.” Add the meat and seal it. Spices, then tomato, then only enough water to cover. Lid on, a weight on the lid, and leave it until the oil separates."
+            },
+            {
+              "label": "Utensils and vessels",
+              "value": "A heavy brass degchī, tinned inside; later a pressure cooker, which the elders distrust."
+            },
+            {
+              "label": "Occasions",
+              "value": "Sundays. Guests. The last night in the old house."
+            }
+          ],
+          "links": [
+            "photo-8"
+          ]
+        },
+        "language": {
+          "body": "The dish’s name and the words around it: utensils, stages of cooking, and the terms used at the table.",
+          "slots": [
+            {
+              "label": "Name in the original language",
+              "value": "Gosht — simply “meat”; a dish needs no other name when there is one meat dish."
+            },
+            {
+              "label": "Kitchen vocabulary",
+              "value": "degchī (pot), tel chhuṭaṇ (the oil separating — the sign it is done), mehmāṇ (guest)"
+            },
+            {
+              "label": "Spoken variants",
+              "value": "gosht · gosh · “mutton” in Mumbai"
+            }
+          ],
+          "links": [
+            "word-3"
+          ]
+        },
+        "migration": {
+          "body": "Where the recipe was first cooked, where it changed, and what stood in for what could not be found.",
+          "slots": [
+            {
+              "label": "Place first cooked",
+              "value": "Bhag; goat from the Friday market."
+            },
+            {
+              "label": "Substitutions",
+              "value": "Bombay mutton for Kachhi goat; the pressure cooker for the weighted lid; tomato, which some say was never in it at home."
+            },
+            {
+              "label": "Where it is cooked now",
+              "value": "Most Bhagnari kitchens in Mumbai, most Sundays."
+            }
+          ],
+          "links": [
+            "stage-2",
+            "stage-4"
+          ]
+        },
+        "memory": {
+          "body": "A relative’s account of who cooked it, when, and for whom — the dish as an occasion, not an instruction.",
+          "slots": [
+            {
+              "label": "Who cooked it",
+              "value": "Mothers. Judged, by the whole lane, on the colour of the onions."
+            },
+            {
+              "label": "Who it was cooked for",
+              "value": "Guests first; the family after."
+            },
+            {
+              "label": "What it recalls",
+              "value": "For one speaker, the last meal in the house in Bhag."
+            }
+          ],
+          "links": [
+            "voice-3"
+          ]
+        }
+      },
+      "related": [
+        "voice-3",
+        "word-3",
+        "stage-2"
+      ]
+    }
+  ],
+  "words": [
+    {
+      "id": "word-1",
+      "status": "demo",
+      "headword": "Vatan",
+      "romanisation": "vatan",
+      "ipa": "/ ʋə.t̪ən /",
+      "syllables": [
+        "va",
+        "tan"
+      ],
+      "partOfSpeech": "noun",
+      "senses": [
+        "Homeland; the place one’s family is from.",
+        "In Bhagnari households, Bhag itself. “Going to vatan” meant the old town long after no one could go."
+      ],
+      "example": {
+        "original": "Asāṅ jo vatan Bhag āhe.",
+        "translation": "Our homeland is Bhag."
+      },
+      "etymology": "From Arabic waṭan, by way of Persian and Urdu; shared across the region. The specific sense of “Bhag” is the family’s own.",
+      "heardFrom": "Pushpa Bai, Mumbai, 2024",
+      "related": [
+        "dish-2",
+        "voice-1",
+        "stage-2"
+      ]
+    },
+    {
+      "id": "word-2",
+      "status": "demo",
+      "headword": "Randhaṇ",
+      "romanisation": "randhaṇ",
+      "ipa": "/ rən.d̪ʱəɳ /",
+      "syllables": [
+        "ran",
+        "dhaṇ"
+      ],
+      "partOfSpeech": "verb",
+      "senses": [
+        "To cook — specifically to cook over heat in a vessel, as distinct from baking bread.",
+        "By extension, to run a kitchen: “she randhaṇs for twenty” means she can feed twenty."
+      ],
+      "example": {
+        "original": "Ajj kair randhaṇdo?",
+        "translation": "Who is cooking today?"
+      },
+      "etymology": "Cognate with Sindhi randhaṇu and Gujarati rāndhvũ. The relationship is to be confirmed with a linguist before the entry is verified.",
+      "heardFrom": "Kishan Lal, Mumbai, 2023",
+      "related": [
+        "dish-3",
+        "voice-3",
+        "stage-1"
+      ]
+    },
+    {
+      "id": "word-3",
+      "status": "demo",
+      "headword": "Mehmāṇ",
+      "romanisation": "mehmāṇ",
+      "ipa": "/ meɦ.mɑːɳ /",
+      "syllables": [
+        "meh",
+        "māṇ"
+      ],
+      "partOfSpeech": "noun",
+      "senses": [
+        "Guest.",
+        "The person for whom the meal is really cooked. Several speakers describe a guest as the reason a dish exists at all."
+      ],
+      "example": {
+        "original": "Mehmāṇ āyo āhe — sajji karyo.",
+        "translation": "A guest has come — make sajji."
+      },
+      "etymology": "From Persian mehmān, as in Hindi–Urdu; the retroflex ending is the community’s own.",
+      "heardFrom": "Hari Ram, Mumbai, 2024",
+      "related": [
+        "dish-1",
+        "voice-2",
+        "stage-5"
+      ]
+    },
+    {
+      "id": "word-4",
+      "status": "demo",
+      "headword": "Roṭī vanḍe te vadhe",
+      "romanisation": "roṭī vanḍe te vadhe",
+      "ipa": "/ roːʈiː ʋəɳɖeː t̪eː ʋəd̪ʱeː /",
+      "syllables": [
+        "ro",
+        "ṭī",
+        "van",
+        "ḍe",
+        "te",
+        "va",
+        "dhe"
+      ],
+      "partOfSpeech": "saying",
+      "senses": [
+        "“Bread shared is bread that grows.” Said when dividing food among more people than it was made for.",
+        "Used in Bombay of the first years, when households fed each other across communities."
+      ],
+      "example": {
+        "original": "Roṭī vanḍe te vadhe — khāo.",
+        "translation": "Bread shared is bread that grows — eat."
+      },
+      "etymology": "A family saying; no published source. Recorded as given.",
+      "heardFrom": "Hari Ram, Mumbai, 2024",
+      "related": [
+        "voice-2",
+        "dish-2",
+        "stage-4"
+      ]
+    }
+  ],
+  "photographs": [
+    {
+      "id": "photo-1",
+      "status": "demo",
+      "plate": "01",
+      "title": "Toward the Kirthar hills",
+      "scene": "horizon",
+      "ratio": 1.3333333333333333,
+      "image": "/images/plate-01-kirthar.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Across%20the%20horizon%20-%20Kirthar%20Mountains.jpg",
+      "caption": "A road across the plain toward the Kirthar range, on the border of Sindh and Balochistan. Illustrative of the country around the Kachhi plain; not a family photograph.",
+      "fields": [
+        {
+          "label": "date",
+          "value": "2016"
+        },
+        {
+          "label": "place",
+          "value": "Kirthar range, Sindh–Balochistan border"
+        },
+        {
+          "label": "medium",
+          "value": "Digital photograph"
+        },
+        {
+          "label": "credit",
+          "value": "Fayeza Alee · CC BY-SA 4.0 · Wikimedia Commons"
+        },
+        {
+          "label": "accession",
+          "value": "RAAH-PH-0001"
+        }
+      ],
+      "hotspots": [
+        {
+          "x": 56,
+          "y": 42,
+          "label": "The range",
+          "note": "The Kirthar hills run north–south between Sindh and Balochistan. Families leaving Kachhi for Sindh travelled with these hills on their right."
+        },
+        {
+          "x": 44,
+          "y": 82,
+          "label": "The road",
+          "note": "Roads here follow the dry riverbeds. One speaker remembers the first day of the journey as “all stones, and then the railway”."
+        }
+      ],
+      "related": [
+        "stage-3",
+        "stage-1"
+      ]
+    },
+    {
+      "id": "photo-2",
+      "status": "demo",
+      "plate": "02",
+      "title": "A carved door",
+      "scene": "doorway",
+      "ratio": 0.75,
+      "image": "/images/plate-02-door.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old%20Style%20Pakistani%20Door.jpg",
+      "caption": "A carved wooden doorway of the kind found in older houses across Balochistan and Sindh. It stands in for the family threshold Kishan Lal describes — “very heavy; I could not open it alone” — until a photograph of the house itself is found.",
+      "fields": [
+        {
+          "label": "date",
+          "value": "2010"
+        },
+        {
+          "label": "place",
+          "value": "Pakistan (location not recorded)"
+        },
+        {
+          "label": "medium",
+          "value": "Digital photograph"
+        },
+        {
+          "label": "credit",
+          "value": "Khalid Mahmood · CC BY-SA 3.0 · Wikimedia Commons"
+        },
+        {
+          "label": "accession",
+          "value": "RAAH-PH-0002"
+        }
+      ],
+      "hotspots": [
+        {
+          "x": 50,
+          "y": 10,
+          "label": "Lintel",
+          "note": "Carved lintels marked a trading household. Several speakers remember the pattern over their own door better than the street it stood on."
+        },
+        {
+          "x": 50,
+          "y": 58,
+          "label": "The leaves",
+          "note": "Double doors, barred from inside at night. “My grandfather sat on the step with his back to the door so nobody could leave without telling him.”"
+        },
+        {
+          "x": 50,
+          "y": 94,
+          "label": "Threshold",
+          "note": "A raised step kept the dust of the lane out of the courtyard. Brides stepped over it; the dead were carried over it feet first."
+        }
+      ],
+      "related": [
+        "stage-1",
+        "voice-3",
+        "dish-3"
+      ]
+    },
+    {
+      "id": "photo-3",
+      "status": "demo",
+      "plate": "03",
+      "title": "Bread on the tawā",
+      "scene": "table",
+      "ratio": 0.75,
+      "image": "/images/plate-03-bread.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hand%20made%20Bread.jpg",
+      "caption": "Hand-made bread cooking on a tawā. The Bombay form of kaak: rolled thick, cooked slowly, finished over the flame. Illustrative; not a Bhagnari kitchen.",
+      "fields": [
+        {
+          "label": "date",
+          "value": "2021"
+        },
+        {
+          "label": "place",
+          "value": "Not recorded"
+        },
+        {
+          "label": "medium",
+          "value": "Digital photograph"
+        },
+        {
+          "label": "credit",
+          "value": "Sumasa · CC BY-SA 4.0 · Wikimedia Commons"
+        },
+        {
+          "label": "accession",
+          "value": "RAAH-PH-0003"
+        }
+      ],
+      "hotspots": [
+        {
+          "x": 62,
+          "y": 56,
+          "label": "Tawā",
+          "note": "The iron griddle that replaced the baking stone in Bombay. See the Kaak dossier for what was lost and kept in the change."
+        },
+        {
+          "x": 32,
+          "y": 74,
+          "label": "Dough",
+          "note": "A stiff dough, rested under a cloth. The word for kneading dish, parāt, is one of the objects Pushpa Bai’s mother carried from Bhag."
+        }
+      ],
+      "related": [
+        "dish-2",
+        "word-2",
+        "stage-4"
+      ]
+    },
+    {
+      "id": "photo-4",
+      "status": "demo",
+      "plate": "04",
+      "title": "An elder",
+      "scene": "portrait",
+      "ratio": 0.8,
+      "image": "/images/plate-04-elder.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old%20woman%20in%20Karimabad.jpg",
+      "caption": "A woman in Karimabad, Hunza, 2009. Shown as an illustrative portrait: she is not a Bhagnari speaker and no name is given. Real portraits will be added with the sitter’s consent.",
+      "fields": [
+        {
+          "label": "date",
+          "value": "2009"
+        },
+        {
+          "label": "place",
+          "value": "Karimabad, Hunza"
+        },
+        {
+          "label": "medium",
+          "value": "Digital photograph"
+        },
+        {
+          "label": "credit",
+          "value": "Shaun D. Metcalfe · CC BY 2.0 · Wikimedia Commons"
+        },
+        {
+          "label": "accession",
+          "value": "RAAH-PH-0004"
+        }
+      ],
+      "hotspots": [
+        {
+          "x": 46,
+          "y": 24,
+          "label": "Embroidered cap",
+          "note": "Regional dress differs sharply across Pakistan; a Bhagnari elder would have dressed otherwise. The plate is here for its gaze, not its costume."
+        },
+        {
+          "x": 56,
+          "y": 72,
+          "label": "Shawl",
+          "note": "Wool shawls are the thing most often mentioned in memories of winter in Bhag — and the thing that smelt of smoke after a sajji."
+        }
+      ],
+      "related": [
+        "voice-1",
+        "dish-1"
+      ]
+    },
+    {
+      "id": "photo-5",
+      "status": "demo",
+      "plate": "05",
+      "title": "A refugee train, 1947",
+      "scene": "road",
+      "ratio": 1.5,
+      "image": "/images/plate-05-train-1947.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Partition%20of%20Punjab%2C%20India%201947.jpg",
+      "caption": "Refugees crowd a train during the Partition of Punjab, 1947. Bhagnari families left Balochistan by other routes; the plate stands for the scale of that year, not for their journey.",
+      "fields": [
+        {
+          "label": "date",
+          "value": "1947"
+        },
+        {
+          "label": "place",
+          "value": "Punjab"
+        },
+        {
+          "label": "medium",
+          "value": "Gelatin silver print (reproduction)"
+        },
+        {
+          "label": "credit",
+          "value": "Photographer unknown · Public domain · Wikimedia Commons"
+        },
+        {
+          "label": "accession",
+          "value": "RAAH-PH-0005"
+        }
+      ],
+      "hotspots": [
+        {
+          "x": 50,
+          "y": 20,
+          "label": "The roof",
+          "note": "Travelling on the roof was common in 1947. Two speakers in this archive describe trains; neither describes the roof — their families travelled later, and more slowly."
+        },
+        {
+          "x": 50,
+          "y": 64,
+          "label": "The doors",
+          "note": "In family accounts the crossing was done in stages, with weeks in Sindh between trains. The archive records each route only as a family tells it."
+        }
+      ],
+      "related": [
+        "stage-2",
+        "stage-3"
+      ]
+    },
+    {
+      "id": "photo-6",
+      "status": "demo",
+      "plate": "06",
+      "title": "The outdoor kitchen, 1953",
+      "scene": "courtyard",
+      "ratio": 1.5,
+      "image": "/images/plate-06-kitchen-1953.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Women%20preparing%20food%20in%20outdoor%20kitchen%20in%20Dhaka%2C%20Bangladesh.jpg",
+      "caption": "Women preparing a meal in an outdoor kitchen, Dhaka, 1953. Illustrative of mid-century courtyard cooking; not a Bhagnari household. Shown for the arrangement — the cook, the vessels, the people waiting.",
+      "fields": [
+        {
+          "label": "date",
+          "value": "1953"
+        },
+        {
+          "label": "place",
+          "value": "Dhaka"
+        },
+        {
+          "label": "medium",
+          "value": "Gelatin silver print"
+        },
+        {
+          "label": "credit",
+          "value": "Khaleq · Public domain · Wikimedia Commons"
+        },
+        {
+          "label": "accession",
+          "value": "RAAH-PH-0006"
+        }
+      ],
+      "hotspots": [
+        {
+          "x": 36,
+          "y": 56,
+          "label": "Hands",
+          "note": "Cooking on the ground, at the height of the fire. In Bombay chawls the fire moved up onto a platform and the cook stood for the first time."
+        },
+        {
+          "x": 70,
+          "y": 72,
+          "label": "Vessels",
+          "note": "Brass and aluminium. The brass parāt and degchī carried from Bhag are among the few objects every family mentions."
+        }
+      ],
+      "related": [
+        "stage-5",
+        "dish-1",
+        "voice-2"
+      ]
+    },
+    {
+      "id": "photo-7",
+      "status": "demo",
+      "plate": "07",
+      "title": "Sajji, as served",
+      "scene": "table",
+      "ratio": 1.3333333333333333,
+      "image": "/images/plate-07-sajji.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sajji.JPG",
+      "caption": "A whole chicken sajji, plated with lemon, tomato and chilli — the roast as it reaches the table. Illustrative; not a Bhagnari kitchen.",
+      "fields": [
+        {
+          "label": "date",
+          "value": "Not recorded"
+        },
+        {
+          "label": "place",
+          "value": "Not recorded"
+        },
+        {
+          "label": "medium",
+          "value": "Digital photograph"
+        },
+        {
+          "label": "credit",
+          "value": "Miansari66 · CC0 · Wikimedia Commons"
+        },
+        {
+          "label": "accession",
+          "value": "RAAH-PH-0007"
+        }
+      ],
+      "hotspots": [
+        {
+          "x": 50,
+          "y": 46,
+          "label": "The bird",
+          "note": "Chicken, salted and roasted whole. Goat is the older form; chicken is what most Mumbai kitchens roast now."
+        },
+        {
+          "x": 22,
+          "y": 58,
+          "label": "The garnish",
+          "note": "Lemon, tomato and green chilli come to the plate in the city. At home in Bhag it was salt and smoke, and nothing else."
+        }
+      ],
+      "related": [
+        "dish-1",
+        "voice-2"
+      ]
+    },
+    {
+      "id": "photo-8",
+      "status": "demo",
+      "plate": "08",
+      "title": "Gosht",
+      "scene": "table",
+      "ratio": 1.3333333333333333,
+      "image": "/images/plate-08-gosht.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Odia%20Mutton%20Curry%20(Mansha%20Tarkari).jpg",
+      "caption": "A plate of mutton curry. Photographed in Odisha, and shown as a stand-in for the Bhagnari dish until a family kitchen is photographed.",
+      "fields": [
+        {
+          "label": "date",
+          "value": "2015"
+        },
+        {
+          "label": "place",
+          "value": "Cuttack, Odisha"
+        },
+        {
+          "label": "medium",
+          "value": "Digital photograph"
+        },
+        {
+          "label": "credit",
+          "value": "Satwik Cuttack · CC BY-SA 4.0 · Wikimedia Commons"
+        },
+        {
+          "label": "accession",
+          "value": "RAAH-PH-0008"
+        }
+      ],
+      "hotspots": [
+        {
+          "x": 30,
+          "y": 60,
+          "label": "The oil",
+          "note": "“When the oil separates, it is done.” Tel chhuṭaṇ — the one test every cook in the archive agrees on."
+        },
+        {
+          "x": 52,
+          "y": 40,
+          "label": "Coriander",
+          "note": "A Bombay addition, according to the elders. “In Bhag we had no green things in winter.”"
+        }
+      ],
+      "related": [
+        "dish-3",
+        "voice-3"
+      ]
+    },
+    {
+      "id": "photo-9",
+      "status": "demo",
+      "plate": "09",
+      "title": "A path through the valley",
+      "scene": "road",
+      "ratio": 1.5,
+      "image": "/images/plate-09-valley.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landscape%20in%20Balochistan%20(Pakistan).jpg",
+      "caption": "A footpath between orchards in a Balochistan valley. Illustrative of the greener country north of the Kachhi plain; not a family photograph.",
+      "fields": [
+        {
+          "label": "date",
+          "value": "2010s"
+        },
+        {
+          "label": "place",
+          "value": "Balochistan"
+        },
+        {
+          "label": "medium",
+          "value": "Digital photograph"
+        },
+        {
+          "label": "credit",
+          "value": "Umer Ghazanfar Malik · CC BY 2.0 · Wikimedia Commons"
+        },
+        {
+          "label": "accession",
+          "value": "RAAH-PH-0009"
+        }
+      ],
+      "hotspots": [
+        {
+          "x": 50,
+          "y": 70,
+          "label": "The path",
+          "note": "Raah — the word in the archive’s name — means road or way. Every record here is a step on one."
+        },
+        {
+          "x": 40,
+          "y": 22,
+          "label": "The hills",
+          "note": "Bhag sits on the flat plain below hills like these. Speakers remember the hills as a line on the horizon, never as a place they went."
+        }
+      ],
+      "related": [
+        "stage-1",
+        "word-1"
+      ]
+    }
+  ]
+}

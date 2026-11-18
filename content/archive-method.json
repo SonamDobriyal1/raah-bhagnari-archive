@@ -1,0 +1,27 @@
+{
+  "legacyMaterial": {
+    "status": "Retired from the public site; retained for preservation",
+    "records": "content/original-records.json",
+    "photographs": "archive/retired-public-assets/images",
+    "credits": "archive/derivatives/retired-photograph-credits.json",
+    "reason": "Fictional oral-history transcripts, demonstration dish dossiers and illustrative photographs must not be presented as community testimony."
+  },
+  "historyNotes": {
+    "nineteenthCenturyMigration": "Hari K. Nasta, History of We Bhagnaris, printed pp. 3–4",
+    "seaDeparture": "History booklet records sea passage; Karachi departure context is supported separately by the community migration article.",
+    "housing1954": "History booklet printed p. 8 describes the first building of Bhag Co-operative Housing Society. The public copy describes what became Kataria Colony rather than dating the whole colony to 1954.",
+    "nameAndLanguage": "Community accounts differ about Bhag/Nar/Nari. Do not assert Bhag lies on the Nari River as an established fact. Attribute the Saraiki description to community writers.",
+    "communityArticle": "https://ebhagnaris.in/bhagnari-migrations-and-our-saraiki-boli/",
+    "laterNameArticle": "https://ebhagnaris.in/the-community-blog/",
+    "secondaryColonyAccount": "https://www.newsgram.com/general/2016/11/08/since-partition-mumbai-has-a-piece-of-balochistan-comprising-of-150-families-and-famous-khatti-dal"
+  },
+  "openHumanWork": [
+    "Record the first ten words with consenting speakers.",
+    "Speaker review: Garaañ → घणा, Bareinjaa → भरैंजा, Teevar → तीवण; retain source forms until confirmed."
+  ],
+  "recipeCount": {
+    "distinctRecipes": 44,
+    "linkedFoodEntries": 45,
+    "explanation": "Khati dal and Khatti Dal remain distinct dictionary records linked to one recipe."
+  }
+}

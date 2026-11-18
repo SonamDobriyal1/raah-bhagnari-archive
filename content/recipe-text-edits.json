@@ -1,0 +1,315 @@
+{
+  "basis": "Corrections checked against preserved cookbook page images; sourceText is never overwritten.",
+  "changes": [
+    {
+      "page": 10,
+      "from": "/4 tsp",
+      "to": "¼ tsp"
+    },
+    {
+      "page": 10,
+      "from": "/2 tsp",
+      "to": "½ tsp"
+    },
+    {
+      "page": 10,
+      "from": "12 tsp",
+      "to": "½ tsp"
+    },
+    {
+      "page": 10,
+      "from": "1½ tsp ambchur",
+      "to": "½ tsp ambchur"
+    },
+    {
+      "page": 12,
+      "from": "/½ tsp",
+      "to": "½ tsp"
+    },
+    {
+      "page": 13,
+      "from": "I2 tsp",
+      "to": "½ tsp"
+    },
+    {
+      "page": 14,
+      "from": "1 large. 2 medium",
+      "to": "1 large, 2 medium"
+    },
+    {
+      "page": 14,
+      "from": "in o\npressure cooker",
+      "to": "in a\npressure cooker"
+    },
+    {
+      "page": 14,
+      "from": "l\"ginger",
+      "to": "1\" ginger"
+    },
+    {
+      "page": 15,
+      "from": "15 cups",
+      "to": "1.5 cups"
+    },
+    {
+      "page": 16,
+      "from": "/2 kg",
+      "to": "½ kg"
+    },
+    {
+      "page": 16,
+      "from": "/½ kg",
+      "to": "½ kg"
+    },
+    {
+      "page": 16,
+      "from": "/4 tbsp",
+      "to": "¼ tbsp"
+    },
+    {
+      "page": 16,
+      "from": "1½ litre",
+      "to": "½ litre"
+    },
+    {
+      "page": 17,
+      "from": "12 liter",
+      "to": "½ liter"
+    },
+    {
+      "page": 17,
+      "from": "I2 tsp",
+      "to": "½ tsp"
+    },
+    {
+      "page": 17,
+      "from": "/½ tsp",
+      "to": "½ tsp"
+    },
+    {
+      "page": 19,
+      "from": "25 cup",
+      "to": "2.5 cup"
+    },
+    {
+      "page": 20,
+      "from": "/2 tsp",
+      "to": "½ tsp"
+    },
+    {
+      "page": 20,
+      "from": "14 tsp",
+      "to": "¼ tsp"
+    },
+    {
+      "page": 20,
+      "from": "4 tsp garam",
+      "to": "¼ tsp garam"
+    },
+    {
+      "page": 21,
+      "from": "+bsps",
+      "to": "tbsps"
+    },
+    {
+      "page": 21,
+      "from": "1 hanaful",
+      "to": "1 handful"
+    },
+    {
+      "page": 21,
+      "from": "/2 tsp",
+      "to": "½ tsp"
+    },
+    {
+      "page": 21,
+      "from": "I tsp",
+      "to": "1 tsp"
+    },
+    {
+      "page": 21,
+      "from": "I2 tsp",
+      "to": "½ tsp"
+    },
+    {
+      "page": 22,
+      "from": "+bsp",
+      "to": "tbsp"
+    },
+    {
+      "page": 22,
+      "from": "2tbsp",
+      "to": "2 tbsp"
+    },
+    {
+      "page": 22,
+      "from": "1 2 teaspoon",
+      "to": "½ teaspoon"
+    },
+    {
+      "page": 24,
+      "from": "14 onion",
+      "to": "¼ onion"
+    },
+    {
+      "page": 28,
+      "from": "/½ Cup",
+      "to": "½ Cup"
+    },
+    {
+      "page": 29,
+      "from": "/2 tea-spoon",
+      "to": "½ tea-spoon"
+    },
+    {
+      "page": 29,
+      "from": "12 tea-spoon",
+      "to": "½ tea-spoon"
+    },
+    {
+      "page": 30,
+      "from": "4 tspn turmeric",
+      "to": "¼ tspn turmeric"
+    },
+    {
+      "page": 30,
+      "from": "/½ tspn",
+      "to": "½ tspn"
+    },
+    {
+      "page": 30,
+      "from": "I tspn",
+      "to": "1 tspn"
+    },
+    {
+      "page": 30,
+      "from": "12 tspn",
+      "to": "½ tspn"
+    },
+    {
+      "page": 32,
+      "from": "14 tsp",
+      "to": "¼ tsp"
+    },
+    {
+      "page": 33,
+      "from": "I2 teaspoon",
+      "to": "½ teaspoon"
+    },
+    {
+      "page": 34,
+      "from": "200 g\nflour",
+      "to": "200 g gram flour"
+    },
+    {
+      "page": 34,
+      "from": "/½ teaspoon",
+      "to": "½ teaspoon"
+    },
+    {
+      "page": 35,
+      "from": "12 kg mutton",
+      "to": "½ kg mutton"
+    },
+    {
+      "page": 35,
+      "from": "1 /½ inch",
+      "to": "1½ inch"
+    },
+    {
+      "page": 35,
+      "from": "I inch",
+      "to": "1 inch"
+    },
+    {
+      "page": 35,
+      "from": "+blsp",
+      "to": "tblsp"
+    },
+    {
+      "page": 35,
+      "from": "I2 tsp",
+      "to": "½ tsp"
+    },
+    {
+      "page": 37,
+      "from": "I2 dal-chini",
+      "to": "½ dal-chini"
+    },
+    {
+      "page": 39,
+      "from": "Garlic 4 kg",
+      "to": "Garlic ¼ kg"
+    },
+    {
+      "page": 40,
+      "from": "1/2 garlic",
+      "to": "1½ garlic"
+    },
+    {
+      "page": 41,
+      "from": "14 kg",
+      "to": "¼ kg"
+    },
+    {
+      "page": 42,
+      "from": "I\" ginger",
+      "to": "1\" ginger"
+    },
+    {
+      "page": 42,
+      "from": "Iz teaspoon",
+      "to": "½ teaspoon"
+    },
+    {
+      "page": 43,
+      "from": "+bsp",
+      "to": "tbsp"
+    },
+    {
+      "page": 44,
+      "from": "4 kg tomato",
+      "to": "¼ kg tomato"
+    },
+    {
+      "page": 48,
+      "from": "I2 tbsp",
+      "to": "½ tbsp"
+    },
+    {
+      "page": 48,
+      "from": "/2 tsp",
+      "to": "½ tsp"
+    },
+    {
+      "page": 48,
+      "from": "4 tsp haldi",
+      "to": "¼ tsp haldi"
+    },
+    {
+      "page": 52,
+      "from": "/4 kg",
+      "to": "¼ kg"
+    },
+    {
+      "page": 52,
+      "from": "/2 tsp",
+      "to": "½ tsp"
+    },
+    {
+      "page": 53,
+      "from": "/2 kg",
+      "to": "½ kg"
+    },
+    {
+      "page": 54,
+      "from": "12kg tomatoes",
+      "to": "½ kg tomatoes"
+    },
+    {
+      "page": 55,
+      "from": "I tbsp",
+      "to": "1 tbsp"
+    }
+  ]
+}

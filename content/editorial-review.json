@@ -1,0 +1,45 @@
+{
+  "status": "awaiting-speaker-review",
+  "displayPolicy": "Capitalise the first character of English meanings for display only. Source forms and IDs remain unchanged.",
+  "displayChanges": [
+    {
+      "id": "RAAH-0113",
+      "source": "obey.",
+      "display": "Obey."
+    },
+    {
+      "id": "RAAH-0357",
+      "source": "unity.",
+      "display": "Unity."
+    },
+    {
+      "id": "RAAH-0200",
+      "source": "quick.",
+      "display": "Quick."
+    },
+    {
+      "id": "RAAH-0564",
+      "source": "side.",
+      "display": "Side."
+    }
+  ],
+  "questions": [
+    {
+      "ids": [
+        "RAAH-0372"
+      ],
+      "question": "Confirm Gharr spelling and whether doubled r is intended; collect family variants before any spelling change."
+    },
+    {
+      "ids": [
+        "RAAH-0119",
+        "RAAH-0121"
+      ],
+      "question": "Bhee and Bundhh share an English Stop gloss. Ask speakers about context and grammatical distinctions; retain both records."
+    },
+    {
+      "ids": [],
+      "question": "Confirm Roman and Devanagari sound correspondences for Garaañ → घणा, Bareinjaa → भरैंजा, and Teevar → तीवण with community speakers. Preserve source forms until confirmed."
+    }
+  ]
+}

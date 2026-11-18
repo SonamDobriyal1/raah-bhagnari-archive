@@ -1,0 +1,618 @@
+[
+  {
+    "id": "RAAH-RC-0002",
+    "wordId": "RAAH-0004",
+    "page": 10,
+    "image": "/assets/scans/kitchen-10.jpg",
+    "crop": {
+      "x": 203,
+      "y": 117,
+      "width": 200,
+      "height": 126,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0003",
+    "wordId": "RAAH-0005",
+    "page": 11,
+    "image": "/assets/scans/kitchen-11.jpg",
+    "crop": {
+      "x": 209,
+      "y": 122,
+      "width": 200,
+      "height": 186,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0004",
+    "wordId": "RAAH-0007",
+    "page": 12,
+    "image": "/assets/scans/kitchen-12.jpg",
+    "crop": {
+      "x": 209,
+      "y": 88,
+      "width": 198,
+      "height": 149,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0005",
+    "wordId": "RAAH-0010",
+    "page": 14,
+    "image": "/assets/scans/kitchen-14.jpg",
+    "crop": {
+      "x": 240,
+      "y": 75,
+      "width": 167,
+      "height": 125,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0006",
+    "wordId": "RAAH-0011",
+    "page": 15,
+    "image": "/assets/scans/kitchen-15.jpg",
+    "crop": {
+      "x": 209,
+      "y": 94,
+      "width": 207,
+      "height": 181,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0007",
+    "wordId": "RAAH-0012",
+    "page": 16,
+    "image": "/assets/scans/kitchen-16.jpg",
+    "crop": {
+      "x": 218,
+      "y": 71,
+      "width": 180,
+      "height": 178,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0008",
+    "wordId": "RAAH-0013",
+    "page": 17,
+    "image": "/assets/scans/kitchen-17.jpg",
+    "crop": {
+      "x": 210,
+      "y": 95,
+      "width": 206,
+      "height": 181,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0009",
+    "wordId": "RAAH-0014",
+    "page": 18,
+    "image": "/assets/scans/kitchen-18.jpg",
+    "crop": {
+      "x": 175,
+      "y": 118,
+      "width": 220,
+      "height": 262,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0010",
+    "wordId": "RAAH-0015",
+    "page": 19,
+    "image": "/assets/scans/kitchen-19.jpg",
+    "crop": {
+      "x": 189,
+      "y": 101,
+      "width": 180,
+      "height": 261,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0011",
+    "wordId": "RAAH-0016",
+    "page": 20,
+    "image": "/assets/scans/kitchen-20.jpg",
+    "crop": {
+      "x": 205,
+      "y": 86,
+      "width": 195,
+      "height": 157,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0012",
+    "wordId": "RAAH-0017",
+    "page": 21,
+    "image": "/assets/scans/kitchen-21.jpg",
+    "crop": {
+      "x": 242,
+      "y": 69,
+      "width": 174,
+      "height": 144,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0013",
+    "wordId": "RAAH-0018",
+    "page": 22,
+    "image": "/assets/scans/kitchen-22.jpg",
+    "crop": {
+      "x": 177,
+      "y": 78,
+      "width": 223,
+      "height": 164,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0014",
+    "wordId": "RAAH-0019",
+    "page": 23,
+    "image": "/assets/scans/kitchen-23.jpg",
+    "crop": {
+      "x": 163,
+      "y": 100,
+      "width": 245,
+      "height": 195,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0015",
+    "wordId": "RAAH-0020",
+    "page": 24,
+    "image": "/assets/scans/kitchen-24.jpg",
+    "crop": {
+      "x": 179,
+      "y": 104,
+      "width": 227,
+      "height": 218,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0016",
+    "wordId": "RAAH-0021",
+    "page": 25,
+    "image": "/assets/scans/kitchen-25.jpg",
+    "crop": {
+      "x": 195,
+      "y": 110,
+      "width": 218,
+      "height": 231,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0017",
+    "wordId": "RAAH-0024",
+    "page": 26,
+    "image": "/assets/scans/kitchen-26.jpg",
+    "crop": {
+      "x": 200,
+      "y": 94,
+      "width": 201,
+      "height": 193,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0018",
+    "wordId": "RAAH-0026",
+    "page": 28,
+    "image": "/assets/scans/kitchen-28.jpg",
+    "crop": {
+      "x": 174,
+      "y": 88,
+      "width": 226,
+      "height": 182,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0001",
+    "wordId": "RAAH-0027",
+    "page": 29,
+    "image": "/assets/scans/kitchen-29.jpg",
+    "crop": {
+      "x": 189,
+      "y": 92,
+      "width": 219,
+      "height": 172,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0019",
+    "wordId": "RAAH-0028",
+    "page": 30,
+    "image": "/assets/scans/kitchen-30.jpg",
+    "crop": {
+      "x": 184,
+      "y": 262,
+      "width": 222,
+      "height": 168,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0020",
+    "wordId": "RAAH-0029",
+    "page": 32,
+    "image": "/assets/scans/kitchen-32.jpg",
+    "crop": {
+      "x": 204,
+      "y": 67,
+      "width": 202,
+      "height": 159,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0021",
+    "wordId": "RAAH-0030",
+    "page": 33,
+    "image": "/assets/scans/kitchen-33.jpg",
+    "crop": {
+      "x": 192,
+      "y": 62,
+      "width": 219,
+      "height": 180,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0022",
+    "wordId": "RAAH-0031",
+    "page": 34,
+    "image": "/assets/scans/kitchen-34.jpg",
+    "crop": {
+      "x": 178,
+      "y": 75,
+      "width": 232,
+      "height": 225,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0023",
+    "wordId": "RAAH-0032",
+    "page": 35,
+    "image": "/assets/scans/kitchen-35.jpg",
+    "crop": {
+      "x": 195,
+      "y": 214,
+      "width": 213,
+      "height": 171,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0024",
+    "wordId": "RAAH-0033",
+    "page": 37,
+    "image": "/assets/scans/kitchen-37.jpg",
+    "crop": {
+      "x": 191,
+      "y": 69,
+      "width": 219,
+      "height": 182,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0025",
+    "wordId": "RAAH-0034",
+    "page": 38,
+    "image": "/assets/scans/kitchen-38.jpg",
+    "crop": {
+      "x": 171,
+      "y": 93,
+      "width": 234,
+      "height": 213,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0026",
+    "wordId": "RAAH-0035",
+    "page": 39,
+    "image": "/assets/scans/kitchen-39.jpg",
+    "crop": {
+      "x": 183,
+      "y": 98,
+      "width": 223,
+      "height": 169,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0027",
+    "wordId": "RAAH-0036",
+    "page": 40,
+    "image": "/assets/scans/kitchen-40.jpg",
+    "crop": {
+      "x": 189,
+      "y": 86,
+      "width": 225,
+      "height": 213,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0028",
+    "wordId": "RAAH-0037",
+    "page": 41,
+    "image": "/assets/scans/kitchen-41.jpg",
+    "crop": {
+      "x": 162,
+      "y": 96,
+      "width": 239,
+      "height": 210,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0029",
+    "wordId": "RAAH-0038",
+    "page": 42,
+    "image": "/assets/scans/kitchen-42.jpg",
+    "crop": {
+      "x": 217,
+      "y": 80,
+      "width": 199,
+      "height": 212,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0030",
+    "wordId": "RAAH-0039",
+    "page": 43,
+    "image": "/assets/scans/kitchen-43.jpg",
+    "crop": {
+      "x": 197,
+      "y": 129,
+      "width": 203,
+      "height": 144,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0031",
+    "wordId": "RAAH-0041",
+    "page": 44,
+    "image": "/assets/scans/kitchen-44.jpg",
+    "crop": {
+      "x": 203,
+      "y": 91,
+      "width": 213,
+      "height": 248,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0032",
+    "wordId": "RAAH-0042",
+    "page": 45,
+    "image": "/assets/scans/kitchen-45.jpg",
+    "crop": {
+      "x": 184,
+      "y": 84,
+      "width": 219,
+      "height": 239,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0033",
+    "wordId": "RAAH-0043",
+    "page": 46,
+    "image": "/assets/scans/kitchen-46.jpg",
+    "crop": {
+      "x": 189,
+      "y": 90,
+      "width": 219,
+      "height": 178,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0034",
+    "wordId": "RAAH-0044",
+    "page": 47,
+    "image": "/assets/scans/kitchen-47.jpg",
+    "crop": {
+      "x": 176,
+      "y": 90,
+      "width": 234,
+      "height": 267,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0035",
+    "wordId": "RAAH-0045",
+    "page": 48,
+    "image": "/assets/scans/kitchen-48.jpg",
+    "crop": {
+      "x": 183,
+      "y": 102,
+      "width": 224,
+      "height": 194,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0036",
+    "wordId": "RAAH-0046",
+    "page": 49,
+    "image": "/assets/scans/kitchen-49.jpg",
+    "crop": {
+      "x": 197,
+      "y": 68,
+      "width": 208,
+      "height": 206,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0037",
+    "wordId": "RAAH-0047",
+    "page": 50,
+    "image": "/assets/scans/kitchen-50.jpg",
+    "crop": {
+      "x": 183,
+      "y": 76,
+      "width": 225,
+      "height": 189,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0038",
+    "wordId": "RAAH-0049",
+    "page": 51,
+    "image": "/assets/scans/kitchen-51.jpg",
+    "crop": {
+      "x": 162,
+      "y": 83,
+      "width": 240,
+      "height": 184,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0039",
+    "wordId": "RAAH-0051",
+    "page": 52,
+    "image": "/assets/scans/kitchen-52.jpg",
+    "crop": {
+      "x": 196,
+      "y": 95,
+      "width": 214,
+      "height": 183,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0040",
+    "wordId": "RAAH-0052",
+    "page": 53,
+    "image": "/assets/scans/kitchen-53.jpg",
+    "crop": {
+      "x": 207,
+      "y": 114,
+      "width": 198,
+      "height": 196,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0041",
+    "wordId": "RAAH-0053",
+    "page": 54,
+    "image": "/assets/scans/kitchen-54.jpg",
+    "crop": {
+      "x": 191,
+      "y": 93,
+      "width": 215,
+      "height": 249,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0042",
+    "wordId": "RAAH-0054",
+    "page": 55,
+    "image": "/assets/scans/kitchen-55.jpg",
+    "crop": {
+      "x": 201,
+      "y": 63,
+      "width": 202,
+      "height": 151,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0043",
+    "wordId": "RAAH-0055",
+    "page": 56,
+    "image": "/assets/scans/kitchen-56.jpg",
+    "crop": {
+      "x": 172,
+      "y": 90,
+      "width": 229,
+      "height": 166,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  },
+  {
+    "id": "RAAH-RC-0044",
+    "wordId": "RAAH-0056",
+    "page": 57,
+    "image": "/assets/scans/kitchen-57.jpg",
+    "crop": {
+      "x": 183,
+      "y": 80,
+      "width": 220,
+      "height": 166,
+      "canvasWidth": 445,
+      "canvasHeight": 700
+    }
+  }
+]

@@ -1,0 +1,3855 @@
+[
+  {
+    "id": "RAAH-RC-0002",
+    "wordId": "RAAH-0004",
+    "name": "Aloo Tuk",
+    "devanagari": "आलू टूक",
+    "credit": "Priya Jham",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=10",
+    "pdfPage": 10,
+    "status": "in-review",
+    "description": "Twice-fried potato rounds tossed with dry spices.",
+    "ingredients": [
+      "Potatoes — 3–4",
+      "Turmeric powder — ¼ teaspoon",
+      "Red chilli powder — ½ teaspoon",
+      "Coriander powder — ½ teaspoon",
+      "Amchur (dry mango) powder — ½ teaspoon",
+      "Oil — for frying, quantity unspecified",
+      "Salt — mentioned in the method, quantity unspecified"
+    ],
+    "method": [
+      "Peel and wash the potatoes, dry them, cut thick rounds and season with salt.",
+      "Fry until the pieces begin to soften, remove from the oil, and gently flatten them with the back of a spoon.",
+      "Fry a second time until crisp and golden, then toss with the powdered spices.",
+      "Serve hot. The book pairs the dish with khati dal or kadi chawal, and suggests mint chutney or tomato sauce."
+    ],
+    "note": "An editorial summary of Priya Jham’s credited recipe on PDF page 10. RAAH has not kitchen-tested it. No family anecdote or serving quantity has been inferred. Credit and preferred permissions should be confirmed with the contributor before museum deposit.",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=10",
+    "wordIds": [
+      "RAAH-0004"
+    ],
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "pdfPages": [
+      10
+    ],
+    "format": "text-with-source-link",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 10\nAloo Tuk\nIngredients\n3-4 aloos (potatoes)\n/4 tsp turmeric powder\n/2 tsp red chilly powder\n12 tsp coriander powder\n1½ tsp ambchur powder\nOil\nMethod\nPeel the skin of the aloos. Wash them in running water and\nwipe them dry with a kitchen napkin. Cut them in slightly thick\nrounds. Put some salt in the chopped aloos. Toss them well and\ndeep fry them in hot oil, till they are slightly cooked and\ntender. Remove them from oil. Slightly flatten them with the\nback of a spoon. Fry them again in hot oil till they are crisp and\ngolden brown. Mix all the spice powders mentioned above with\nthe aloo tuk. Mix well. You can increase or decrease the\nquantity of the spice powders as per your taste. Serve them\nhot with mint chutney or tomato sauce. They are good\naccompaniment or side dish with khati dal/Kadi chawal.\nCredits: Priya Jham",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 10,
+        "image": "/assets/scans/kitchen-10.jpg",
+        "sha256": "27a196fd785163720fd961d207cabe0f6aef98865ba2d9cf9a210d6a7677ae17"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "3-4 aloos (potatoes)",
+              "¼ tsp turmeric powder",
+              "½ tsp red chilly powder",
+              "½ tsp coriander powder",
+              "½ tsp ambchur powder",
+              "Oil"
+            ]
+          }
+        ],
+        "steps": [
+          "Peel the skin of the aloos.",
+          "Wash them in running water and wipe them dry with a kitchen napkin.",
+          "Cut them in slightly thick rounds.",
+          "Put some salt in the chopped aloos.",
+          "Toss them well and deep fry them in hot oil, till they are slightly cooked and tender.",
+          "Remove them from oil.",
+          "Slightly flatten them with the back of a spoon.",
+          "Fry them again in hot oil till they are crisp and golden brown.",
+          "Mix all the spice powders mentioned above with the aloo tuk.",
+          "Mix well.",
+          "You can increase or decrease the quantity of the spice powders as per your taste.",
+          "Serve them hot with mint chutney or tomato sauce.",
+          "They are good accompaniment or side dish with khati dal/Kadi chawal."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-10.jpg",
+      "crop": {
+        "x": 203,
+        "y": 117,
+        "width": 200,
+        "height": 126,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 10,
+      "alt": "Aloo Tuk · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 10"
+    }
+  },
+  {
+    "id": "RAAH-RC-0003",
+    "wordId": "RAAH-0005",
+    "wordIds": [
+      "RAAH-0005"
+    ],
+    "name": "Ambein da khatta",
+    "devanagari": "अम्बेँ दा खट्टा",
+    "credit": "Shanti Batra",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=11",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=11",
+    "pdfPage": 11,
+    "pdfPages": [
+      11
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "A sweet-sour raw mango preserve with spices.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 11\nAmbein da khatta\nIngredients\nKairi (1 kg)\nSalt\nShikarpuri Masala\n(100 gms)\n1 +bsp Rye oil\nSugar\n1 +bsp Acetic Acid\nMethod\nMix all the ingredients and preserve in a bharni for a few days.\nThis achar can be used for over 2 years.\nCredits: Shanti Batra",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 11,
+        "image": "/assets/scans/kitchen-11.jpg",
+        "sha256": "8e0f5a025da804676c5a78bf20754f685c8df09c9c64de38a25611cbdd0ac2c7"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "Kairi (1 kg)",
+              "Salt",
+              "Shikarpuri Masala (100 gms)",
+              "1 tbsp Rye oil",
+              "Sugar",
+              "1 tbsp Acetic Acid"
+            ]
+          }
+        ],
+        "steps": [
+          "Mix all the ingredients and preserve in a bharni for a few days.",
+          "This achar can be used for over 2 years."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-11.jpg",
+      "crop": {
+        "x": 209,
+        "y": 122,
+        "width": 200,
+        "height": 186,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 11,
+      "alt": "Ambein da khatta · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 11"
+    }
+  },
+  {
+    "id": "RAAH-RC-0004",
+    "wordId": "RAAH-0007",
+    "wordIds": [
+      "RAAH-0007"
+    ],
+    "name": "Besan de tikiyen da teevar - Veg Aani",
+    "devanagari": "बेसण दे टिकियें दा तीवण",
+    "credit": "Ekta Mehta",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=12",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=12",
+    "pdfPage": 12,
+    "pdfPages": [
+      12,
+      13
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Gram-flour cutlets served in a spiced vegetarian gravy.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 12\nBesan de tikiyen da teevar - Veg Aani\nIngredients\nMakes: 20 tikkis\nPrep time: 25 mins:\nCooking time: 30 mins\nFor aani:\n200 gms besan\n(gram flour)\n70 gms oil\n1 onion (finely chopped)\n2-3 green chillies (finely chopped)\nFew sprigs of coriander (finely chopped)\n1 tsp jeera\n/½ tsp haldi\n1 tsp khus khus\nSalt to taste\nWater as required\nOil for deep-frying\nFor gravy:\n3 onions (finely chopped)\n2 tomatoes\n(finely chopped)\n1 inch ginger (grated)\n5 cloves of garlic (grated)\n3 green chillies\n(finely chopped)\n½ tsp haldi\n\nPDF page 13\n1 tbsp coriander powder\nI2 tsp red chilli powder\n1 tsp garam masala powder\n1 tbsp kastoori methi\nSalt to taste\n300 ml water\n3-4 tbsp oil\nMethod\nTo prepare aanis', in a bowl place besan, onions, green chillies,\ncoriander, jeera, haldi, khus khus and salt. Mix well, slowly\npouring in oil to form grainy dough. Add water to make smooth\nfirm dough. Make 20 portions of aanis (shaped like small\ncutlets) with batter and keep aside to rest for 10 minutes.\nDeep fryaanis' and keep aside.\nFor the gravy, in a thick bottomed/ non-stick vessel add oil.\nOnce heated, add onions and sauté till pink. Then add ginger.\ngreen chillies and garlic and stir. Add tomatoes and stir until\nthey soften. Then add the dry spices: coriander powder, red\nchilli powder: garam masala powder; kastoori methi; salt and\nhaldi and stir until oil leaves the sides on the vessel. To this add\nwater and keep cooking on slow flame until the gravy thickens\nand comes together. Following which, puree the gravy using a\nhand held beater. Place the gravy back on heat and add the\naanis and cook for another 5 minutes. Garnish with coriander\nleaves, serve hot with chappaties.\nCredits: Ekta Mehta",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 12,
+        "image": "/assets/scans/kitchen-12.jpg",
+        "sha256": "05be843c6849f32e3427f6b020b8a1ed7f4f726ce5012489bfe7410318e8aa74"
+      },
+      {
+        "page": 13,
+        "image": "/assets/scans/kitchen-13.jpg",
+        "sha256": "33c7d45ad422a29ef0ecde32833f2f8b23f4f555227d18b782f17de6e0ac06de"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "Makes: 20 tikkis",
+              "Prep time: 25 mins:",
+              "Cooking time: 30 mins"
+            ]
+          },
+          {
+            "title": "For aani",
+            "items": [
+              "200 gms besan (gram flour)",
+              "70 gms oil",
+              "1 onion (finely chopped)",
+              "2-3 green chillies (finely chopped)",
+              "Few sprigs of coriander (finely chopped)",
+              "1 tsp jeera",
+              "½ tsp haldi",
+              "1 tsp khus khus",
+              "Salt to taste",
+              "Water as required",
+              "Oil for deep-frying"
+            ]
+          },
+          {
+            "title": "For gravy",
+            "items": [
+              "3 onions (finely chopped)",
+              "2 tomatoes (finely chopped)",
+              "1 inch ginger (grated)",
+              "5 cloves of garlic (grated)",
+              "3 green chillies (finely chopped)",
+              "½ tsp haldi",
+              "1 tbsp coriander powder",
+              "½ tsp red chilli powder",
+              "1 tsp garam masala powder",
+              "1 tbsp kastoori methi",
+              "Salt to taste",
+              "300 ml water",
+              "3-4 tbsp oil"
+            ]
+          }
+        ],
+        "steps": [
+          "To prepare aanis', in a bowl place besan, onions, green chillies, coriander, jeera, haldi, khus khus and salt.",
+          "Mix well, slowly pouring in oil to form grainy dough.",
+          "Add water to make smooth firm dough.",
+          "Make 20 portions of aanis (shaped like small cutlets) with batter and keep aside to rest for 10 minutes.",
+          "Deep fryaanis' and keep aside.",
+          "For the gravy, in a thick bottomed/ non-stick vessel add oil.",
+          "Once heated, add onions and sauté till pink.",
+          "Then add ginger. green chillies and garlic and stir.",
+          "Add tomatoes and stir until they soften.",
+          "Then add the dry spices: coriander powder, red chilli powder: garam masala powder; kastoori methi; salt and haldi and stir until oil leaves the sides on the vessel.",
+          "To this add water and keep cooking on slow flame until the gravy thickens and comes together.",
+          "Following which, puree the gravy using a hand held beater.",
+          "Place the gravy back on heat and add the aanis and cook for another 5 minutes.",
+          "Garnish with coriander leaves, serve hot with chappaties."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-12.jpg",
+      "crop": {
+        "x": 209,
+        "y": 88,
+        "width": 198,
+        "height": 149,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 12,
+      "alt": "Besan de tikiyen da teevar - Veg Aani · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 12"
+    }
+  },
+  {
+    "id": "RAAH-RC-0005",
+    "wordId": "RAAH-0010",
+    "wordIds": [
+      "RAAH-0010"
+    ],
+    "name": "Bhee batate da tikyan",
+    "devanagari": "भी बटाटे दा टिक्यां",
+    "credit": "Ekta Mehta",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=14",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=14",
+    "pdfPage": 14,
+    "pdfPages": [
+      14
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Lotus-root and potato tikkis, fried until golden.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 14\nBhee batate da tikyan\nIngredients\n(Makes 10 tikies.\nPreparation time 40 minutes.\nCooking time 20 minutes)\nFor tikies:\n8\" Lotus-root (Bhee - sliced\nand boiled - 5 to 6 whistles in\na pressure cooker and finely\nchopped)\n1 large. 2 medium-sized potatoes (boiled - 3 whistles in o\npressure cooker and finely chopped)\n1 onion (finely chopped)\n2 green chilies (finely chopped)\nl\"ginger (grated)\n1 tsp garam masala powder\n1 tsp mango powder (ambchur)\nSalt to taste\nFew sprigs of coriander leaves (finely chopped)\nFor batter:\n1 cup gram flour (besan)\nMethod\nIn a bowl place lotus root, potato, onion, green chili, and ginger.\nMix well along with salt, dry spices and coriander. Give it a\nstir and divide the tiki mix into ten equal balls. Keep aside to\nrest.\nIn a separate bowl add the gram flour, water. oil, salt and chili\npowder. Stir to achieve medium consistency.\nHeat oil in a kadai, dip the tiki balls in the batter, half-fry\nthem. Once cooled, flatten the half ready tikis and re-fry\nthem. Serve hot with coriander chutney.\nCredits: Ekta Mehta",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 14,
+        "image": "/assets/scans/kitchen-14.jpg",
+        "sha256": "408a31b43bcacdd7448a715690de2f336e265968fcb74a176a68598036a45699"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "(Makes 10 tikies. Preparation time 40 minutes. Cooking time 20 minutes)"
+            ]
+          },
+          {
+            "title": "For tikies",
+            "items": [
+              "8\" Lotus-root (Bhee - sliced and boiled - 5 to 6 whistles in a pressure cooker and finely chopped)",
+              "1 large, 2 medium-sized potatoes (boiled - 3 whistles in a pressure cooker and finely chopped)",
+              "1 onion (finely chopped)",
+              "2 green chilies (finely chopped)",
+              "1\" ginger (grated)",
+              "1 tsp garam masala powder",
+              "1 tsp mango powder (ambchur)",
+              "Salt to taste",
+              "Few sprigs of coriander leaves (finely chopped)"
+            ]
+          },
+          {
+            "title": "For batter",
+            "items": [
+              "1 cup gram flour (besan)"
+            ]
+          }
+        ],
+        "steps": [
+          "In a bowl place lotus root, potato, onion, green chili, and ginger.",
+          "Mix well along with salt, dry spices and coriander.",
+          "Give it a stir and divide the tiki mix into ten equal balls.",
+          "Keep aside to rest.",
+          "In a separate bowl add the gram flour, water. oil, salt and chili powder.",
+          "Stir to achieve medium consistency.",
+          "Heat oil in a kadai, dip the tiki balls in the batter, half-fry them.",
+          "Once cooled, flatten the half ready tikis and re-fry them.",
+          "Serve hot with coriander chutney."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-14.jpg",
+      "crop": {
+        "x": 240,
+        "y": 75,
+        "width": 167,
+        "height": 125,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 14,
+      "alt": "Bhee batate da tikyan · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 14"
+    }
+  },
+  {
+    "id": "RAAH-RC-0006",
+    "wordId": "RAAH-0011",
+    "wordIds": [
+      "RAAH-0011"
+    ],
+    "name": "Bori roti",
+    "devanagari": "बोरी रोटी",
+    "credit": "Anonymous",
+    "creditSource": "Cookbook index, PDF p. 5",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=15",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=15",
+    "pdfPage": 15,
+    "pdfPages": [
+      15
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Crumbled roti with sugar and ghee.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 15\nBori roti\nIngredients\nWheat flour 15 cups\nPinch of salt\n2 tablespoons oil\n(or ghee)\n3-4 spoons sugar\nMethod\nMix wheat flour, pinch of salt and oil and make a dough.\nDivide the dough into portions and make into balls. Take each\nball and roll it with a rolling pin. It should be thick like a\nparatha.\nCook it on a tava. Pour little oil while tossing and cook it on a\nmedium flame till small brown patches appear on both the\nsurfaces of the roti.\nWhile the roti is still hot,crush it in some large bowl till coarse\nmixture is obtained.\nNow add sugar and temper it with a spoon of oil or ghee.\nServe it hot with papad",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 15,
+        "image": "/assets/scans/kitchen-15.jpg",
+        "sha256": "5eeb8ca7881342b7350702aec46d790885da18a4ae1bb668aa840d88c95f55cf"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "Wheat flour 1.5 cups",
+              "Pinch of salt",
+              "2 tablespoons oil (or ghee)",
+              "3-4 spoons sugar"
+            ]
+          }
+        ],
+        "steps": [
+          "Mix wheat flour, pinch of salt and oil and make a dough.",
+          "Divide the dough into portions and make into balls.",
+          "Take each ball and roll it with a rolling pin.",
+          "It should be thick like a paratha.",
+          "Cook it on a tava.",
+          "Pour little oil while tossing and cook it on a medium flame till small brown patches appear on both the surfaces of the roti.",
+          "While the roti is still hot,crush it in some large bowl till coarse mixture is obtained.",
+          "Now add sugar and temper it with a spoon of oil or ghee.",
+          "Serve it hot with papad"
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-15.jpg",
+      "crop": {
+        "x": 209,
+        "y": 94,
+        "width": 207,
+        "height": 181,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 15,
+      "alt": "Bori roti · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 15"
+    }
+  },
+  {
+    "id": "RAAH-RC-0007",
+    "wordId": "RAAH-0012",
+    "wordIds": [
+      "RAAH-0012"
+    ],
+    "name": "Daage wale karele",
+    "devanagari": "धागे वाले करेले",
+    "credit": "Shraddha Gehi",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=16",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=16",
+    "pdfPage": 16,
+    "pdfPages": [
+      16
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Bitter gourds stuffed with masala and tied with thread.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 16\nDaage wale karele\nIngredients\n/2 kg karela, /½ kg onion\n6/8 cloves of garlic\n1 cup coriander\nFew methi leaves\n2 green chillies\nSmall piece of ginger\n1 tbsp coriander powder\n½ tbsp red chilli powder\n/4 tbsp turmeric\n1 tbsp salt, 1½ litre curd. Oil\nMethod\nPeel the karelas and slit across the center. Remove the seeds\nwhich are soft and add to the masala while grinding. Add\naround 2 +bsp of salt and keep it aside for 3 to 4 hours. Wash\nthe karelas and squeeze out the excess water and shallow fry\ntill light brown. Prepare the masala for frying by grinding the\nonions, garlic, coriander. ginger and methi leaves together.\nIn a tavi add oil and heat it. When the oil becomes little warm\nadd the masala (prepared earlier) and all the dry masalas\nalong with salt. Cook the masala on medium heat and cover till\noil separates. Close the gas and let the masala cool. When the\nmasala cools, add it in the karelas through their slitted\nopenings.\nTie the stuffed karelas with a cotton thread to seal the\nmasala inside and place them side by side in a wide frying pan\nwith little oil\nIfthere is extra masala put it on top of the karelas.\nSpread curd on top of the karelas while cooking them on low\nflame.\nCook for 45 mins.\nCredits: Shraddha Gehi",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 16,
+        "image": "/assets/scans/kitchen-16.jpg",
+        "sha256": "0ab739910f2fd3d76c68dd55d35bea880bc4c6c7a77e3a4bc25a6b7414cf9c5a"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "½ kg karela, ½ kg onion",
+              "6/8 cloves of garlic",
+              "1 cup coriander",
+              "Few methi leaves",
+              "2 green chillies",
+              "Small piece of ginger",
+              "1 tbsp coriander powder",
+              "½ tbsp red chilli powder",
+              "¼ tbsp turmeric",
+              "1 tbsp salt, ½ litre curd. Oil"
+            ]
+          }
+        ],
+        "steps": [
+          "Peel the karelas and slit across the center.",
+          "Remove the seeds which are soft and add to the masala while grinding.",
+          "Add around 2 tbsp of salt and keep it aside for 3 to 4 hours.",
+          "Wash the karelas and squeeze out the excess water and shallow fry till light brown.",
+          "Prepare the masala for frying by grinding the onions, garlic, coriander. ginger and methi leaves together.",
+          "In a tavi add oil and heat it.",
+          "When the oil becomes little warm add the masala (prepared earlier) and all the dry masalas along with salt.",
+          "Cook the masala on medium heat and cover till oil separates.",
+          "Close the gas and let the masala cool.",
+          "When the masala cools, add it in the karelas through their slitted openings.",
+          "Tie the stuffed karelas with a cotton thread to seal the masala inside and place them side by side in a wide frying pan with little oil Ifthere is extra masala put it on top of the karelas.",
+          "Spread curd on top of the karelas while cooking them on low flame.",
+          "Cook for 45 mins."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-16.jpg",
+      "crop": {
+        "x": 218,
+        "y": 71,
+        "width": 180,
+        "height": 178,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 16,
+      "alt": "Daage wale karele · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 16"
+    }
+  },
+  {
+    "id": "RAAH-RC-0008",
+    "wordId": "RAAH-0013",
+    "wordIds": [
+      "RAAH-0013"
+    ],
+    "name": "Dahi balle",
+    "devanagari": "दही भल्ले",
+    "credit": "Shraddha Gehi",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=17",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=17",
+    "pdfPage": 17,
+    "pdfPages": [
+      17
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Fried dal dumplings served in seasoned yoghurt.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 17\nDahi Balle\nIngredients\n250 gms urad dal\n1 tbsp yellow moong dal\nSalt\n1 tsp Jeera\n2 green chillies\nSmall piece of ginger\nOil\n12 liter milk\n2 tbsp sugar\nI2 tsp red chilly powder\n/½ tsp jeera powder\n/½ tsp chat masala\nCoriander leaves\nMethod\nSoak the urad dal and moong dal together overnight. Remove\nthe excess water from the soaked dal and add salt. jeera.\ngreen chillies, ginger and grind till it becomes like a paste.\nBeat the batter well for soft dahi balle. Heat oil and fry the\nballas till they are golden. Beat curd with sugar and salt. Soak\nthe fried ballas in water for half an hour. Squeeze the water\nout of the wadas and add to the beaten curd. Garnish with red\nchilli powder, jeera powder, chat masala and green coriander\nleaves.\nCredits: Shraddha Gehi",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 17,
+        "image": "/assets/scans/kitchen-17.jpg",
+        "sha256": "c497051934cfd5c1714107909ff83ea038e20d56b5142350004b23297ac9c219"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "250 gms urad dal",
+              "1 tbsp yellow moong dal",
+              "Salt",
+              "1 tsp Jeera",
+              "2 green chillies",
+              "Small piece of ginger",
+              "Oil",
+              "½ liter milk",
+              "2 tbsp sugar",
+              "½ tsp red chilly powder",
+              "½ tsp jeera powder",
+              "½ tsp chat masala",
+              "Coriander leaves"
+            ]
+          }
+        ],
+        "steps": [
+          "Soak the urad dal and moong dal together overnight.",
+          "Remove the excess water from the soaked dal and add salt. jeera. green chillies, ginger and grind till it becomes like a paste.",
+          "Beat the batter well for soft dahi balle.",
+          "Heat oil and fry the ballas till they are golden.",
+          "Beat curd with sugar and salt.",
+          "Soak the fried ballas in water for half an hour.",
+          "Squeeze the water out of the wadas and add to the beaten curd.",
+          "Garnish with red chilli powder, jeera powder, chat masala and green coriander leaves."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-17.jpg",
+      "crop": {
+        "x": 210,
+        "y": 95,
+        "width": 206,
+        "height": 181,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 17,
+      "alt": "Dahi balle · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 17"
+    }
+  },
+  {
+    "id": "RAAH-RC-0009",
+    "wordId": "RAAH-0014",
+    "wordIds": [
+      "RAAH-0014"
+    ],
+    "name": "Dal de kabab",
+    "devanagari": "दाल दे कबाब",
+    "credit": "Shanti Batra",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=18",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=18",
+    "pdfPage": 18,
+    "pdfPages": [
+      18
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Moong-dal and bread rolls, spiced and fried.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 18\nDal De Kabab\nIngredients\n100 gms moong dal\nBread\nCoriander\n3 green chillies\nDhaniya Powder\nChilly Powder\nTurmeric Powder\nSalt\nMethod\nBoil the dal. Take 5/6slices of bread and break into small\npieces. Add the finely chopped coriander along with the green\nchilies (chopped) in the dal. Add dhaniya powder, chilly\npowder, turmeric powder and salt. Mix the ingredients and\nroll into long kababs. Deep fry the kababs on high flame. Serve\nhot with any chutney or ketchup. Tastes best with khatti\nmeethi chutney.\nCredits: Shanti Batra",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 18,
+        "image": "/assets/scans/kitchen-18.jpg",
+        "sha256": "3edbf39f4528874a7b8e95fc8bd2a68799b8b148a561f23304ea60a4757879fa"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "100 gms moong dal",
+              "Bread",
+              "Coriander",
+              "3 green chillies",
+              "Dhaniya Powder",
+              "Chilly Powder",
+              "Turmeric Powder",
+              "Salt"
+            ]
+          }
+        ],
+        "steps": [
+          "Boil the dal.",
+          "Take 5/6slices of bread and break into small pieces.",
+          "Add the finely chopped coriander along with the green chilies (chopped) in the dal.",
+          "Add dhaniya powder, chilly powder, turmeric powder and salt.",
+          "Mix the ingredients and roll into long kababs.",
+          "Deep fry the kababs on high flame.",
+          "Serve hot with any chutney or ketchup.",
+          "Tastes best with khatti meethi chutney."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-18.jpg",
+      "crop": {
+        "x": 175,
+        "y": 118,
+        "width": 220,
+        "height": 262,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 18,
+      "alt": "Dal de kabab · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 18"
+    }
+  },
+  {
+    "id": "RAAH-RC-0010",
+    "wordId": "RAAH-0015",
+    "wordIds": [
+      "RAAH-0015"
+    ],
+    "name": "Dale da seera",
+    "devanagari": "डाले दा सीरा",
+    "credit": "Kanika Dudeja",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=19",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=19",
+    "pdfPage": 19,
+    "pdfPages": [
+      19
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "A warm cracked-wheat sweet with ghee and nuts.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 19\nDale da seera\nIngredients\n1 cup daliya\n25 cup water\n1.5 cup sugar\nGhee - andaaze te\n1 Elachi\nAlmonds -\nfinely chopped\nKishmish\nMethod\nTake a cooker. Bhunofy daliya in ghee till it becomes dark\nbrown. Add water and elachi and let it cook for 2 whistles and\nkeep it on low flame. Open cooker and see if it has cooked or\nelse let it cook for one more whistle. Add sugar, mix it well and\nlet it cook. Do not keep lid on cooker. Sprinkle almonds and\nkishmish over the seera. Serve hot.\nCredits: Kanika Dudeja",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 19,
+        "image": "/assets/scans/kitchen-19.jpg",
+        "sha256": "2264e871b09e85c2e586f0ade6f1d3e860833a537ffc413d960d4939be09b3ca"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "1 cup daliya",
+              "2.5 cup water",
+              "1.5 cup sugar",
+              "Ghee - andaaze te",
+              "1 Elachi",
+              "Almonds - finely chopped Kishmish"
+            ]
+          }
+        ],
+        "steps": [
+          "Take a cooker.",
+          "Bhunofy daliya in ghee till it becomes dark brown.",
+          "Add water and elachi and let it cook for 2 whistles and keep it on low flame.",
+          "Open cooker and see if it has cooked or else let it cook for one more whistle.",
+          "Add sugar, mix it well and let it cook.",
+          "Do not keep lid on cooker.",
+          "Sprinkle almonds and kishmish over the seera.",
+          "Serve hot."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-19.jpg",
+      "crop": {
+        "x": 189,
+        "y": 101,
+        "width": 180,
+        "height": 261,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 19,
+      "alt": "Dale da seera · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 19"
+    }
+  },
+  {
+    "id": "RAAH-RC-0011",
+    "wordId": "RAAH-0016",
+    "wordIds": [
+      "RAAH-0016"
+    ],
+    "name": "Das teevar",
+    "devanagari": "दास तीवण",
+    "credit": "Priya Jham",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=20",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=20",
+    "pdfPage": 20,
+    "pdfPages": [
+      20
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Green peas and potatoes in an onion-and-tomato gravy.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 20\nDas Teevar\nIngredients\n250 gms green peas\n1 big size potato\n2 medium sized onions -\nchopped\n1 tsp each garlic.\nginger and\ngreen chillies paste\n200 gms tomatoes - grated\n1 tbsp coriander powder\n/2 tsp red chilly powder\n14 tsp turmeric powder\n4 tsp garam masala\n1 tsp kasturi methi - finely chopped\nSalt to taste\nMethod\nBoil the green peas in a pressure cooker for 1 whistle and\nkeep it aside. In a degra, pour 3 +bsp oil and add in the chopped\nonions and fry till brown, but not very dark. Add garlic, ginger\nand chilly paste and fry for a minute. Add 200 ml water and\nthe water of the boiled green peas. Add potatoes (cut into\ncubes) and let it cook till they are 3/4\" done. Add the green\npeas, put in all the dry masalas and bhunao the dish for at least\n15/20 mins. Add the grated tomatoes and cook for another 10\nmins. Sprinkle the garam masala on top. Serve with rice or\nchappaties.\nCredits: Priya Jham",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 20,
+        "image": "/assets/scans/kitchen-20.jpg",
+        "sha256": "96d4b61d647567cf9ac769ff659a0fc4a6757ce98c7e93e5ee0cb41a5f53d10c"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "250 gms green peas",
+              "1 big size potato",
+              "2 medium sized onions - chopped",
+              "1 tsp each garlic. ginger and green chillies paste",
+              "200 gms tomatoes - grated",
+              "1 tbsp coriander powder",
+              "½ tsp red chilly powder",
+              "¼ tsp turmeric powder",
+              "¼ tsp garam masala",
+              "1 tsp kasturi methi - finely chopped Salt to taste"
+            ]
+          }
+        ],
+        "steps": [
+          "Boil the green peas in a pressure cooker for 1 whistle and keep it aside.",
+          "In a degra, pour 3 tbsp oil and add in the chopped onions and fry till brown, but not very dark.",
+          "Add garlic, ginger and chilly paste and fry for a minute.",
+          "Add 200 ml water and the water of the boiled green peas.",
+          "Add potatoes (cut into cubes) and let it cook till they are 3/4\" done.",
+          "Add the green peas, put in all the dry masalas and bhunao the dish for at least 15/20 mins.",
+          "Add the grated tomatoes and cook for another 10 mins.",
+          "Sprinkle the garam masala on top.",
+          "Serve with rice or chappaties."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-20.jpg",
+      "crop": {
+        "x": 205,
+        "y": 86,
+        "width": 195,
+        "height": 157,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 20,
+      "alt": "Das teevar · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 20"
+    }
+  },
+  {
+    "id": "RAAH-RC-0012",
+    "wordId": "RAAH-0017",
+    "wordIds": [
+      "RAAH-0017"
+    ],
+    "name": "Degre da saag",
+    "devanagari": "देगरे दा साग",
+    "credit": "Anonymous",
+    "creditSource": "Cookbook index, PDF p. 5",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=21",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=21",
+    "pdfPage": 21,
+    "pdfPages": [
+      21
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Spinach and chana dal cooked with vegetables.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 21\nDegre Da Saag\nIngredients\n3 +bsps Chana Daal -\nwashed and soaked in\nwarm water for 2 hours\n2 gathies spinach - roots cut\noff, washed and chopped\n2 large tomatoes -\nchopped fine\n1 hanaful fenugreek leaves\n1 large potato cut into 1\" cubes\n1 large onion cut into 1\" cubes\n1 cup chopped eggplant - 1\" cubes\n8-10 French beans - tops and tails cut off and strings\nremoved, 1 carrot cut into 1\" thick circles\n1 cup chopped sooran - 1\" cubes\n/2 tsp turmeric powder, I tsp coriander powder\n1\" piece ginger - grated\n3 tbsps vegetable or canola or sunflower cooking oil\n5 cloves garlic. I2 tsp cumin seeds\n2 finely chopped green chillies, Salt to taste\nMethod\nMix chana daal. all the vegetables, coriander powder.\nturmeric powder and ginger in a deep pan or pressure cooker.\nAdd 12 cup water and cook till the daal is done-fully mashed.\nAt this stage, there should not be too much water in the\nBhaaji. If there is some, then dry it up by cooking some more.\nRemove from the flame and add salt to taste. Stir well.\nHeat the oil in a small pan on medium heat. When hot, add\ngarlic, cumin seeds and green chillies to it. Fry till spluttering\nstops and then add this mixture to the cooked vegetables. Stir\nto blend",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 21,
+        "image": "/assets/scans/kitchen-21.jpg",
+        "sha256": "7c4187697fde332f714de733ea32e3508f7e8ffaae2a02711d99696e39040fbc"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "3 tbsps Chana Daal - washed and soaked in warm water for 2 hours",
+              "2 gathies spinach - roots cut off, washed and chopped",
+              "2 large tomatoes - chopped fine",
+              "1 handful fenugreek leaves",
+              "1 large potato cut into 1\" cubes",
+              "1 large onion cut into 1\" cubes",
+              "1 cup chopped eggplant - 1\" cubes",
+              "8-10 French beans - tops and tails cut off and strings removed, 1 carrot cut into 1\" thick circles",
+              "1 cup chopped sooran - 1\" cubes",
+              "½ tsp turmeric powder, 1 tsp coriander powder",
+              "1\" piece ginger - grated",
+              "3 tbsps vegetable or canola or sunflower cooking oil",
+              "5 cloves garlic. ½ tsp cumin seeds",
+              "2 finely chopped green chillies, Salt to taste"
+            ]
+          }
+        ],
+        "steps": [
+          "Mix chana daal. all the vegetables, coriander powder. turmeric powder and ginger in a deep pan or pressure cooker.",
+          "Add 12 cup water and cook till the daal is done-fully mashed.",
+          "At this stage, there should not be too much water in the Bhaaji.",
+          "If there is some, then dry it up by cooking some more.",
+          "Remove from the flame and add salt to taste.",
+          "Stir well.",
+          "Heat the oil in a small pan on medium heat.",
+          "When hot, add garlic, cumin seeds and green chillies to it.",
+          "Fry till spluttering stops and then add this mixture to the cooked vegetables.",
+          "Stir to blend"
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-21.jpg",
+      "crop": {
+        "x": 242,
+        "y": 69,
+        "width": 174,
+        "height": 144,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 21,
+      "alt": "Degre da saag · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 21"
+    }
+  },
+  {
+    "id": "RAAH-RC-0013",
+    "wordId": "RAAH-0018",
+    "wordIds": [
+      "RAAH-0018"
+    ],
+    "name": "Gur da lola",
+    "devanagari": "गुड़ दा लोला",
+    "credit": "Madhavi Mehta",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=22",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=22",
+    "pdfPage": 22,
+    "pdfPages": [
+      22
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "A wheat flatbread filled with jaggery and finished with ghee.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 22\nGur da lola\nIngredients\n1 teaspoon\nelaichi powder mixed\nwith 1 cup gur\n(finely chopped in\npieces)\n1 cup wheat flour\n1 +bsp oil\n2+bsp desi ghee\n1 2 teaspoon salt\nMethod\nKnead the dough with half teaspoon salt and 1 tablespoon oil.\nAfter the dough is made, rest it for 10 minutes. Divide the\ndough into 5 equal portions. Roll the dough in the form of a\ncircular roti.\nPut 1 tbsp gur in half part of the circular dough roti and fold\nit.\nStick the ends, forming a semi-circle of the dough, ensuring\nthat the gur filling stays in the dough.\nSprinkle ghee on a hot pan and keep the semi-circular dough\nrotion the pan. Flip the dough over after one side of the dough\nturns golden brown. Sprinkle half a teaspoon of ghee on the\npan while flipping it.\nMake sure that the other side of the roti also turns golden\nbrown.\nThe gur da lola is now ready. Insert a small hole in the middle\nof the gur da lola and fill it with a pinch of ghee. Serve it\npiping hot on a plate.\nCredits:MadhaviMehta",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 22,
+        "image": "/assets/scans/kitchen-22.jpg",
+        "sha256": "169dc70d94a3978f80382bfd5393b06421d631b54aed84eb051debee9b8c44b9"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "1 teaspoon elaichi powder mixed with 1 cup gur (finely chopped in pieces)",
+              "1 cup wheat flour",
+              "1 tbsp oil",
+              "2 tbsp desi ghee",
+              "½ teaspoon salt"
+            ]
+          }
+        ],
+        "steps": [
+          "Knead the dough with half teaspoon salt and 1 tablespoon oil.",
+          "After the dough is made, rest it for 10 minutes.",
+          "Divide the dough into 5 equal portions.",
+          "Roll the dough in the form of a circular roti.",
+          "Put 1 tbsp gur in half part of the circular dough roti and fold it.",
+          "Stick the ends, forming a semi-circle of the dough, ensuring that the gur filling stays in the dough.",
+          "Sprinkle ghee on a hot pan and keep the semi-circular dough rotion the pan.",
+          "Flip the dough over after one side of the dough turns golden brown.",
+          "Sprinkle half a teaspoon of ghee on the pan while flipping it.",
+          "Make sure that the other side of the roti also turns golden brown.",
+          "The gur da lola is now ready.",
+          "Insert a small hole in the middle of the gur da lola and fill it with a pinch of ghee.",
+          "Serve it piping hot on a plate."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-22.jpg",
+      "crop": {
+        "x": 177,
+        "y": 78,
+        "width": 223,
+        "height": 164,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 22,
+      "alt": "Gur da lola · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 22"
+    }
+  },
+  {
+    "id": "RAAH-RC-0014",
+    "wordId": "RAAH-0019",
+    "wordIds": [
+      "RAAH-0019"
+    ],
+    "name": "Guvar da teevar",
+    "devanagari": "गुवार दा तीवण",
+    "credit": "Anonymous",
+    "creditSource": "Cookbook index, PDF p. 5",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=23",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=23",
+    "pdfPage": 23,
+    "pdfPages": [
+      23
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Cluster beans cooked with onion, ginger and spices.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 23\nGuvar da teevar\nIngredients\nGuvar\nOnion\nDhaniya powder\nHaldi\nOil\nSalt\nGinger\nGarlic\nKotmeer\nAmbchur\nMethod\nPut oil in cooker with garlic, ginger. onions (small cuts), haldi,\nsalt. dhaniya powder. Bunao all these items. Add guvar and\nbunao a little. Add little water.\nClose the cooker and keep it to let out 2 or 3 whistles. Open\nthe cooker. Add kotmeer and ambchur. Mix the full teevar\nwell. Keep on low flame for a short while. Serve hot with fresh\nchappaties.",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 23,
+        "image": "/assets/scans/kitchen-23.jpg",
+        "sha256": "f8dfb40f5f9df38bcc036b1a6e9bb18d1dd97af4c78a388a2afa30f6e9cd22ca"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "Guvar",
+              "Onion",
+              "Dhaniya powder",
+              "Haldi",
+              "Oil",
+              "Salt",
+              "Ginger",
+              "Garlic",
+              "Kotmeer",
+              "Ambchur"
+            ]
+          }
+        ],
+        "steps": [
+          "Put oil in cooker with garlic, ginger. onions (small cuts), haldi, salt. dhaniya powder.",
+          "Bunao all these items.",
+          "Add guvar and bunao a little.",
+          "Add little water.",
+          "Close the cooker and keep it to let out 2 or 3 whistles.",
+          "Open the cooker.",
+          "Add kotmeer and ambchur.",
+          "Mix the full teevar well.",
+          "Keep on low flame for a short while.",
+          "Serve hot with fresh chappaties."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-23.jpg",
+      "crop": {
+        "x": 163,
+        "y": 100,
+        "width": 245,
+        "height": 195,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 23,
+      "alt": "Guvar da teevar · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 23"
+    }
+  },
+  {
+    "id": "RAAH-RC-0015",
+    "wordId": "RAAH-0020",
+    "wordIds": [
+      "RAAH-0020"
+    ],
+    "name": "Jawar da doda",
+    "devanagari": "ज्वार दा डोडा",
+    "credit": "Beena Gehi",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=24",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=24",
+    "pdfPage": 24,
+    "pdfPages": [
+      24
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "A jowar flatbread with onion, chilli and curd.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 24\nJawar da doda\nIngredients\n1 cup jawar aata\n1 green chilli\n14 onion\nLittle ginger\n1 Table-spoon curd\nPinch of salt\nMethod\nTake jawar atta and add salt, curd, chopped chilli and chopped\nonion to it. Make dough. Add little water if necessary. Heat\nthe tava. Roll out the dough on a plastic sheet. Then put it on a\ntava and roast it adding little oil\nThe dough should not be kept for a long time before roasting\nbecause it becomes watery and difficult to roll and could\nbreak during roasting. So try and roast the dodas within I2\nhour or so after making the dough. The dough can also be\nrolled on a cloth. The above mentioned measures are for 1 roti.\nJawar is excellent for diabetic persons as it does not contain\nglutton.\nCredits Beena Gehi",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 24,
+        "image": "/assets/scans/kitchen-24.jpg",
+        "sha256": "4cd8107ae6c830a47b9d7a5f48f3100e7bb611e656e0886aaeb13d10295a820f"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "1 cup jawar aata",
+              "1 green chilli",
+              "¼ onion",
+              "Little ginger",
+              "1 Table-spoon curd",
+              "Pinch of salt"
+            ]
+          }
+        ],
+        "steps": [
+          "Take jawar atta and add salt, curd, chopped chilli and chopped onion to it.",
+          "Make dough.",
+          "Add little water if necessary.",
+          "Heat the tava.",
+          "Roll out the dough on a plastic sheet.",
+          "Then put it on a tava and roast it adding little oil The dough should not be kept for a long time before roasting because it becomes watery and difficult to roll and could break during roasting.",
+          "So try and roast the dodas within I2 hour or so after making the dough.",
+          "The dough can also be rolled on a cloth.",
+          "The above mentioned measures are for 1 roti.",
+          "Jawar is excellent for diabetic persons as it does not contain glutton.",
+          "Credits Beena Gehi"
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-24.jpg",
+      "crop": {
+        "x": 179,
+        "y": 104,
+        "width": 227,
+        "height": 218,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 24,
+      "alt": "Jawar da doda · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 24"
+    }
+  },
+  {
+    "id": "RAAH-RC-0016",
+    "wordId": "RAAH-0021",
+    "wordIds": [
+      "RAAH-0021"
+    ],
+    "name": "Jeera aloo bhaji",
+    "devanagari": "जीरा आलू भाजी",
+    "credit": "Kanika Dudeja",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=25",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=25",
+    "pdfPage": 25,
+    "pdfPages": [
+      25
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Potatoes cooked with cumin, tomatoes and green chillies.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 25\nJeera Aloo Bhaji\nIngredients\n3 big Potatoes\n4 medium Tomatoes -\ngrated\n1 tea spoon Jeera\n1 stick Kadi leaves\n2 Green chillies\nHaldi (small pinch)\nAsafetida (one pinch)\nCoriander\n(finely chopped)\nMethod\nPeel the potatoes and dice them. Keep them in water. Take o\ncooker, add oil, and Kadi leaves, green chillies, jeera, and\nasafetida. Add the chopped potatoes and stir for 2 minutes.\nAdd grated tomatoes and salt as per taste. Add haldi and keep\nit to cook for one whistle. Add coriander for garnishing. Add\nwater if required (depends on the thickness of gravy\nrequired)\nCredits: Kanika Dudeja",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 25,
+        "image": "/assets/scans/kitchen-25.jpg",
+        "sha256": "a093c19792825c876109397074164317abca0ed523c41b9befa03b812e58644b"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "3 big Potatoes",
+              "4 medium Tomatoes - grated",
+              "1 tea spoon Jeera",
+              "1 stick Kadi leaves",
+              "2 Green chillies",
+              "Haldi (small pinch)",
+              "Asafetida (one pinch)",
+              "Coriander (finely chopped)"
+            ]
+          }
+        ],
+        "steps": [
+          "Peel the potatoes and dice them.",
+          "Keep them in water.",
+          "Take o cooker, add oil, and Kadi leaves, green chillies, jeera, and asafetida.",
+          "Add the chopped potatoes and stir for 2 minutes.",
+          "Add grated tomatoes and salt as per taste.",
+          "Add haldi and keep it to cook for one whistle.",
+          "Add coriander for garnishing.",
+          "Add water if required (depends on the thickness of gravy required)"
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-25.jpg",
+      "crop": {
+        "x": 195,
+        "y": 110,
+        "width": 218,
+        "height": 231,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 25,
+      "alt": "Jeera aloo bhaji · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 25"
+    }
+  },
+  {
+    "id": "RAAH-RC-0017",
+    "wordId": "RAAH-0024",
+    "wordIds": [
+      "RAAH-0024",
+      "RAAH-0001"
+    ],
+    "name": "Khati dal",
+    "devanagari": "खट्टी दाल",
+    "credit": "Kanika Dudeja",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=26",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=26",
+    "pdfPage": 26,
+    "pdfPages": [
+      26,
+      27
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "A tangy tuar dal with vegetables, tamarind and a homemade masala.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Cookbook Khati Dal is linked to both supplied dictionary spellings; the dictionary records remain separate.",
+    "sourceText": "PDF page 26\nKhati Dal\nIngredients\nKhati dal masala\nIngredients\n100 gm dhaniya powder\n100 gm jeera\n100 gm kashmiri mirchi\n50 gm hulba\n150gm oil\nMethod\nClean all the ingredients and keep them separately.\nOn slow fire fry dhaniya powder. Remove and keep aside. Fry\njeera on slow fire. Remove and keep aside. Fry hulba and keep\naside. In the end add kashmiri mirchi as they soak up all the oil.\nLet all ingredients cool down completely. Once they have\ncooled completely. grind them in a mixture without any water\nand adding oil if required.\nThis masala can be stored for 6 months.\n\nPDF page 27\nKhati dal\nIngredients\n250 gms tuar dal\n1 stick Kadi leaves\nCoriander finely chopped\n1 Drumstick cut into 3 pieces\n15 guvars (with head and tail cut)\n2 Brinjals (cut into half length-wise)\n1 Potato (cut into half length-wise)\nSalt (as per taste)\nTamarind (soaked in water as per taste)\nMethod\nPressure cook the tuar dal with 2 cups of water for 3\nwhistles.\nOpen cooker and blend dal and water well.\nAdd 2 table-spoons of khati dal masala.\nBlend it well.\nAdd vegetables, water, salt. Kadi leaves and chopped\ncoriander and cook till vegetables are cooked.\nIn the end add tamarind water.\nAdd water as per requirement.\nBoil well.\nServe hot with white rice or chappaties.\nCredits: Kanika Dudeja\n(This dish is cooked by Bhagnaris only. There are several variants\ncooked byother communities, but none are entirely similar)",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 26,
+        "image": "/assets/scans/kitchen-26.jpg",
+        "sha256": "eb64715af8e7cdfe38066d1e1c8a15b8db919d70e1b55a6c9abcf2c9b2314cf4"
+      },
+      {
+        "page": 27,
+        "image": "/assets/scans/kitchen-27.jpg",
+        "sha256": "68d03ceeb2b257f0e72863e8db14eead5c94a69feab5ce95ebd3a505c31812b1"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "Khati dal masala",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "100 gm dhaniya powder",
+              "100 gm jeera",
+              "100 gm kashmiri mirchi",
+              "50 gm hulba",
+              "150gm oil"
+            ]
+          }
+        ],
+        "steps": [
+          "Clean all the ingredients and keep them separately.",
+          "On slow fire fry dhaniya powder.",
+          "Remove and keep aside.",
+          "Fry jeera on slow fire.",
+          "Remove and keep aside.",
+          "Fry hulba and keep aside.",
+          "In the end add kashmiri mirchi as they soak up all the oil.",
+          "Let all ingredients cool down completely.",
+          "Once they have cooled completely. grind them in a mixture without any water and adding oil if required.",
+          "This masala can be stored for 6 months."
+        ],
+        "notes": []
+      },
+      {
+        "title": "Khati dal",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "250 gms tuar dal",
+              "1 stick Kadi leaves",
+              "Coriander finely chopped",
+              "1 Drumstick cut into 3 pieces",
+              "15 guvars (with head and tail cut)",
+              "2 Brinjals (cut into half length-wise)",
+              "1 Potato (cut into half length-wise)",
+              "Salt (as per taste)",
+              "Tamarind (soaked in water as per taste)"
+            ]
+          }
+        ],
+        "steps": [
+          "Pressure cook the tuar dal with 2 cups of water for 3 whistles.",
+          "Open cooker and blend dal and water well.",
+          "Add 2 table-spoons of khati dal masala.",
+          "Blend it well.",
+          "Add vegetables, water, salt.",
+          "Kadi leaves and chopped coriander and cook till vegetables are cooked.",
+          "In the end add tamarind water.",
+          "Add water as per requirement.",
+          "Boil well.",
+          "Serve hot with white rice or chappaties."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-26.jpg",
+      "crop": {
+        "x": 200,
+        "y": 94,
+        "width": 201,
+        "height": 193,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 26,
+      "alt": "Khati dal · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 26"
+    }
+  },
+  {
+    "id": "RAAH-RC-0018",
+    "wordId": "RAAH-0026",
+    "wordIds": [
+      "RAAH-0026"
+    ],
+    "name": "Khirni",
+    "devanagari": "खिरणी",
+    "credit": "Anonymous",
+    "creditSource": "Cookbook index, PDF p. 5",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=28",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=28",
+    "pdfPage": 28,
+    "pdfPages": [
+      28
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Vermicelli cooked in sweetened milk with saffron and nuts.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 28\nKhirni\nIngredients\n2 liters Milk\n3 tbsp Vermicelli\n(Seviyan - broken)\n2 Cups Sugar\n15-20 Strands of\nSaffron\n(Soaked in milk\nfor few minutes)\n1 tbsp Desi Ghee for\nfrying seviyan\n/½ Cup Almonds and Pistachios\n(Soaked in hot water and peeled and sliced)\n5-6 Cardamoms (peeled)\n1-Cup Water\nMethod\nHeat ghee in a pan and fry seviyan in 1 +blsp ghee till golden\nbrown. Keep it aside. Boil milk in a wok or kadai. Add fried\nseviyan, cardamom and soaked saffron in it. Boil again till\nseviyan become soft and milk is reduced to half its quantity.\nAdd sugar and keep stirring till it is dissolved. Mix in the nuts.\nServe hot.",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 28,
+        "image": "/assets/scans/kitchen-28.jpg",
+        "sha256": "3ab575efd9af47ebd10f70455c58cf4dfeda880d25f4530da4ccbc7ae1463349"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "2 liters Milk",
+              "3 tbsp Vermicelli (Seviyan - broken)",
+              "2 Cups Sugar",
+              "15-20 Strands of Saffron (Soaked in milk for few minutes)",
+              "1 tbsp Desi Ghee for frying seviyan",
+              "½ Cup Almonds and Pistachios (Soaked in hot water and peeled and sliced)",
+              "5-6 Cardamoms (peeled)",
+              "1-Cup Water"
+            ]
+          }
+        ],
+        "steps": [
+          "Heat ghee in a pan and fry seviyan in 1 +blsp ghee till golden brown.",
+          "Keep it aside.",
+          "Boil milk in a wok or kadai.",
+          "Add fried seviyan, cardamom and soaked saffron in it.",
+          "Boil again till seviyan become soft and milk is reduced to half its quantity.",
+          "Add sugar and keep stirring till it is dissolved.",
+          "Mix in the nuts.",
+          "Serve hot."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-28.jpg",
+      "crop": {
+        "x": 174,
+        "y": 88,
+        "width": 226,
+        "height": 182,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 28,
+      "alt": "Khirni · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 28"
+    }
+  },
+  {
+    "id": "RAAH-RC-0001",
+    "wordId": "RAAH-0027",
+    "name": "Koki",
+    "devanagari": "कोकी",
+    "credit": "Kanika Dudeja",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=29",
+    "pdfPage": 29,
+    "status": "in-review",
+    "description": "A thick wheat flatbread with onion, green chilli and coriander.",
+    "ingredients": [
+      "Wheat flour — 2 cups",
+      "Onions, finely chopped — 2 medium",
+      "Green chillies — 2, adjusted to taste",
+      "Fresh coriander, finely chopped — quantity unspecified",
+      "Salt — to taste",
+      "Red chilli powder — ½ teaspoon",
+      "Pomegranate seeds — ½ teaspoon",
+      "Ghee or oil — quantity unspecified",
+      "Curd — quantity unspecified"
+    ],
+    "method": [
+      "Combine the listed ingredients into a dough with ghee or oil.",
+      "Portion and roll the dough into breads a little thicker than an ordinary roti.",
+      "Cook gently on the stove. The book suggests serving the koki hot with pickle or papad."
+    ],
+    "note": "An editorial summary of the printed recipe, not a verbatim transcription or a kitchen-tested adaptation. The source leaves several quantities and cooking times unspecified; these have not been invented. Credit and preferred permissions should be confirmed with the contributor before museum deposit.",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=29",
+    "wordIds": [
+      "RAAH-0027"
+    ],
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "pdfPages": [
+      29
+    ],
+    "format": "text-with-source-link",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 29\nKoki\nIngredients\n2 cups Wheat flour\n2 medium Onions -\nfinely chopped\n2 Green chillies\n(quantity could be\naltered as per spice\nlevel requirements)\nCoriander -\nfinely chopped\nSalt (as per taste)\nRed chilli powder (/2 tea-spoon)\nPomegranate seeds (12 tea-spoon)\nGhee or oil\nCurd\nMethod\nMake the dough with all the ingredients in ghee or oil. Make\nround rolls slightly thicker than roti, roll them and cook on\nslow gas. Serve hot with pickle or papad\nCredits: Kanika Dudeja",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 29,
+        "image": "/assets/scans/kitchen-29.jpg",
+        "sha256": "8db1936cbcc600c486e32aec03cd840df3d1de8bd785b6cb683e4fa10b64aa9c"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "2 cups Wheat flour",
+              "2 medium Onions - finely chopped",
+              "2 Green chillies (quantity could be altered as per spice level requirements)",
+              "Coriander - finely chopped Salt (as per taste)",
+              "Red chilli powder (½ tea-spoon)",
+              "Pomegranate seeds (½ tea-spoon)",
+              "Ghee or oil",
+              "Curd"
+            ]
+          }
+        ],
+        "steps": [
+          "Make the dough with all the ingredients in ghee or oil.",
+          "Make round rolls slightly thicker than roti, roll them and cook on slow gas.",
+          "Serve hot with pickle or papad"
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-29.jpg",
+      "crop": {
+        "x": 189,
+        "y": 92,
+        "width": 219,
+        "height": 172,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 29,
+      "alt": "Koki · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 29"
+    }
+  },
+  {
+    "id": "RAAH-RC-0019",
+    "wordId": "RAAH-0028",
+    "wordIds": [
+      "RAAH-0028"
+    ],
+    "name": "Maakhni dal",
+    "devanagari": "माखणी दाल",
+    "credit": "Saanya Hingoo",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=30",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=30",
+    "pdfPage": 30,
+    "pdfPages": [
+      30,
+      31
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Creamy moong dal finished with dry spices and hot ghee.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 30\nMaakhni Dal\nCredits: Saanya Hingoo\nIn Saanya's words: When mum made makhani dal and poori /\nthought her hands were magical. It was one of my favorite\ndishes as a child and still is. Now my little fellow Aaditya\nthinks my hands are magical when l make it for him. This dal is\nso simple to make and yet very delicious. It goes very well with\npoori. I'm sure you guys will love it too. So here is mum's very\nspecial recipe for you all.\nMum'shands still\"have-magic-in-them!!!\nIngredients\n1 cup yellow moong dal\n2-3 green chillies\n(depending on how\nspicy you like your\nlentil to be).\n1 big piece of grated\nginger.\n4 tspn turmeric\npowder\nSalt as per taste.\n/½ tspn oil or ghee (clarified butter)\nOther Spices\n1 tspn coriander powder. I tspn dry mango powder\n12 tspn red chilly powder\nMethod\nWash the lentil well and soak in water for an hour or at least\nhalf an hour.\nBoil it on a medium flame. The lentil should be completely\nsubmerged in water as you can see.\nAdd green chillies - either slit/chopped or full.\n\nPDF page 31\nAdd grated ginger.\nAdd salt. And turmeric powder.\nAs the lentil boils on medium flame there will be some froth\nforming on the surface.\nRemove the froth and discard it. Stir the lentil well. Once the\ndal comes to a boil lower the flame andlet it cook\nStir the lentil occasionally during the boiling process to make\nsure lentil is not sticking to the bottom. In about 10-12 minutes\nthe lentil will increase in its volume and the water content will\nreduce.\nAdd some more water - about 1/2 cup. Stir well and boil\nfurther till the lentil becomes soft.\nOnce the lentil has become soft blend it to form a smooth\npuree. The lentil should have a creamy thick consistency (not\ntoo thick though).\nDal is ready.\nBefore serving, sprinkle mix of coriander powder generously\non the dal spreading it evenly on top.\nSprinkle red chilly powder depending on how spicy you want\nto make it. Some red chilly powders have a good color and are\nnot that spicy so you can use more of the powder. It looks nice\nand is not too spicy either. Otherwise be careful not to add\ntoo much since we have already added green chillies in the\nlentil.\nAdd dry mango powder again generously and spread evenly or\ntop of the lentil.\nIf you find it easier use your hand to sprinkle the spices evenly\nOnce you have added the spices on the lentil. heat oil or ghee in\na small container.\nOnce the oil or ghee becomes hot. pour it over the lentil. The\nspices will sizzle when you pour the hot oil on top.\nServe hot with pooris.",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 30,
+        "image": "/assets/scans/kitchen-30.jpg",
+        "sha256": "fa6a7739358922ab7a81ec037dd7160cb03618073b0859962e2a4addc121db7f"
+      },
+      {
+        "page": 31,
+        "image": "/assets/scans/kitchen-31.jpg",
+        "sha256": "27e2745b92e35b6fea646e377881c595124e25848665ccdc601fcabeef8e38cc"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [
+          "In Saanya's words: When mum made makhani dal and poori / thought her hands were magical.",
+          "It was one of my favorite dishes as a child and still is.",
+          "Now my little fellow Aaditya thinks my hands are magical when l make it for him.",
+          "This dal is so simple to make and yet very delicious.",
+          "It goes very well with poori.",
+          "I'm sure you guys will love it too.",
+          "So here is mum's very special recipe for you all.",
+          "Mum'shands still\"have-magic-in-them!!!"
+        ],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "1 cup yellow moong dal",
+              "2-3 green chillies (depending on how spicy you like your lentil to be).",
+              "1 big piece of grated ginger.",
+              "¼ tspn turmeric powder",
+              "Salt as per taste.",
+              "½ tspn oil or ghee (clarified butter)"
+            ]
+          },
+          {
+            "title": "Other Spices",
+            "items": [
+              "1 tspn coriander powder. 1 tspn dry mango powder",
+              "½ tspn red chilly powder"
+            ]
+          }
+        ],
+        "steps": [
+          "Wash the lentil well and soak in water for an hour or at least half an hour.",
+          "Boil it on a medium flame.",
+          "The lentil should be completely submerged in water as you can see.",
+          "Add green chillies - either slit/chopped or full.",
+          "Add grated ginger.",
+          "Add salt.",
+          "And turmeric powder.",
+          "As the lentil boils on medium flame there will be some froth forming on the surface.",
+          "Remove the froth and discard it.",
+          "Stir the lentil well.",
+          "Once the dal comes to a boil lower the flame andlet it cook Stir the lentil occasionally during the boiling process to make sure lentil is not sticking to the bottom.",
+          "In about 10-12 minutes the lentil will increase in its volume and the water content will reduce.",
+          "Add some more water - about 1/2 cup.",
+          "Stir well and boil further till the lentil becomes soft.",
+          "Once the lentil has become soft blend it to form a smooth puree.",
+          "The lentil should have a creamy thick consistency (not too thick though).",
+          "Dal is ready.",
+          "Before serving, sprinkle mix of coriander powder generously on the dal spreading it evenly on top.",
+          "Sprinkle red chilly powder depending on how spicy you want to make it.",
+          "Some red chilly powders have a good color and are not that spicy so you can use more of the powder.",
+          "It looks nice and is not too spicy either.",
+          "Otherwise be careful not to add too much since we have already added green chillies in the lentil.",
+          "Add dry mango powder again generously and spread evenly or top of the lentil.",
+          "If you find it easier use your hand to sprinkle the spices evenly Once you have added the spices on the lentil. heat oil or ghee in a small container.",
+          "Once the oil or ghee becomes hot. pour it over the lentil.",
+          "The spices will sizzle when you pour the hot oil on top.",
+          "Serve hot with pooris."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-30.jpg",
+      "crop": {
+        "x": 184,
+        "y": 262,
+        "width": 222,
+        "height": 168,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 30,
+      "alt": "Maakhni dal · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 30"
+    }
+  },
+  {
+    "id": "RAAH-RC-0020",
+    "wordId": "RAAH-0029",
+    "wordIds": [
+      "RAAH-0029"
+    ],
+    "name": "Malpura",
+    "devanagari": "मालपुडा",
+    "credit": "Ekta Mehta",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=32",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=32",
+    "pdfPage": 32,
+    "pdfPages": [
+      32
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Sweet fried breads made with milk, flour and spices.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 32\nMalpura\nIngredients\n(Makes 12 small\nMalpuras. Preparation\ntime 10 minutes.\nCooking time 45 minutes)\n100 ml milk\n75 gms sugar\n75 gms wheat flour\nPinch of saffron, 8-10 whole peppercorns\n14 tsp cardamom powder (small elaichi)\nPinch of yellow food color (optional)\nOil for frying\nSilvered or chopped nuts (for garnish)\nEdible silver foil (for garnish)\nMethod\nPut milk in a thick bottomed pan. Add sugar and keep to boil.\nAdd saffron or yellow food color. Add cardamom powder and\nstir it until sugar dissolves. Take it off the heat and keep to\ncool. Once the milk mixture has cooled stir in the wheat flour\nand peppercorns slowly until it is perfectly blended and keep\nto rest for half an hour.\nThen add cooking oil to the frying pan using a small ladle. Pour\nthe Malpura mixture and cook on medium heat. Once the side\nfacing the pan turns pink, flip over and continue cooking.\nRemove the cooked Malpuras and place on kitchen towels to\ndrain excess oil. Repeat this procedure until the batter is\nfinished. Garnish them with silvered nuts and silver foil. Serve\nhot.\nCredits: Ekta Mehta",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 32,
+        "image": "/assets/scans/kitchen-32.jpg",
+        "sha256": "6b8a6230d4a9e56a86d0058985e388a85a7cf9aecbbbc6554b5bbd1463052f01"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "(Makes 12 small Malpuras. Preparation time 10 minutes. Cooking time 45 minutes)",
+              "100 ml milk",
+              "75 gms sugar",
+              "75 gms wheat flour",
+              "Pinch of saffron, 8-10 whole peppercorns",
+              "¼ tsp cardamom powder (small elaichi)",
+              "Pinch of yellow food color (optional)",
+              "Oil for frying",
+              "Silvered or chopped nuts (for garnish)",
+              "Edible silver foil (for garnish)"
+            ]
+          }
+        ],
+        "steps": [
+          "Put milk in a thick bottomed pan.",
+          "Add sugar and keep to boil.",
+          "Add saffron or yellow food color.",
+          "Add cardamom powder and stir it until sugar dissolves.",
+          "Take it off the heat and keep to cool.",
+          "Once the milk mixture has cooled stir in the wheat flour and peppercorns slowly until it is perfectly blended and keep to rest for half an hour.",
+          "Then add cooking oil to the frying pan using a small ladle.",
+          "Pour the Malpura mixture and cook on medium heat.",
+          "Once the side facing the pan turns pink, flip over and continue cooking.",
+          "Remove the cooked Malpuras and place on kitchen towels to drain excess oil.",
+          "Repeat this procedure until the batter is finished.",
+          "Garnish them with silvered nuts and silver foil.",
+          "Serve hot."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-32.jpg",
+      "crop": {
+        "x": 204,
+        "y": 67,
+        "width": 202,
+        "height": 159,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 32,
+      "alt": "Malpura · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 32"
+    }
+  },
+  {
+    "id": "RAAH-RC-0021",
+    "wordId": "RAAH-0030",
+    "wordIds": [
+      "RAAH-0030"
+    ],
+    "name": "Methli",
+    "devanagari": "मैथिली",
+    "credit": "Shanti Sapru / Madhvi Mehta",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=33",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=33",
+    "pdfPage": 33,
+    "pdfPages": [
+      33
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Fenugreek leaves cooked with moong dal and tomatoes.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 33\nMethli\nIngredients\n1 small katori moong\ndal (without chilka)\n(washed and soaked\nfor an hour)\n2 small katoris methi\nleaves washed and\nfinely chopped\n2 tomatoes washed\nand finely chopped\n1\" ginger peeled and finely chopped\n10/12 garlic cloves peeled and finely chopped\n3/4 chillies finely chopped\n1/8 teaspoon hing. I2 teaspoon turmeric powder\nSalt to taste. 2 tablespoons oil for tampering\n4 katoris water\nMethod\nTake heavy bottomed pan. Put oil in it and heat. When the oil\nbecomes hot, add hing, garlic, chillies and ginger. Sauté for a\nminute and add methi leaves. Sauté for 2 minutes and add\nmoong dal in it. Add 1 katori water and let it cook for 5\nminutes. After dal becomes soft, mash the dish with mandhira.\nAdd tomatoes and cook for 5 more minutes. Add 3 katoris\nwater, salt and turmeric powder. Reduce the flame and cook\ntill dal is properly cooked\nServe hot with kichdi or chapaties or you can add phudhina\nchattney in Methli, add sev gathiya on it and eat just like that.\nCredits: Shanti Sapru / Madhvi Mehta",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 33,
+        "image": "/assets/scans/kitchen-33.jpg",
+        "sha256": "7058bb443dd0ff48f072dd32bd5e02e324fc1cd95d5454e14f5dec49be92f8ca"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "1 small katori moong dal (without chilka) (washed and soaked for an hour)",
+              "2 small katoris methi leaves washed and finely chopped",
+              "2 tomatoes washed and finely chopped",
+              "1\" ginger peeled and finely chopped",
+              "10/12 garlic cloves peeled and finely chopped",
+              "3/4 chillies finely chopped",
+              "1/8 teaspoon hing. ½ teaspoon turmeric powder",
+              "Salt to taste. 2 tablespoons oil for tampering",
+              "4 katoris water"
+            ]
+          }
+        ],
+        "steps": [
+          "Take heavy bottomed pan.",
+          "Put oil in it and heat.",
+          "When the oil becomes hot, add hing, garlic, chillies and ginger.",
+          "Sauté for a minute and add methi leaves.",
+          "Sauté for 2 minutes and add moong dal in it.",
+          "Add 1 katori water and let it cook for 5 minutes.",
+          "After dal becomes soft, mash the dish with mandhira.",
+          "Add tomatoes and cook for 5 more minutes.",
+          "Add 3 katoris water, salt and turmeric powder.",
+          "Reduce the flame and cook till dal is properly cooked Serve hot with kichdi or chapaties or you can add phudhina chattney in Methli, add sev gathiya on it and eat just like that."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-33.jpg",
+      "crop": {
+        "x": 192,
+        "y": 62,
+        "width": 219,
+        "height": 180,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 33,
+      "alt": "Methli · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 33"
+    }
+  },
+  {
+    "id": "RAAH-RC-0022",
+    "wordId": "RAAH-0031",
+    "wordIds": [
+      "RAAH-0031"
+    ],
+    "name": "Mohan thaal",
+    "devanagari": "मोहनथाल",
+    "credit": "Bhagwati (Pado) Chhoda",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=34",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=34",
+    "pdfPage": 34,
+    "pdfPages": [
+      34
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "A gram-flour sweet made with ghee, sugar and milk.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 34\nMohan Thaal\nIngredients\n200 g\nflour\n/½ teaspoon ghee.\nto grease the thali\n50g ghee\n150 g sugar\n150 ml water\n5 g khas-khas\n1 cup milk\nMethod\nHeat the larger quantity of ghee in a pan on medium flame.\nWhen it melts, stir in the gram flour. Roast it till it turns\nchocolate brown in colour. Stir in milk. In a pot on the side\nprepare the sugar-water syrup till it has consistency. To\nprepare the syrup, heat water in the pot. Then add sugar and\nkeep stirring till it is consistent and very thick. Add this\nsugar-water syrup to the gram flour mixture and mix it well.\nCook until the sugar mixture has blended well in the gram\nflour mixture and becomes thick. Pour the entire mixture on\nthe greased thali. While it is still hot. sprinkle khas-khas and\ndry fruits over the sweet. Let it cool completely and set well.\nCredits: Bhagwati (Pado) Chhoda",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 34,
+        "image": "/assets/scans/kitchen-34.jpg",
+        "sha256": "ea7e68eb703d7efa21e638ecc04760981d5948349ec71a011cceed3204d756c4"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "200 g gram flour",
+              "½ teaspoon ghee. to grease the thali",
+              "50g ghee",
+              "150 g sugar",
+              "150 ml water",
+              "5 g khas-khas",
+              "1 cup milk"
+            ]
+          }
+        ],
+        "steps": [
+          "Heat the larger quantity of ghee in a pan on medium flame.",
+          "When it melts, stir in the gram flour.",
+          "Roast it till it turns chocolate brown in colour.",
+          "Stir in milk.",
+          "In a pot on the side prepare the sugar-water syrup till it has consistency.",
+          "To prepare the syrup, heat water in the pot.",
+          "Then add sugar and keep stirring till it is consistent and very thick.",
+          "Add this sugar-water syrup to the gram flour mixture and mix it well.",
+          "Cook until the sugar mixture has blended well in the gram flour mixture and becomes thick.",
+          "Pour the entire mixture on the greased thali.",
+          "While it is still hot. sprinkle khas-khas and dry fruits over the sweet.",
+          "Let it cool completely and set well."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-34.jpg",
+      "crop": {
+        "x": 178,
+        "y": 75,
+        "width": 232,
+        "height": 225,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 34,
+      "alt": "Mohan thaal · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 34"
+    }
+  },
+  {
+    "id": "RAAH-RC-0023",
+    "wordId": "RAAH-0032",
+    "wordIds": [
+      "RAAH-0032"
+    ],
+    "name": "Mutton (Bhaaji)",
+    "devanagari": "मटन भाजी",
+    "credit": "Ekta Mehta",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=35",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=35",
+    "pdfPage": 35,
+    "pdfPages": [
+      35,
+      36
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Mutton cooked in a spiced onion-and-tomato gravy.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 35\nMutton (Bhajji)\nHistory: This was a must-cook dish on Sundays in sixties when\nwe came to Kataria Colony. Popularly called - Bhaaji, its\nconsumption in the recent times has reduced considerably. To\nknow whether one was a veg or a non-veg. Bhagnaris used to\nask 'bhajji machi khaunda haeen?' The mutton pieces mainly\ncomprised of the ribs and were known as 'chaappan'.\nIngredients\n(Preparation time\n20 minutes. Cooking\ntime 45 minutes)\n12 kg mutton\n(pieces and chops)\n3 medium sized onions\n(finely chopped)\n2 medium sized tomatoes (pureed)\n1 /½ inch ginger (grated)\n2 green chilies (finely chopped)\n7-8 cloves garlic, 1 small cup curd (whipped)\n1 tblsp kasturi methi\nGaram masala (2 green cardamoms. 4-5 black peppercorns. 4\ncloves, 1 bay leaf, I inch cinnamon)\n5 +blsp oil for cooking. 1 +blsp salt\nI2 tsp turmeric powder (haldi)\n2 tblsp ground coriander powder\n1 tsp red chili powder\nI2 tsp garam masala powder (for garnish)\nFew sprigs of coriander (chopped - for garnish)\n\nPDF page 36\nMethod\nWash mutton thoroughly. Remove any excess fat and keep\naside. In a cooker put oil. Once heated add the whole garam\nmasala. Allow it to splutter and then add onions to it and sauté\nuntil it turns pink. Add ginger and green chilies. Give it a good\nstir. After a couple of minutes add garlic, stir and then add the\nmutton, stir, salt and turmeric and sauté until oil leaves the\nside of the pot. Then add coriander powder and red chili\npowder and stir. Add curd and kasturi methi and sauté until oil\nseparates. Add tomato puree. Stir some more until it leaves oil.\nAdd 200 ml warm water and cover the cooker. Allow it to cook\nfurther until 5 whistles on medium fire. Allow it to simmer for\nthe next 10 minutes. Take it off the heat. Garnish with garam\nmasala powder and coriander leaves. Serve hot with\nchapattis.\nCredits: Ekta Mehta",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 35,
+        "image": "/assets/scans/kitchen-35.jpg",
+        "sha256": "14e2cfea39cc027c37cdbac1c560477c9765b9fce23428982ed5ad40f7954e99"
+      },
+      {
+        "page": 36,
+        "image": "/assets/scans/kitchen-36.jpg",
+        "sha256": "c531f3f0c9902f7e823590935df96ce6a25c45f3556915adf8b0d4e4d565aecb"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [
+          "History: This was a must-cook dish on Sundays in sixties when we came to Kataria Colony.",
+          "Popularly called - Bhaaji, its consumption in the recent times has reduced considerably.",
+          "To know whether one was a veg or a non-veg.",
+          "Bhagnaris used to ask 'bhajji machi khaunda haeen?' The mutton pieces mainly comprised of the ribs and were known as 'chaappan'."
+        ],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "(Preparation time",
+              "20 minutes. Cooking time 45 minutes)",
+              "½ kg mutton (pieces and chops)",
+              "3 medium sized onions (finely chopped)",
+              "2 medium sized tomatoes (pureed)",
+              "1½ inch ginger (grated)",
+              "2 green chilies (finely chopped)",
+              "7-8 cloves garlic, 1 small cup curd (whipped)",
+              "1 tblsp kasturi methi",
+              "Garam masala (2 green cardamoms. 4-5 black peppercorns. 4 cloves, 1 bay leaf, 1 inch cinnamon)",
+              "5 tblsp oil for cooking. 1 tblsp salt",
+              "½ tsp turmeric powder (haldi)",
+              "2 tblsp ground coriander powder",
+              "1 tsp red chili powder",
+              "½ tsp garam masala powder (for garnish)",
+              "Few sprigs of coriander (chopped - for garnish)"
+            ]
+          }
+        ],
+        "steps": [
+          "Wash mutton thoroughly.",
+          "Remove any excess fat and keep aside.",
+          "In a cooker put oil.",
+          "Once heated add the whole garam masala.",
+          "Allow it to splutter and then add onions to it and sauté until it turns pink.",
+          "Add ginger and green chilies.",
+          "Give it a good stir.",
+          "After a couple of minutes add garlic, stir and then add the mutton, stir, salt and turmeric and sauté until oil leaves the side of the pot.",
+          "Then add coriander powder and red chili powder and stir.",
+          "Add curd and kasturi methi and sauté until oil separates.",
+          "Add tomato puree.",
+          "Stir some more until it leaves oil.",
+          "Add 200 ml warm water and cover the cooker.",
+          "Allow it to cook further until 5 whistles on medium fire.",
+          "Allow it to simmer for the next 10 minutes.",
+          "Take it off the heat.",
+          "Garnish with garam masala powder and coriander leaves.",
+          "Serve hot with chapattis."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-35.jpg",
+      "crop": {
+        "x": 195,
+        "y": 214,
+        "width": 213,
+        "height": 171,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 35,
+      "alt": "Mutton (Bhaaji) · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 35"
+    }
+  },
+  {
+    "id": "RAAH-RC-0024",
+    "wordId": "RAAH-0033",
+    "wordIds": [
+      "RAAH-0033"
+    ],
+    "name": "Paya",
+    "devanagari": "पाया",
+    "credit": "Beena Gehi",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=37",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=37",
+    "pdfPage": 37,
+    "pdfPages": [
+      37
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "A slow-cooked soup of lamb trotters and spices.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 37\nPaya\nIngredients\n6 payas\n2 medium sized onions\n4 green chillies\n1 ginger\n1.5 pod garlic\n1.5 teaspoon dhania\npowder\n3 teaspoons\ngaram masala\nSalt to taste\n4 medium sized tomatoes. Lime to taste, 2 tablespoons rice\n8 lavangs, I2 dal-chini, 2 bay leaves. Kotmeer. Oil\nMethod\nWash the payas thoroughly. Put in a cooker. Add sufficient\nwater. Take a small clean handkerchief. Keep rice in it. Add\nthe rice and dry garam masala. Make a small potly and add to\nthe paya. Cook in the cooker till the payas are soft. It can take\naround 15-20 minutes after the first whistle. Reduce the\nflame.\nNow chop onions, chillies, ginger and garlic. Take a pan and ada\nabout 2 tablespoons oil in it. Add chopped onions, garlic, ginger\nand chillies and salt. Let it cook on a slow flame. When this\npaste is cooked and is soft, increase the flame and make it\ngolden in colour. Now chop the tomatoes and add them to this\nmixture. When it is nicely cooked add dry masalas. Add the\ncooked payas and stir and boil. Strain the water in which\npayas are cooked. Throw away the potly of rice. If water is\nless add water and boil for 10 minutes. Add garam masala and\nkotmeer. Serve piping hot. Add lime juice according to taste.\nCredits: Beena Gehi",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 37,
+        "image": "/assets/scans/kitchen-37.jpg",
+        "sha256": "fafd5df8b6eb8956899c630e63312c30554249c09c0059be47cf2eecccbcc3e4"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "6 payas",
+              "2 medium sized onions",
+              "4 green chillies",
+              "1 ginger",
+              "1.5 pod garlic",
+              "1.5 teaspoon dhania powder",
+              "3 teaspoons garam masala",
+              "Salt to taste",
+              "4 medium sized tomatoes. Lime to taste, 2 tablespoons rice",
+              "8 lavangs, ½ dal-chini, 2 bay leaves. Kotmeer. Oil"
+            ]
+          }
+        ],
+        "steps": [
+          "Wash the payas thoroughly.",
+          "Put in a cooker.",
+          "Add sufficient water.",
+          "Take a small clean handkerchief.",
+          "Keep rice in it.",
+          "Add the rice and dry garam masala.",
+          "Make a small potly and add to the paya.",
+          "Cook in the cooker till the payas are soft.",
+          "It can take around 15-20 minutes after the first whistle.",
+          "Reduce the flame.",
+          "Now chop onions, chillies, ginger and garlic.",
+          "Take a pan and ada about 2 tablespoons oil in it.",
+          "Add chopped onions, garlic, ginger and chillies and salt.",
+          "Let it cook on a slow flame.",
+          "When this paste is cooked and is soft, increase the flame and make it golden in colour.",
+          "Now chop the tomatoes and add them to this mixture.",
+          "When it is nicely cooked add dry masalas.",
+          "Add the cooked payas and stir and boil.",
+          "Strain the water in which payas are cooked.",
+          "Throw away the potly of rice.",
+          "If water is less add water and boil for 10 minutes.",
+          "Add garam masala and kotmeer.",
+          "Serve piping hot.",
+          "Add lime juice according to taste."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-37.jpg",
+      "crop": {
+        "x": 191,
+        "y": 69,
+        "width": 219,
+        "height": 182,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 37,
+      "alt": "Paya · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 37"
+    }
+  },
+  {
+    "id": "RAAH-RC-0025",
+    "wordId": "RAAH-0034",
+    "wordIds": [
+      "RAAH-0034"
+    ],
+    "name": "Sanne pakode",
+    "devanagari": "सन्ने पकोड़े",
+    "credit": "Anonymous",
+    "creditSource": "Cookbook index, PDF p. 5",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=38",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=38",
+    "pdfPage": 38,
+    "pdfPages": [
+      38
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Onion and gram-flour fritters with coriander and spices.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 38\nSanne Pakode\nIngredients\n250 gms Gram flour\n(Besan)\n200 gms Onions\n(chopped)\n3-4 Green chillies\n(chopped)\n1 tsp Pomegranate\nSeeds (crushed)\n1 tsp Red Chilly\npowder\nFresh Coriander\nJeera (optional)\nSalt to taste\nOil\nMethod\nMix all the cut vegetables, gram flour along with spices. Add\nadequate amount of water to make a thick batter. Drop small\namounts of the batter in hot oil and fry on low flame. Drain\nthe oil from the pakodas. Fry them again till they get crispy.\nServe hot with your choice of chutney or ketchup.",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 38,
+        "image": "/assets/scans/kitchen-38.jpg",
+        "sha256": "0d2204dcd148726db37b9c84a5da92c2f049a6c016526ab1269dddbf8db90a3b"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "250 gms Gram flour (Besan)",
+              "200 gms Onions (chopped)",
+              "3-4 Green chillies (chopped)",
+              "1 tsp Pomegranate",
+              "Seeds (crushed)",
+              "1 tsp Red Chilly powder",
+              "Fresh Coriander",
+              "Jeera (optional)",
+              "Salt to taste",
+              "Oil"
+            ]
+          }
+        ],
+        "steps": [
+          "Mix all the cut vegetables, gram flour along with spices.",
+          "Add adequate amount of water to make a thick batter.",
+          "Drop small amounts of the batter in hot oil and fry on low flame.",
+          "Drain the oil from the pakodas.",
+          "Fry them again till they get crispy.",
+          "Serve hot with your choice of chutney or ketchup."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-38.jpg",
+      "crop": {
+        "x": 171,
+        "y": 93,
+        "width": 234,
+        "height": 213,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 38,
+      "alt": "Sanne pakode · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 38"
+    }
+  },
+  {
+    "id": "RAAH-RC-0026",
+    "wordId": "RAAH-0035",
+    "wordIds": [
+      "RAAH-0035"
+    ],
+    "name": "Seyal bhindiyan/machi/meeal/batate",
+    "devanagari": "सेयल भिंडियां / सेयल मछी / सेयल मियल / सेयल बटाटे",
+    "credit": "Rajwanti Talreja",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=39",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=39",
+    "pdfPage": 39,
+    "pdfPages": [
+      39
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "A coriander-and-onion masala for okra, fish, yam or potatoes.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 39\nSeyal bhindiyan / Machi/ Meeal / Batate\nIngredients\nBhindis or Machi\n(generally pomfret)\nor Meeal or Batate\nGarlic 4 kg\n(8/10 pieces)\nGeela dhaniya\nSuka dhaniya\nOnion (thin pieces)\nGreen chillies\nSalt to taste, Brown Imbli\nOil\nMethod\nTake some brown imbli and keep it in water for some time.\nGrate all the above items (except bhindis or machi or meeal or\nbatate) in a mixer (not fully). This mixture will form the basis\nof your seyal masala.\nBunao the seyal masala mix in a pan with little oil.\nWhile bunaoing, add red chillies and suka dhaniya.\nAdd bhindis or machi or meeal or batate and continue to mix\nand bunao.\nAdd little water (if you plan to eat this dish with miss (rice\nwith lentils), then add a little more water).\nOnce the ingredients have been cooked, add imbli water.\nKeep on slow fire.\nCredits: Rajwanti Talreja",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 39,
+        "image": "/assets/scans/kitchen-39.jpg",
+        "sha256": "e116fddb72e489a8716233e181089777d8488dfa9351a56b3ec789c9b24e826e"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "Bhindis or Machi (generally pomfret) or Meeal or Batate",
+              "Garlic ¼ kg (8/10 pieces)",
+              "Geela dhaniya",
+              "Suka dhaniya",
+              "Onion (thin pieces)",
+              "Green chillies",
+              "Salt to taste, Brown Imbli",
+              "Oil"
+            ]
+          }
+        ],
+        "steps": [
+          "Take some brown imbli and keep it in water for some time.",
+          "Grate all the above items (except bhindis or machi or meeal or batate) in a mixer (not fully).",
+          "This mixture will form the basis of your seyal masala.",
+          "Bunao the seyal masala mix in a pan with little oil.",
+          "While bunaoing, add red chillies and suka dhaniya.",
+          "Add bhindis or machi or meeal or batate and continue to mix and bunao.",
+          "Add little water (if you plan to eat this dish with miss (rice with lentils), then add a little more water).",
+          "Once the ingredients have been cooked, add imbli water.",
+          "Keep on slow fire."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-39.jpg",
+      "crop": {
+        "x": 183,
+        "y": 98,
+        "width": 223,
+        "height": 169,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 39,
+      "alt": "Seyal bhindiyan/machi/meeal/batate · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 39"
+    }
+  },
+  {
+    "id": "RAAH-RC-0027",
+    "wordId": "RAAH-0036",
+    "wordIds": [
+      "RAAH-0036"
+    ],
+    "name": "Seyal roti",
+    "devanagari": "सेयल  रोटी",
+    "credit": "Shanti Batra",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=40",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=40",
+    "pdfPage": 40,
+    "pdfPages": [
+      40
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Chapatis cooked in a coriander-and-onion masala.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 40\nSeyal Roti\nIngredients\n1/2 garlic\n1 big onion\nCoriander\n2 Green Chillies\nDhaniya powder\nChilly Powder\nTurmeric powder\nSalt\nBrown imbli\n4 small Chapatis\nMethod\nKeep brown imbli in water for some time.\nFirst. to make the seyal masala, mix all the ingredients except\nthe chapattis in a mixer until it becomes a thick paste. Put a\nlittle oil in a kadai or a pan and put the thick paste (seyal\nmasala) along with 1½ glass water and chapattis. Put the imbli\nka pani and cook until semi dry. For garnishing, add finely\nchopped coriander and serve hot.\nCredits: Shanti Batra",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 40,
+        "image": "/assets/scans/kitchen-40.jpg",
+        "sha256": "ab932a2d801733cc6cd0049ec9ecade663fd6b4578ca0dbaf10e52f2198c4400"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "1½ garlic",
+              "1 big onion",
+              "Coriander",
+              "2 Green Chillies",
+              "Dhaniya powder",
+              "Chilly Powder",
+              "Turmeric powder",
+              "Salt",
+              "Brown imbli",
+              "4 small Chapatis"
+            ]
+          }
+        ],
+        "steps": [
+          "Keep brown imbli in water for some time.",
+          "First. to make the seyal masala, mix all the ingredients except the chapattis in a mixer until it becomes a thick paste.",
+          "Put a little oil in a kadai or a pan and put the thick paste (seyal masala) along with 1½ glass water and chapattis.",
+          "Put the imbli ka pani and cook until semi dry.",
+          "For garnishing, add finely chopped coriander and serve hot."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-40.jpg",
+      "crop": {
+        "x": 189,
+        "y": 86,
+        "width": 225,
+        "height": 213,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 40,
+      "alt": "Seyal roti · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 40"
+    }
+  },
+  {
+    "id": "RAAH-RC-0028",
+    "wordId": "RAAH-0037",
+    "wordIds": [
+      "RAAH-0037"
+    ],
+    "name": "Seyun di barfi",
+    "devanagari": "सेयुन दी बर्फी",
+    "credit": "Raksha Kataria",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=41",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=41",
+    "pdfPage": 41,
+    "pdfPages": [
+      41
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "A sweet of sev, mawa, milk and sugar.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 41\nSeyun di Barfi\nIngredients\n14 kg mawa\n14 kg fika sev\n200 gms sugar\n250 ml milk\nThali- greased\nwith ghee\nMethod\nBoil the milk (2 or 3 boils). Add sugar. Boil till the sugar melts\n(8 to 10 good boils). Then add mawa and keep stirring till it\nthickens like rabdi. Switch off the gas and add fika sev. Spread\nthe mixture on the thali greased with ghee.\nTip: Add elaichi powder and kesar to the milk. For garnishing\nuse finely sliced pista or badam.\nCredits: Raksha Kataria",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 41,
+        "image": "/assets/scans/kitchen-41.jpg",
+        "sha256": "33c5513cb01d89621195607cb86f7393ad9faf5f4364aa7b95c5e300be78f200"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "¼ kg mawa",
+              "¼ kg fika sev",
+              "200 gms sugar",
+              "250 ml milk",
+              "Thali- greased with ghee"
+            ]
+          }
+        ],
+        "steps": [
+          "Boil the milk (2 or 3 boils).",
+          "Add sugar.",
+          "Boil till the sugar melts (8 to 10 good boils).",
+          "Then add mawa and keep stirring till it thickens like rabdi.",
+          "Switch off the gas and add fika sev.",
+          "Spread the mixture on the thali greased with ghee.",
+          "Tip: Add elaichi powder and kesar to the milk.",
+          "For garnishing use finely sliced pista or badam."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-41.jpg",
+      "crop": {
+        "x": 162,
+        "y": 96,
+        "width": 239,
+        "height": 210,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 41,
+      "alt": "Seyun di barfi · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 41"
+    }
+  },
+  {
+    "id": "RAAH-RC-0029",
+    "wordId": "RAAH-0038",
+    "wordIds": [
+      "RAAH-0038"
+    ],
+    "name": "Seyun Pakore di Kadi",
+    "devanagari": "सेयुन पकोरे दी कढी",
+    "credit": "Shanti Sapru / Madhvi Mehta",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=42",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=42",
+    "pdfPage": 42,
+    "pdfPages": [
+      42
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "A curry made with sev and onion pakoras.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 42\nSeyun Pakore di Kadi\nIngredients\nFor Pakodas:\n1 katori chana dal aata\n(besan)\n1 onion (finely chopped)\n1 pinch baking soda\n2/3 green chillies\n(finely chopped)\n1 pinch red chilly powder\n1 tablespoon green\ncoriander (finely chopped)\n1 tablespoon hot oil to\nmix in batter\nSalt to taste. Oil for frying. Water for batter\nFor Kadi:\n1 katori seyun, 1 tablespoon wheat atta\n1 green chilly (finely chopped), I\" ginger (adhrak). Water\n½ teaspoon haldi, Iz teaspoon ambchur\nMethod\nTake besan, onions, green chillies, red chillies powder, green\ncoriander. oil and pinch of soda and make thick batter.\nDeep fry the pakoras and keep them aside.\nIn a supri add little oil and heat it. Take wheat atta, green\nchillies and adhrak and bunav until light brown. Add water and\nlet the mix boil. Add salt and haldi after one boil. Just before\nyou are ready to eat, add fried pakoras, boil and simmer for 2\nto 5 minutes until soft and edible. Then add seyun and put off\nthe flame. Don't boil the seyun with it or else they will become\ntoo soggy. Add ambchur before serving\nServe hot with ghee-wala chappaties.\nCredits: Shanti Sapru / Madhvi Mehta",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 42,
+        "image": "/assets/scans/kitchen-42.jpg",
+        "sha256": "3fe7f77b92385ddf6a4fe159b7986ada06a0f43f895e9ad7087b2d4afb2001b0"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "For Pakodas",
+            "items": [
+              "1 katori chana dal aata (besan)",
+              "1 onion (finely chopped)",
+              "1 pinch baking soda",
+              "2/3 green chillies (finely chopped)",
+              "1 pinch red chilly powder",
+              "1 tablespoon green coriander (finely chopped)",
+              "1 tablespoon hot oil to mix in batter",
+              "Salt to taste. Oil for frying. Water for batter"
+            ]
+          },
+          {
+            "title": "For Kadi",
+            "items": [
+              "1 katori seyun, 1 tablespoon wheat atta",
+              "1 green chilly (finely chopped), 1\" ginger (adhrak). Water",
+              "½ teaspoon haldi, ½ teaspoon ambchur"
+            ]
+          }
+        ],
+        "steps": [
+          "Take besan, onions, green chillies, red chillies powder, green coriander. oil and pinch of soda and make thick batter.",
+          "Deep fry the pakoras and keep them aside.",
+          "In a supri add little oil and heat it.",
+          "Take wheat atta, green chillies and adhrak and bunav until light brown.",
+          "Add water and let the mix boil.",
+          "Add salt and haldi after one boil.",
+          "Just before you are ready to eat, add fried pakoras, boil and simmer for 2 to 5 minutes until soft and edible.",
+          "Then add seyun and put off the flame.",
+          "Don't boil the seyun with it or else they will become too soggy.",
+          "Add ambchur before serving Serve hot with ghee-wala chappaties."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-42.jpg",
+      "crop": {
+        "x": 217,
+        "y": 80,
+        "width": 199,
+        "height": 212,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 42,
+      "alt": "Seyun Pakore di Kadi · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 42"
+    }
+  },
+  {
+    "id": "RAAH-RC-0030",
+    "wordId": "RAAH-0039",
+    "wordIds": [
+      "RAAH-0039"
+    ],
+    "name": "Shaadi da khatta",
+    "devanagari": "शादी दा खट्टा",
+    "credit": "Bhagwati (Pado) Chhoda",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=43",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=43",
+    "pdfPage": 43,
+    "pdfPages": [
+      43
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "A pickle of red carrots, white onions and cauliflower.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 43\nShaadi da Khatta\nIngredients\nFor 1 kg achar:\nRed carrots\nWhite onions\nCauliflower\n25 gms rye (yellow)\n25gms red chilly powder\n1 tsp haldi powder\n½ tsp hing\n2 tbsp rye ka tel\n1 +bsp acetic acid\n1 tbsp sugar (optional)\nSalt\nMethod\nMix all the ingredients and keep in a container for a day to\nmarinate. This is one of the prime dishes for any Bhagnari\npre-wedding lunch and considered a'sugun'.\nCredits: Bhagwati (Pado) Chhoda",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 43,
+        "image": "/assets/scans/kitchen-43.jpg",
+        "sha256": "99f99f95b4091dc597590813893e1aa435ff7448497e12c1456ad03469710846"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "For 1 kg achar",
+            "items": [
+              "Red carrots",
+              "White onions",
+              "Cauliflower",
+              "25 gms rye (yellow)",
+              "25gms red chilly powder",
+              "1 tsp haldi powder",
+              "½ tsp hing",
+              "2 tbsp rye ka tel",
+              "1 tbsp acetic acid",
+              "1 tbsp sugar (optional)",
+              "Salt"
+            ]
+          }
+        ],
+        "steps": [
+          "Mix all the ingredients and keep in a container for a day to marinate.",
+          "This is one of the prime dishes for any Bhagnari pre-wedding lunch and considered a'sugun'."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-43.jpg",
+      "crop": {
+        "x": 197,
+        "y": 129,
+        "width": 203,
+        "height": 144,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 43,
+      "alt": "Shaadi da khatta · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 43"
+    }
+  },
+  {
+    "id": "RAAH-RC-0031",
+    "wordId": "RAAH-0041",
+    "wordIds": [
+      "RAAH-0041"
+    ],
+    "name": "Singhy tamate",
+    "devanagari": "सिंग्हीं टमाटे",
+    "credit": "Bhagwati (Pado) Chhoda",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=44",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=44",
+    "pdfPage": 44,
+    "pdfPages": [
+      44
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Drumsticks cooked in a spiced tomato gravy.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 44\nSinghy Tamate\nIngredients\n2 singhys\n1 green chilly (chopped)\n4 kg tomato (chopped)\n1 big onion (chopped)\n1 tsp red chilly powder\n2 tsp dhaniya powder\n1 tsp haldi powder\nSalt to taste\nOil\nMethod\nCut and boil the singhys. Chop the onion and stir-fry with salt\ntill golden. Add the chopped chilly to the onion. Add to this, the\nboiled singhys with red chilly powder, dhaniya powder and\nhaldi powder. Add chopped tomatoes and cover the dish. Keep\non low flame. Cook for 5 minutes and serve hot.\nCredits: Bhagwati (Pado) Chhoda",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 44,
+        "image": "/assets/scans/kitchen-44.jpg",
+        "sha256": "bd615d8d15a79023483f96703f61b516e45cfef791c29fdba489ccc97c3b53c0"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "2 singhys",
+              "1 green chilly (chopped)",
+              "¼ kg tomato (chopped)",
+              "1 big onion (chopped)",
+              "1 tsp red chilly powder",
+              "2 tsp dhaniya powder",
+              "1 tsp haldi powder",
+              "Salt to taste",
+              "Oil"
+            ]
+          }
+        ],
+        "steps": [
+          "Cut and boil the singhys.",
+          "Chop the onion and stir-fry with salt till golden.",
+          "Add the chopped chilly to the onion.",
+          "Add to this, the boiled singhys with red chilly powder, dhaniya powder and haldi powder.",
+          "Add chopped tomatoes and cover the dish.",
+          "Keep on low flame.",
+          "Cook for 5 minutes and serve hot."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-44.jpg",
+      "crop": {
+        "x": 203,
+        "y": 91,
+        "width": 213,
+        "height": 248,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 44,
+      "alt": "Singhy tamate · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 44"
+    }
+  },
+  {
+    "id": "RAAH-RC-0032",
+    "wordId": "RAAH-0042",
+    "wordIds": [
+      "RAAH-0042"
+    ],
+    "name": "Soli",
+    "devanagari": "सोली",
+    "credit": "Shanti Sapru",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=45",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=45",
+    "pdfPage": 45,
+    "pdfPages": [
+      45
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Sweet fried dough pieces finished with ghee.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 45\nSoli\nIngredients\n1 Katori sugar\n1/2 katori hot milk\n2 Katoris atta\n1 Arga ghee\nElachi powder\nHalf crushed/peeled\npista/badam\nKhus-khus\nMethod\nMix atta with ghee. Add sugar syrup. Add khas-khas, elachi\npowder and half crushed pista/badam\nAfter kneading the above, make the atta like koki looking and\nin consistency. Flatten it with velan and cut them into triangle\nshape. Deep fry the pieces. They are ready to eat\nimmediately. though they can be preserved for several days.\nSoli is a must item for Thadri.\nCredits: Shanti Sapru",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 45,
+        "image": "/assets/scans/kitchen-45.jpg",
+        "sha256": "d904278161a709f34e28246f05f9ab94663e31cb19e06f445f6aaa6b719daf97"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "1 Katori sugar",
+              "1/2 katori hot milk",
+              "2 Katoris atta",
+              "1 Arga ghee",
+              "Elachi powder",
+              "Half crushed/peeled pista/badam",
+              "Khus-khus"
+            ]
+          }
+        ],
+        "steps": [
+          "Mix atta with ghee.",
+          "Add sugar syrup.",
+          "Add khas-khas, elachi powder and half crushed pista/badam After kneading the above, make the atta like koki looking and in consistency.",
+          "Flatten it with velan and cut them into triangle shape.",
+          "Deep fry the pieces.",
+          "They are ready to eat immediately. though they can be preserved for several days.",
+          "Soli is a must item for Thadri."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-45.jpg",
+      "crop": {
+        "x": 184,
+        "y": 84,
+        "width": 219,
+        "height": 239,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 45,
+      "alt": "Soli · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 45"
+    }
+  },
+  {
+    "id": "RAAH-RC-0033",
+    "wordId": "RAAH-0043",
+    "wordIds": [
+      "RAAH-0043"
+    ],
+    "name": "Swanjra",
+    "devanagari": "स्वाँझरा",
+    "credit": "Rajwanti Talreja",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=46",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=46",
+    "pdfPage": 46,
+    "pdfPages": [
+      46
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Moringa flowers cooked with onions, tomatoes and spices.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 46\nSwanjra\nIngredients\nSwanjra\n(Singhy flowers\n(Drumstick tree's\nflowers)\n2 Onions\n(thinly chopped)\n2 Tomatoes (diced)\n4 Green Chillies\n(thinly chopped)\nGinger\n1 tsp of Red chilly\n1 tsp Turmeric powder\n1 tsp Suka dhania, 1 tsp Garam masala\nGheela dhania\nSalt to taste\nCurd. 1 tablespoon oil\nMethod\nHeat oil. Add onions. Make them pinkish. Add ginger and green\nchillies. Mix for some time and then add 1 cup water. Once\nonion is cooked, add swanjra. Mix well. Add curd. When curd\nwater is taken up, then add finely cut tomatoes. haldi, suka\ndhania, little gheela dhania and bunao well. Add garam masala\nand keep on very low fire for a few minutes. Garnish with\ngheela dhania and serve hot with freshly made fulkas.\nCredits: Rajwanti Talreja",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 46,
+        "image": "/assets/scans/kitchen-46.jpg",
+        "sha256": "5f5064e375a9c22865605ebc3d52a3346102477224805793734cb7671a112a7b"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "Swanjra (Singhy flowers (Drumstick tree's flowers)",
+              "2 Onions (thinly chopped)",
+              "2 Tomatoes (diced)",
+              "4 Green Chillies (thinly chopped)",
+              "Ginger",
+              "1 tsp of Red chilly",
+              "1 tsp Turmeric powder",
+              "1 tsp Suka dhania, 1 tsp Garam masala",
+              "Gheela dhania",
+              "Salt to taste",
+              "Curd. 1 tablespoon oil"
+            ]
+          }
+        ],
+        "steps": [
+          "Heat oil.",
+          "Add onions.",
+          "Make them pinkish.",
+          "Add ginger and green chillies.",
+          "Mix for some time and then add 1 cup water.",
+          "Once onion is cooked, add swanjra.",
+          "Mix well.",
+          "Add curd.",
+          "When curd water is taken up, then add finely cut tomatoes. haldi, suka dhania, little gheela dhania and bunao well.",
+          "Add garam masala and keep on very low fire for a few minutes.",
+          "Garnish with gheela dhania and serve hot with freshly made fulkas."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-46.jpg",
+      "crop": {
+        "x": 189,
+        "y": 90,
+        "width": 219,
+        "height": 178,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 46,
+      "alt": "Swanjra · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 46"
+    }
+  },
+  {
+    "id": "RAAH-RC-0034",
+    "wordId": "RAAH-0044",
+    "wordIds": [
+      "RAAH-0044"
+    ],
+    "name": "Taadi",
+    "devanagari": "ताड़ी",
+    "credit": "Bhagwati (Pado) Chhoda",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=47",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=47",
+    "pdfPage": 47,
+    "pdfPages": [
+      47
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Sweet rice with ghee, nuts and dried fruit.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 47\nTaadi\nIngredients\n1 kg rice\n1 kg sugar\nElaichi powder\nGhee\nBadam\nBlack kishmish\nSliced coconut\nKesar\nSalt\nYellow food color\nMethod\nWhile preparing the rice put some yellow color, salt (half of\nwhat is normally put for making steamed rice). Cook the rice\nand once made, add sugar and mix. Add elaichi powder. Take a\ntablespoonful of ghee and put it on the rice like tadka. Garnish\nwith badam, black kishmish, sliced coconut and kesar.\nCredits: Bhagwati (Pado) Chhoda",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 47,
+        "image": "/assets/scans/kitchen-47.jpg",
+        "sha256": "fd34caba82ba0c4b83b352fa3de9fa9752dea8a68a0ac0328ad68a5ef44398d0"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "1 kg rice",
+              "1 kg sugar",
+              "Elaichi powder",
+              "Ghee",
+              "Badam",
+              "Black kishmish",
+              "Sliced coconut",
+              "Kesar",
+              "Salt",
+              "Yellow food color"
+            ]
+          }
+        ],
+        "steps": [
+          "While preparing the rice put some yellow color, salt (half of what is normally put for making steamed rice).",
+          "Cook the rice and once made, add sugar and mix.",
+          "Add elaichi powder.",
+          "Take a tablespoonful of ghee and put it on the rice like tadka.",
+          "Garnish with badam, black kishmish, sliced coconut and kesar."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-47.jpg",
+      "crop": {
+        "x": 176,
+        "y": 90,
+        "width": 234,
+        "height": 267,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 47,
+      "alt": "Taadi · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 47"
+    }
+  },
+  {
+    "id": "RAAH-RC-0035",
+    "wordId": "RAAH-0045",
+    "wordIds": [
+      "RAAH-0045"
+    ],
+    "name": "Talyal bhindiyan",
+    "devanagari": "तल्यल भिंडियां",
+    "credit": "Priya Jham",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=48",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=48",
+    "pdfPage": 48,
+    "pdfPages": [
+      48
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Fried okra tossed with dry spices.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 48\nTalyal Bhindyan\nIngredients\n500 gms bhindies\nOil to fry\nI2 tbsp coriander\npowder\n1 tsp red chilly\npowder\n/2 tsp ambchur\npowder\nSalt to taste\n4 tsp haldi\nMethod\nCut the bhindies into medium size pieces. In a kadhai take oil.\nadd bhindies and let them fry. Do not stir them. When the\nbhindies are fried, drain out the excess oil and add the dry\nmasalas. Toss it and serve hot.\nCredits: Priya Jham",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 48,
+        "image": "/assets/scans/kitchen-48.jpg",
+        "sha256": "828ec88573c4877c09034025a0e9ea9d6976d7dfe229611d47ad40453aabc1e6"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "500 gms bhindies",
+              "Oil to fry",
+              "½ tbsp coriander powder",
+              "1 tsp red chilly powder",
+              "½ tsp ambchur powder",
+              "Salt to taste",
+              "¼ tsp haldi"
+            ]
+          }
+        ],
+        "steps": [
+          "Cut the bhindies into medium size pieces.",
+          "In a kadhai take oil. add bhindies and let them fry.",
+          "Do not stir them.",
+          "When the bhindies are fried, drain out the excess oil and add the dry masalas.",
+          "Toss it and serve hot."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-48.jpg",
+      "crop": {
+        "x": 183,
+        "y": 102,
+        "width": 224,
+        "height": 194,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 48,
+      "alt": "Talyal bhindiyan · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 48"
+    }
+  },
+  {
+    "id": "RAAH-RC-0036",
+    "wordId": "RAAH-0046",
+    "wordIds": [
+      "RAAH-0046"
+    ],
+    "name": "Talyal kachaloo",
+    "devanagari": "तल्यल कचालू",
+    "credit": "Sanya Hingoo",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=49",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=49",
+    "pdfPage": 49,
+    "pdfPages": [
+      49
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Fried colocasia roots seasoned with spices.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 49\nTalyal Kachaloo\nIngredients\nKachaloos\nRed chilly powder\nDhanya powder\nAmbchur\nSalt or Chaat masala\nMethod\nSoak Kachaloos in\nwater and wash them\nwell to remove all the\nsoil from its surface.\nYou can now either boil\nthem till they are soft but not very mushy or pressure cook. If\nyou pressure cook then just 1 whistle is good. Let it cool. Open\nthe pressure cooker and peel off the skin.\nNow keep all the Kachaloos in a bowl and sprinkle salt and mix\nwell with hands. Instead of salt you can also use chaat masala\nfor a more tangy taste. After the salt or chaat masala (which\never you have used) has mixed well with the Kachaloos, deep\nfry them in oil till golden brown and crispy. The reason you add\nsalt/chaat masala before frying is because if these are added\nafter you fry them, the salt will fall off and the Kachaloo will\ntaste saltless. Hence remember to add salt/chaat masala\nbefore you fry them.\nTake them out and keep on a paper towel/tissue. Once all the\noil is soaked on the paper towel, add Red chilli powder. Dhanya\npowder and Amchur powder. Mix well and serve with green\ncoriander chutney. They can be eaten plain as well. If you\nprefer, you can cut the Kachaloo into circular discs and then\nfrythem.\nCredits: Sanya Hingoo",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 49,
+        "image": "/assets/scans/kitchen-49.jpg",
+        "sha256": "a15133844d273535ecb7ee34b523af5e6e95003851ff8356302227422ee9ca33"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "Kachaloos",
+              "Red chilly powder",
+              "Dhanya powder",
+              "Ambchur",
+              "Salt or Chaat masala"
+            ]
+          }
+        ],
+        "steps": [
+          "Soak Kachaloos in water and wash them well to remove all the soil from its surface.",
+          "You can now either boil them till they are soft but not very mushy or pressure cook.",
+          "If you pressure cook then just 1 whistle is good.",
+          "Let it cool.",
+          "Open the pressure cooker and peel off the skin.",
+          "Now keep all the Kachaloos in a bowl and sprinkle salt and mix well with hands.",
+          "Instead of salt you can also use chaat masala for a more tangy taste.",
+          "After the salt or chaat masala (which ever you have used) has mixed well with the Kachaloos, deep fry them in oil till golden brown and crispy.",
+          "The reason you add salt/chaat masala before frying is because if these are added after you fry them, the salt will fall off and the Kachaloo will taste saltless.",
+          "Hence remember to add salt/chaat masala before you fry them.",
+          "Take them out and keep on a paper towel/tissue.",
+          "Once all the oil is soaked on the paper towel, add Red chilli powder.",
+          "Dhanya powder and Amchur powder.",
+          "Mix well and serve with green coriander chutney.",
+          "They can be eaten plain as well.",
+          "If you prefer, you can cut the Kachaloo into circular discs and then frythem."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-49.jpg",
+      "crop": {
+        "x": 197,
+        "y": 68,
+        "width": 208,
+        "height": 206,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 49,
+      "alt": "Talyal kachaloo · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 49"
+    }
+  },
+  {
+    "id": "RAAH-RC-0037",
+    "wordId": "RAAH-0047",
+    "wordIds": [
+      "RAAH-0047"
+    ],
+    "name": "Tavi da saag",
+    "devanagari": "तवी दा साग",
+    "credit": "Rajwanti Talreja",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=50",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=50",
+    "pdfPage": 50,
+    "pdfPages": [
+      50
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Spinach and other greens cooked with vegetables and garlic.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 50\nTavi da saag\nIngredients\npiece garlic\n(approx. 25 gms)\n4 green chillies\n1 small brinjal\n1 small dhoodi\nPalak (4 ghathies)\nFresh Methi-\nsmall quantity\nSua - small quantity\n(approx. 25 gms)\nKhata bhaji - small quantity (approx. 25 gms)\nTomatoes - 100 gms. Oil - 1 table spoon, Salt - to taste\nMethod\n(Cook the dish on slow fire in a black tavi)\nMake chillies and garlic a little brown in oil.\nPeel off skin from brinjal and dhoodi and cut into small pieces.\nWash them. Add brinjal and dhoodi pieces after cleaning.\nDon't squeeze out all water. Bunao brinjal and dhoodi in garlic\nand chillies for a few minutes.\nAdd palak, sua and khata bhaji after cleaning them. Don't\nsqueeze out all water.\nAfter few minutes add tomatoes on top (peel off skin and cut\neach of them into 4 pieces before adding them).\nDon't stir the tomatoes.\nCover and keep on low fire for about12 hour to 45 minutes.\nSquash the mix with aargaa or mandira.\nAdd salt to taste. Mix well.\nCover and keep on low fire for some time.\nEat with either fulkas or miss (khichdi with lentil)\nCredits: Rajwanti Talreja",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 50,
+        "image": "/assets/scans/kitchen-50.jpg",
+        "sha256": "e86cd949962e131d785ac1b9de7983a09f8f89195504d27ce2c0a09b75e6716b"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "piece garlic (approx. 25 gms)",
+              "4 green chillies",
+              "1 small brinjal",
+              "1 small dhoodi",
+              "Palak (4 ghathies)",
+              "Fresh Methi- small quantity",
+              "Sua - small quantity (approx. 25 gms)",
+              "Khata bhaji - small quantity (approx. 25 gms)",
+              "Tomatoes - 100 gms. Oil - 1 table spoon, Salt - to taste"
+            ]
+          }
+        ],
+        "steps": [
+          "(Cook the dish on slow fire in a black tavi) Make chillies and garlic a little brown in oil.",
+          "Peel off skin from brinjal and dhoodi and cut into small pieces.",
+          "Wash them.",
+          "Add brinjal and dhoodi pieces after cleaning.",
+          "Don't squeeze out all water.",
+          "Bunao brinjal and dhoodi in garlic and chillies for a few minutes.",
+          "Add palak, sua and khata bhaji after cleaning them.",
+          "Don't squeeze out all water.",
+          "After few minutes add tomatoes on top (peel off skin and cut each of them into 4 pieces before adding them).",
+          "Don't stir the tomatoes.",
+          "Cover and keep on low fire for about12 hour to 45 minutes.",
+          "Squash the mix with aargaa or mandira.",
+          "Add salt to taste.",
+          "Mix well.",
+          "Cover and keep on low fire for some time.",
+          "Eat with either fulkas or miss (khichdi with lentil)"
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-50.jpg",
+      "crop": {
+        "x": 183,
+        "y": 76,
+        "width": 225,
+        "height": 189,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 50,
+      "alt": "Tavi da saag · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 50"
+    }
+  },
+  {
+    "id": "RAAH-RC-0038",
+    "wordId": "RAAH-0049",
+    "wordIds": [
+      "RAAH-0049"
+    ],
+    "name": "Thadal",
+    "devanagari": "थादल",
+    "credit": "Shanti Sapru",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=51",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=51",
+    "pdfPage": 51,
+    "pdfPages": [
+      51
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "A sweet spiced drink made with thadal masala.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 51\nThadal\nIngredients\n100 gms\nThadal Masala\navailable at\nHaroomals orany\nSindhi store)\n1 kg Sugar\n1 Lime\nKesri Colour\nMethod\nBoil together, like sherbet preparation. Thadal Masala and\nSugar along with approximately 4 litre of water.\nAfter it has boiled follow same procedure for making sherbet\nsyrup. Add /4 to /2 lime juice when boiling. Cool and leave aside\nthe syrup for 5-7 hours. Mix well with hand and try to extract\nas much juices as possible. Strain and add little water to the\nremaining residue and try to extract juices again and strain.\nAdd little Kesari colour to the final syrup and mix well. Store\nit in bottle in refrigerator and use the Thadal syrup like\nMilkrose. Shake the bottle well every time when you use it, for\nconsistency. Add the syrup to a glass of cold milk as required.\nMix well and serve chilled.\nCredits: Shanti Sapru",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 51,
+        "image": "/assets/scans/kitchen-51.jpg",
+        "sha256": "beeaed4d3e624587e2bc86045370ec86e17f34af08371e7bc7fd19bbc9500856"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "100 gms Thadal Masala available at",
+              "Haroomals orany",
+              "Sindhi store)",
+              "1 kg Sugar",
+              "1 Lime",
+              "Kesri Colour"
+            ]
+          }
+        ],
+        "steps": [
+          "Boil together, like sherbet preparation.",
+          "Thadal Masala and Sugar along with approximately 4 litre of water.",
+          "After it has boiled follow same procedure for making sherbet syrup.",
+          "Add /4 to /2 lime juice when boiling.",
+          "Cool and leave aside the syrup for 5-7 hours.",
+          "Mix well with hand and try to extract as much juices as possible.",
+          "Strain and add little water to the remaining residue and try to extract juices again and strain.",
+          "Add little Kesari colour to the final syrup and mix well.",
+          "Store it in bottle in refrigerator and use the Thadal syrup like Milkrose.",
+          "Shake the bottle well every time when you use it, for consistency.",
+          "Add the syrup to a glass of cold milk as required.",
+          "Mix well and serve chilled."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-51.jpg",
+      "crop": {
+        "x": 162,
+        "y": 83,
+        "width": 240,
+        "height": 184,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 51,
+      "alt": "Thadal · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 51"
+    }
+  },
+  {
+    "id": "RAAH-RC-0039",
+    "wordId": "RAAH-0051",
+    "wordIds": [
+      "RAAH-0051"
+    ],
+    "name": "Tuar di phiki dal",
+    "devanagari": "तुअर दी फीकी दाल",
+    "credit": "Bhagwati (Pado) Chhoda",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=52",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=52",
+    "pdfPage": 52,
+    "pdfPages": [
+      52
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Tuar dal with tamarind, cumin and a fragrant tempering.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 52\nTuar di Phiki dal\nIngredients\n/4 kg tuar dal\n3 green chillies -\nchopped\n25 gms imbli\n1 tbsp jeera\n1 tsp meethi dana\n3 pinch hing\nKadi patta\n/2 tsp turmeric powder\nCoriander\nSalt\nOil\nMethod\nClean the tuar dal and put in a cooker along with water. Add\nthe green chillies after one whistle. Churn this with a mandira,\nadd imbli water to this (imbli should be kept in water earlier).\nAdd salt to taste, Kadi patta and coriander. For the wagaar\n(i.e. tadka), take jeera, meethi dana, hing and oil in a small pan\nand keep on a slight flame. Mix it with the ingredients in the\ncooker. After one boil, the dal is ready. Cook little more if dal is\ntoo watery. Serve hot.\nCredits: Bhagwati (Pado) Chhoda",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 52,
+        "image": "/assets/scans/kitchen-52.jpg",
+        "sha256": "a7adeab7fa57ffa60910453701fb1f907dc28a88d853013b6c2b8c39eacac773"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "¼ kg tuar dal",
+              "3 green chillies - chopped",
+              "25 gms imbli",
+              "1 tbsp jeera",
+              "1 tsp meethi dana",
+              "3 pinch hing",
+              "Kadi patta",
+              "½ tsp turmeric powder",
+              "Coriander",
+              "Salt",
+              "Oil"
+            ]
+          }
+        ],
+        "steps": [
+          "Clean the tuar dal and put in a cooker along with water.",
+          "Add the green chillies after one whistle.",
+          "Churn this with a mandira, add imbli water to this (imbli should be kept in water earlier).",
+          "Add salt to taste, Kadi patta and coriander.",
+          "For the wagaar (i.e. tadka), take jeera, meethi dana, hing and oil in a small pan and keep on a slight flame.",
+          "Mix it with the ingredients in the cooker.",
+          "After one boil, the dal is ready.",
+          "Cook little more if dal is too watery.",
+          "Serve hot."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-52.jpg",
+      "crop": {
+        "x": 196,
+        "y": 95,
+        "width": 214,
+        "height": 183,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 52,
+      "alt": "Tuar di phiki dal · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 52"
+    }
+  },
+  {
+    "id": "RAAH-RC-0040",
+    "wordId": "RAAH-0052",
+    "wordIds": [
+      "RAAH-0052"
+    ],
+    "name": "Turiyan",
+    "devanagari": "तुरियाँ",
+    "credit": "Kanika Dudeja",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=53",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=53",
+    "pdfPage": 53,
+    "pdfPages": [
+      53
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Sponge gourd cooked with onions and tomatoes.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 53\nTuriyan\nIngredients\n/2 kg turies\n3 medium onions\n4 medium tomatoes\n2 green chillies\n1 small piece of ginger\nSalt\nHaldi powder\n1 tsp Dhaniya powder\n1 tsp mirchi powder\nMethod\nChop the onions, tomatoes, turies, green chillies and ginger\nfinely. In a pressure cooker, sauté the onion till brown with\nlittle oil. Add the chopped turies and keep stirring till the\nturies leave some water. Then add tomatoes, green chillies.\nginger. salt, tumeric and dhaniya powders. Pressure cook for 3\nwhistles. Stir the gravy and sprinkle some red chilly powder\non it and mix well. Serve hot. Tastes best with khichdi and dahi.\nCredits: Kanika Dudeja",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 53,
+        "image": "/assets/scans/kitchen-53.jpg",
+        "sha256": "648efd3ff8c0dcc82ce1194661858daaefaca050bb9c8b77ce876d4553f9a094"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "½ kg turies",
+              "3 medium onions",
+              "4 medium tomatoes",
+              "2 green chillies",
+              "1 small piece of ginger",
+              "Salt",
+              "Haldi powder",
+              "1 tsp Dhaniya powder",
+              "1 tsp mirchi powder"
+            ]
+          }
+        ],
+        "steps": [
+          "Chop the onions, tomatoes, turies, green chillies and ginger finely.",
+          "In a pressure cooker, sauté the onion till brown with little oil.",
+          "Add the chopped turies and keep stirring till the turies leave some water.",
+          "Then add tomatoes, green chillies. ginger. salt, tumeric and dhaniya powders.",
+          "Pressure cook for 3 whistles.",
+          "Stir the gravy and sprinkle some red chilly powder on it and mix well.",
+          "Serve hot.",
+          "Tastes best with khichdi and dahi."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-53.jpg",
+      "crop": {
+        "x": 207,
+        "y": 114,
+        "width": 198,
+        "height": 196,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 53,
+      "alt": "Turiyan · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 53"
+    }
+  },
+  {
+    "id": "RAAH-RC-0041",
+    "wordId": "RAAH-0053",
+    "wordIds": [
+      "RAAH-0053"
+    ],
+    "name": "Vadi batate",
+    "devanagari": "वड़ी बटाटे",
+    "credit": "Bhagwati (Pado) Chhoda",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=54",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=54",
+    "pdfPage": 54,
+    "pdfPages": [
+      54
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Moong-dal wadis and potatoes in a spiced gravy.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 54\nVadi Batate\nIngredients\n2 big onions\n12kg tomatoes\n1 big potato\nChilly powder\nDhaniya powder\nSalt\nGinger\nGreen chilly\n6/8 Readymade wadies\nGaram Masala\nCoriander\nPhudina\nMethod\nStir-fry the onions with ginger and chilly. Fry the wadies\nseparately and add them to onion, ginger and chillies in a pan.\nAdd salt in proportion to the quantity of the onions. Add the\nsukha masalas (chilly powder, dhaniya powder). Add coriander\nand phudina to the mixture. Add chopped tomatoes and cook\ntill soft. Mix and remove from flame. Place in a dish and\nsprinkle some garam masala for flavoring. Garnish with\ncoriander leaves and serve hot.\nCredits: Bhagwati (Pado) Chhoda",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 54,
+        "image": "/assets/scans/kitchen-54.jpg",
+        "sha256": "39736f8a902052ec14177329da664ae3ffa946f90e177293f980a57a708a7e2e"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "2 big onions",
+              "½ kg tomatoes",
+              "1 big potato",
+              "Chilly powder",
+              "Dhaniya powder",
+              "Salt",
+              "Ginger",
+              "Green chilly",
+              "6/8 Readymade wadies",
+              "Garam Masala",
+              "Coriander",
+              "Phudina"
+            ]
+          }
+        ],
+        "steps": [
+          "Stir-fry the onions with ginger and chilly.",
+          "Fry the wadies separately and add them to onion, ginger and chillies in a pan.",
+          "Add salt in proportion to the quantity of the onions.",
+          "Add the sukha masalas (chilly powder, dhaniya powder).",
+          "Add coriander and phudina to the mixture.",
+          "Add chopped tomatoes and cook till soft.",
+          "Mix and remove from flame.",
+          "Place in a dish and sprinkle some garam masala for flavoring.",
+          "Garnish with coriander leaves and serve hot."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-54.jpg",
+      "crop": {
+        "x": 191,
+        "y": 93,
+        "width": 215,
+        "height": 249,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 54,
+      "alt": "Vadi batate · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 54"
+    }
+  },
+  {
+    "id": "RAAH-RC-0042",
+    "wordId": "RAAH-0054",
+    "wordIds": [
+      "RAAH-0054"
+    ],
+    "name": "Vangan batate da teevar",
+    "devanagari": "वांगण बटाटे दा तीवण",
+    "credit": "Shanti Sapru",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=55",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=55",
+    "pdfPage": 55,
+    "pdfPages": [
+      55
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Brinjal and potatoes cooked with greens and tomatoes.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 55\nVangan Batate da teevar\nIngredients\n3/4 Kg Alu cut in medium\ndesired sizes\n1 Medium sized palak\nbunch cut finely\n1 Big bunch Khatta\nbhaji or two small\nbunches cut finely with\nstems included\n1 Medium sized\nBhaigan cut into small cubes\n2 Medium sized Bhaigans cut into total 8 long pieces with\nlittle stem attached. 3-4 Strands of Sua Bhaji cut finely\nSmall handful of methi leaves cut finely\n5-6 or around 1/4 kg of tomatoes cut finely\n150 gms Suran cut into medium desired pieces\n4-5 green chilles (according to taste) cut finely\n1 tsp Red chilly powder. I tbsp coriander powder\n1/4 tsp haldi and salt to taste\nMethod\nPut little oil in pan, add Palak. Khatta bhaji, Suva. Methi,\nGreenchillies, finely chopped Bhaigan and Tomatoes.\nStir-fry for approximately 2-3 mins on high heat. Simmer and\ncook until soft. Take a hand mandira and mash till you get a\nsmooth consistency. Do not use electronic blender. Now add\nPotatoes. Suran and Sukkha Masalas (red chilly powder.\ncoriander power and haldi) and Salt. Stir-fry for 2-3 minutes.\nAdd Bhaigan (long pieces) in the end. Stir-fry for a minute\nagain. Add 3-4 cups of water. Bring to a boil and simmer until\ndone. Eat with puris or chappatis. Sanna pakoras is a good side\ndish with it. kheerni is best as a desert after this meal.\nCredits: Shanti Sapru",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 55,
+        "image": "/assets/scans/kitchen-55.jpg",
+        "sha256": "c1bb2171d8d712e951af2d31ac9efe6f490e6ae57611cf06a6ed83b8145f82f5"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "3/4 Kg Alu cut in medium desired sizes",
+              "1 Medium sized palak bunch cut finely",
+              "1 Big bunch Khatta bhaji or two small bunches cut finely with stems included",
+              "1 Medium sized",
+              "Bhaigan cut into small cubes",
+              "2 Medium sized Bhaigans cut into total 8 long pieces with little stem attached. 3-4 Strands of Sua Bhaji cut finely",
+              "Small handful of methi leaves cut finely",
+              "5-6 or around 1/4 kg of tomatoes cut finely",
+              "150 gms Suran cut into medium desired pieces",
+              "4-5 green chilles (according to taste) cut finely",
+              "1 tsp Red chilly powder. 1 tbsp coriander powder",
+              "1/4 tsp haldi and salt to taste"
+            ]
+          }
+        ],
+        "steps": [
+          "Put little oil in pan, add Palak.",
+          "Khatta bhaji, Suva.",
+          "Methi, Greenchillies, finely chopped Bhaigan and Tomatoes.",
+          "Stir-fry for approximately 2-3 mins on high heat.",
+          "Simmer and cook until soft.",
+          "Take a hand mandira and mash till you get a smooth consistency.",
+          "Do not use electronic blender.",
+          "Now add Potatoes.",
+          "Suran and Sukkha Masalas (red chilly powder. coriander power and haldi) and Salt.",
+          "Stir-fry for 2-3 minutes.",
+          "Add Bhaigan (long pieces) in the end.",
+          "Stir-fry for a minute again.",
+          "Add 3-4 cups of water.",
+          "Bring to a boil and simmer until done.",
+          "Eat with puris or chappatis.",
+          "Sanna pakoras is a good side dish with it. kheerni is best as a desert after this meal."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-55.jpg",
+      "crop": {
+        "x": 201,
+        "y": 63,
+        "width": 202,
+        "height": 151,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 55,
+      "alt": "Vangan batate da teevar · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 55"
+    }
+  },
+  {
+    "id": "RAAH-RC-0043",
+    "wordId": "RAAH-0055",
+    "wordIds": [
+      "RAAH-0055"
+    ],
+    "name": "Vegar wali kadi",
+    "devanagari": "वेगर वाली कढ़ी",
+    "credit": "Savitri Nasta",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=56",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=56",
+    "pdfPage": 56,
+    "pdfPages": [
+      56
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "A slow-cooked gram-flour curry with vegetables.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 56\nVegar wali Kadi\nIngredients\nSmall quantities\nof hulba\nJeera\nRaee\nGarlic\nHing\nKadi patta\nGheela dhaniya\nBrinjal\nGuar\nBheendiyan\nMooli\nPotatoes\nSinghys\nPusyal imbli\nBesan - 2 tablespoon\nOil - 1 small spoon\nMethod\nHeat oil. Bunao half the besan in it. When it is little red, add\nhulba, garlic, hing. Kadi patta, geela dhaniya. Bunao all.\nSeparately wet the vegar items in water (brinjal, guvar.\nbheendiyan,mooli, potatoes, singhys).\nAdd vegar items and bundo again.\nAddrest of besan (previously kept in a little water).\nKeep on low fire.\nAdd pusyal imbli. Continue heating on low fire.\nAdd a little water if necessary.\nKeep on a very low fire till you are ready to serve.\nCredits: Savitri Nasta",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 56,
+        "image": "/assets/scans/kitchen-56.jpg",
+        "sha256": "304f3f4404d9eb8e6e96c21a3617101c0228ba4cc95c5fd62417761da878f3fa"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "Small quantities of hulba",
+              "Jeera",
+              "Raee",
+              "Garlic",
+              "Hing",
+              "Kadi patta",
+              "Gheela dhaniya",
+              "Brinjal",
+              "Guar",
+              "Bheendiyan",
+              "Mooli",
+              "Potatoes",
+              "Singhys",
+              "Pusyal imbli",
+              "Besan - 2 tablespoon",
+              "Oil - 1 small spoon"
+            ]
+          }
+        ],
+        "steps": [
+          "Heat oil.",
+          "Bunao half the besan in it.",
+          "When it is little red, add hulba, garlic, hing.",
+          "Kadi patta, geela dhaniya.",
+          "Bunao all.",
+          "Separately wet the vegar items in water (brinjal, guvar. bheendiyan,mooli, potatoes, singhys).",
+          "Add vegar items and bundo again.",
+          "Addrest of besan (previously kept in a little water).",
+          "Keep on low fire.",
+          "Add pusyal imbli.",
+          "Continue heating on low fire.",
+          "Add a little water if necessary.",
+          "Keep on a very low fire till you are ready to serve."
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-56.jpg",
+      "crop": {
+        "x": 172,
+        "y": 90,
+        "width": 229,
+        "height": 166,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 56,
+      "alt": "Vegar wali kadi · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 56"
+    }
+  },
+  {
+    "id": "RAAH-RC-0044",
+    "wordId": "RAAH-0056",
+    "wordIds": [
+      "RAAH-0056"
+    ],
+    "name": "Wasal karele",
+    "devanagari": "वसल करेले",
+    "credit": "Rajwanti Talreja",
+    "creditSource": "Recipe page; cookbook index used where a page omits the credit",
+    "sourceTitle": "From Bhagnari Kitchen",
+    "sourceUrl": "/documents/bhagnari-kitchen.pdf#page=57",
+    "originalSourceUrl": "https://ebhagnaris.in/wp-content/uploads/2020/01/From-Bhagnari-Kitchen.compressed.pdf#page=57",
+    "pdfPage": 57,
+    "pdfPages": [
+      57
+    ],
+    "status": "in-review",
+    "format": "text-with-source-link",
+    "description": "Bitter gourd cooked with onions and spices.",
+    "ingredients": [],
+    "method": [],
+    "note": "The complete printed recipe is preserved below, including its ingredients and method. This is a source scan, not a kitchen-tested adaptation. Credits and publication permissions remain under editorial review.",
+    "matchNote": "Recipe title matched to the food dictionary, preserving spelling variants.",
+    "sourceText": "PDF page 57\nWasal Karele\nIngredients\nKarele\nSalt to taste\n1 table spoon atta\nOil\nOnions\nHaldi\nGheela dhania\nSuka Masala\n(Suke dhane, Red chilly powder, Ambchur)\nMethod\nWash Karelas, apply long cut on each from center, apply salt.\nsprinkle 1 table spoon atta on them and keep away for about\nan hour to remove the bitterness of karelas. Cut the karelas\ninto round slices and fry them in hot oil. Bunao onions in oil in a\ndegra till they are brownish/pinkish. Add water and mix till\nhalf the water is taken up. Add karelas in the onions and mix\nwell.\nAdd salt to taste, haldi, suke dhane, red chillies and ambchur\nand mix well. Keep on slow fire. Add little gheela dhania on top\nbefore serving\nCredits: Rajwanti Talreja",
+    "sourceTextStatus": "Machine reading aid; not a verified transcription. Consult the original page images.",
+    "sourcePages": [
+      {
+        "page": 57,
+        "image": "/assets/scans/kitchen-57.jpg",
+        "sha256": "ecf6a9aae17016d2132e50244c7f01ab96e2d4ee134a2e9cd2a8a859da7da2e0"
+      }
+    ],
+    "readingParts": [
+      {
+        "title": "",
+        "introduction": [],
+        "ingredientGroups": [
+          {
+            "title": "",
+            "items": [
+              "Karele",
+              "Salt to taste",
+              "1 table spoon atta",
+              "Oil",
+              "Onions",
+              "Haldi",
+              "Gheela dhania",
+              "Suka Masala (Suke dhane, Red chilly powder, Ambchur)"
+            ]
+          }
+        ],
+        "steps": [
+          "Wash Karelas, apply long cut on each from center, apply salt. sprinkle 1 table spoon atta on them and keep away for about an hour to remove the bitterness of karelas.",
+          "Cut the karelas into round slices and fry them in hot oil.",
+          "Bunao onions in oil in a degra till they are brownish/pinkish.",
+          "Add water and mix till half the water is taken up.",
+          "Add karelas in the onions and mix well.",
+          "Add salt to taste, haldi, suke dhane, red chillies and ambchur and mix well.",
+          "Keep on slow fire.",
+          "Add little gheela dhania on top before serving"
+        ],
+        "notes": []
+      }
+    ],
+    "readingStatus": "Source wording with reading layout and logged OCR corrections; original extraction retained.",
+    "photo": {
+      "image": "/assets/scans/kitchen-57.jpg",
+      "crop": {
+        "x": 183,
+        "y": 80,
+        "width": 220,
+        "height": 166,
+        "canvasWidth": 445,
+        "canvasHeight": 700
+      },
+      "sourcePage": 57,
+      "alt": "Wasal karele · dish photograph from the community cookbook",
+      "caption": "From Bhagnari Kitchen · page 57"
+    }
+  }
+]
