@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
-import handler from '../api/admin/[...path].js';
+import handler from '../server/admin-handler.js';
 import {clearLoginAttempts} from '../server/admin-auth.js';
 import {addWord,setContentRoot,setStoreMode} from '../server/content-store.js';
 import {publishedFromRows,wordRow} from '../src/deskRecords.js';

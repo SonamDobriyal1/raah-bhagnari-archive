@@ -4,6 +4,10 @@
   "framework": "vite",
   "cleanUrls": true,
   "trailingSlash": false,
+  "rewrites": [
+    { "source": "/api/admin/:path*", "destination": "/api/desk?route=:path*" },
+    { "source": "/api/community/:path*", "destination": "/api/community-form?route=:path*" }
+  ],
   "headers": [{ "source": "/(.*)", "headers": [
     { "key": "X-Content-Type-Options", "value": "nosniff" },
     { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },

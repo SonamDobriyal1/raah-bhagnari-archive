@@ -1,13 +1,21 @@
-import {acceptLogin,adminConfigError,clearCookie,sessionCookie,sessionFrom} from '../../server/admin-auth.js';
-import {readJson,requestAllowed,sameOrigin,writeCors} from '../../server/same-origin.js';
-import * as store from '../../server/content-store.js';
+import {acceptLogin,adminConfigError,clearCookie,sessionCookie,sessionFrom} from './admin-auth.js';
+import {readJson,requestAllowed,sameOrigin,writeCors} from './same-origin.js';
+import * as store from './content-store.js';
 
 export const config={api:{bodyParser:{sizeLimit:'2mb'}}};
 
+function hintedRoute(req){
+  const raw=String(req.url||'/');
+  const fromUrl=new URLSearchParams(raw.split('?')[1]||'').get('route');
+  const fromQuery=req.query?.route;
+  const value=fromUrl||(Array.isArray(fromQuery)?fromQuery[0]:fromQuery);
+  return value?String(value):'';
+}
+
 function routeOf(req){
-  const path=String(req.url||'/').split('?')[0];
-  const stripped=path.replace(/^\/api\/admin/,'')||'/';
-  return stripped.length>1?stripped.replace(/\/$/,''):stripped;
+  const hinted=hintedRoute(req);
+  const path=hinted?`/${hinted.replace(/^\/+/,'')}`:String(req.url||'/').split('?')[0].replace(/^\/api\/admin/,'')||'/';
+  return path.length>1?path.replace(/\/$/,''):path;
 }
 
 export default async function handler(req,res){

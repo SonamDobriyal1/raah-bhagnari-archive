@@ -1,10 +1,12 @@
-import {addJourneyRequest,addRecipeSubmission} from '../../server/content-store.js';
-import {readJson,requestAllowed,writeCors} from '../../server/same-origin.js';
+import {addJourneyRequest,addRecipeSubmission} from './content-store.js';
+import {readJson,requestAllowed,writeCors} from './same-origin.js';
 
 export const config={api:{bodyParser:{sizeLimit:'2mb'}}};
 
 function routeOf(req){
-  const path=String(req.url||'/').split('?')[0].replace(/^\/api\/community/,'')||'/';
+  const raw=String(req.url||'/');
+  const hinted=new URLSearchParams(raw.split('?')[1]||'').get('route')||(typeof req.query?.route==='string'?req.query.route:'');
+  const path=hinted?`/${hinted.replace(/^\/+/,'')}`:raw.split('?')[0].replace(/^\/api\/community/,'')||'/';
   return path.length>1?path.replace(/\/$/,''):path;
 }
 
