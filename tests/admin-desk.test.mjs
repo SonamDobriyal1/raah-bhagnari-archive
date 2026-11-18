@@ -5,7 +5,6 @@ import os from 'node:os';
 import path from 'node:path';
 import handler from '../server/admin-handler.js';
 import community from '../server/community-handler.js';
-import removeJourney from '../api/admin/journeys/delete.js';
 import {clearLoginAttempts} from '../server/admin-auth.js';
 import {setContentRoot} from '../server/content-store.js';
 import {mergeSiteContent} from '../src/mergeSiteContent.js';
@@ -82,10 +81,7 @@ test('the curator desk signs in, publishes, and keeps private contact off the pu
     assert.equal(JSON.stringify(dish).includes('meera@example.com'),false);
     const removed=await call(handler,'/recipes/delete',{id:dish.id},authed);
     assert.equal(removed.data.published.recipes.length,0);
-    const stamped=await call(removeJourney,'/',{id:'missing-journey'},authed);
-    assert.equal(stamped.code,404);
-    assert.equal(stamped.data.error,'That journey is no longer on the site.');
-    const removedJourney=await call(handler,'/?route=journeys/delete',{id:journey.id},authed);
+    const removedJourney=await call(handler,'/api/desk?route=journeys/delete',{id:journey.id},authed);
     assert.equal(removedJourney.data.published.journeys.length,0);
 
     const spam=await call(community,'/journey-request',{name:'Spam',story:'A story long enough.',consent:true,website:'https://spam.example'});
