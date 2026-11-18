@@ -41,8 +41,8 @@ function attach(server){
     const response=req.method==='GET'?await handler.GET():req.method==='POST'?await handler.POST(request):new Response('Method not allowed',{status:405});
     res.statusCode=response.status;response.headers.forEach((v,k)=>res.setHeader(k,v));res.end(Buffer.from(await response.arrayBuffer()));
   }catch{res.statusCode=500;res.setHeader('Content-Type','application/json');res.end(JSON.stringify({error:'The local recording service could not respond.'}))}});
-  jsonEndpoint(server,'/api/admin','/api/admin/[[...path]].js');
-  jsonEndpoint(server,'/api/community','/api/community/[[...path]].js');
+  jsonEndpoint(server,'/api/admin','/api/admin/[...path].js');
+  jsonEndpoint(server,'/api/community','/api/community/[...path].js');
 }
 
 export default defineConfig(({mode})=>({plugins:[{name:'archive-local-api',configureServer(server){

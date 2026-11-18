@@ -14,7 +14,7 @@ const blankRecipe={name:'',devanagari:'',credit:'',description:'',ingredients:''
 async function save(path,body){
   const response=await fetch(deskPath(path),{method:'POST',headers:{'Content-Type':'application/json',...authHeaders()},body:JSON.stringify(body)});
   const data=await response.json().catch(()=>({}));
-  if(!response.ok)throw new Error(data.error||'The archive could not save that.');
+  if(!response.ok)throw new Error(data.error||(response.status===404?'The curator desk could not be reached. Publish again after the site finishes deploying.':'The archive could not save that.'));
   rememberSession(data);
   if(path.endsWith('/logout'))forgetSession();
   if(data.published){applyPublished(data.published);window.dispatchEvent(new Event('raah-site-content'))}
