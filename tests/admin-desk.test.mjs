@@ -19,12 +19,16 @@ test('published words, journeys and recipes merge without exposing removals twic
   const merged=mergeSiteContent({
     baseWords:[{id:'RAAH-0001',headword:'A',notes:['kept']},{id:'RAAH-0002',headword:'B',notes:[]}],
     baseRecipes:[{id:'book'}],
-    published:{removedWordIds:['RAAH-0002'],words:[{id:'RAAH-0642',headword:'Naya',meaning:'New.'}],recipes:[{id:'RAAH-CR-0001',community:true,name:'Koki'}],journeys:[{id:'family-1',title:'Across'}]}
+    published:{removedWordIds:['RAAH-0002'],words:[{id:'RAAH-0642',headword:'Naya',meaning:'New.'}],recipes:[{id:'RAAH-CR-0001',community:true,name:'Koki'},{id:'RAAH-CR-0002',community:true,name:'Aloo Tuk',image:'/uploads/recipes/aloo.jpg',status:'shared-photo',wordIds:['RAAH-RC-0002']},{id:'RAAH-CR-0003',community:true,name:'Heard',image:'/uploads/audio/a.webm',status:'pronunciation',wordIds:['RAAH-0001']},{id:'RAAH-CR-0004',community:true,name:'Album',image:'/uploads/recipes/album.jpg',status:'album-photo'},{id:'RAAH-CR-0005',community:true,name:'A memory',description:'A story',status:'story'}],journeys:[{id:'family-1',title:'Across'}]}
   });
   assert.deepEqual(merged.words.map(word=>word.id),['RAAH-0001','RAAH-0642']);
   assert.deepEqual(merged.words[0].notes,['kept']);
   assert.deepEqual(merged.words[1].notes,[]);
   assert.equal(merged.recipes.length,2);
+  assert.equal(merged.dishPhotos[0].id,'RAAH-CR-0002');
+  assert.equal(merged.pronunciations[0].id,'RAAH-CR-0003');
+  assert.equal(merged.albumPhotos[0].id,'RAAH-CR-0004');
+  assert.equal(merged.stories[0].id,'RAAH-CR-0005');
   assert.equal(merged.journeys[0].title,'Across');
 });
 

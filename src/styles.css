@@ -101,8 +101,8 @@ button,input,select{min-height:44px}
 .recipe-ingredients .recipe-dish-photo{width:100%;margin:0 0 26px}.recipe-ingredients .recipe-dish-photo figcaption{font-size:13px}.recipe-ingredients>.recipe-dish-photo+h3{margin-top:0}
 @media(max-width:700px){.recipe-ingredients .recipe-dish-photo{width:min(100%,280px)}}
 /* Visitor-facing source notes and private correction requests. */
-.word-source-note{border-top:1px solid var(--line);padding-top:16px;margin-top:26px}.word-source-note summary{cursor:pointer;min-height:44px;font-size:18px}.word-source-note p{font-size:17px;line-height:1.75}.word-theme{font-size:15px;color:#5f5447}.related-words{margin-top:60px}.recording-word-context{padding:20px 0 5px}.recording-word-context [lang=hi]{font-family:var(--deva);font-size:64px;color:var(--red);line-height:1.3}.recording-word-context p{font-size:20px;margin:8px 0}.community-photo-heading h1{font-size:40px;line-height:1.15;letter-spacing:-1px;margin:0 0 12px}.correction-request .page-intro{padding:10px 0}.correction-request .page-intro h1{font-size:48px}.correction-request .page-intro .eyebrow{font-size:14px}.footer-top p,.footer-bottom,.footer-bottom a,.map-note,.map-caption,.map-caption small{color:#5f5447!important}.map-note,.map-caption small{font-size:14px!important}.reading-prose p,.reading-prose li,.record-notes p,.guide-steps p,.transcript-notice,.contribute-layout aside p{font-size:17px;line-height:1.75}.discovery-tabs button{min-height:44px;font-size:14px;padding:10px 16px}.brand small{font-size:14px!important}.site-header nav>a:not(.button){font-size:14px}.provenance{font-size:14px!important}.provenance .text-link{font-size:14px;min-height:44px}
-@media(max-width:700px){.community-photo-heading h1{font-size:34px}.correction-request .page-intro h1{font-size:36px}.discovery-tabs{gap:8px}.discovery-tabs button{min-height:44px}.site-header nav>a:not(.button){font-size:17px}.recording-word-context [lang=hi]{font-size:54px}}
+.word-source-note{border-top:1px solid var(--line);padding-top:16px;margin-top:26px}.word-source-note summary{cursor:pointer;min-height:44px;font-size:18px}.word-source-note p{font-size:17px;line-height:1.75}.word-theme{font-size:15px;color:#5f5447}.related-words{margin-top:60px}.recording-word-context{padding:20px 0 5px}.recording-word-context [lang=hi]{font-family:var(--deva);font-size:64px;color:var(--red);line-height:1.3}.recording-word-context p{font-size:20px;margin:8px 0}.community-photo-heading h1{font-size:40px;line-height:1.15;letter-spacing:-1px;margin:0 0 12px}footer-top p,.footer-bottom,.footer-bottom a,.map-note,.map-caption,.map-caption small{color:#5f5447!important}.map-note,.map-caption small{font-size:14px!important}.reading-prose p,.reading-prose li,.record-notes p,.guide-steps p,.transcript-notice,.contribute-layout aside p{font-size:17px;line-height:1.75}.discovery-tabs button{min-height:44px;font-size:14px;padding:10px 16px}.brand small{font-size:14px!important}.site-header nav>a:not(.button){font-size:14px}.provenance{font-size:14px!important}.provenance .text-link{font-size:14px;min-height:44px}
+@media(max-width:700px){.community-photo-heading h1{font-size:34px}discovery-tabs{gap:8px}.discovery-tabs button{min-height:44px}.site-header nav>a:not(.button){font-size:17px}.recording-word-context [lang=hi]{font-size:54px}}
 .dictionary-card p,.recipe-preview-card p,.resource-mini-grid p,.source-library p,.chapter>p,.hero-description,.primer-story p,.kitchen-mini p,.food-feature-link p{font-size:17px;line-height:1.75}.recipe-preview-card .recipe-credit{font-size:14px}.chapter-artifact span,.resource-mini-grid .eyebrow,.catalogue-number,.source-library .resource-author,.kitchen-opening-number{font-size:14px!important}
 /* Final reading scale: source labels remain legible at every breakpoint. */
 .wrap .eyebrow,.word-slip .slip-top .eyebrow,.wrap .source-link,.wrap .text-link,.contribute-banner .text-link,.wrap .back-link,.wrap .theme-select,.wrap .results-meta,.wrap .food-index,.recording-word-grid small,.cookbook-feature small,.cookbook-feature .book-cover span,.recipe-ingredients .recipe-dish-photo figcaption{font-size:14px!important}.wrap .button,.contribute-banner .button{font-size:16px!important}.site-header .button{font-size:14px!important}.word-slip .slip-example p:last-child,.journey-source-note p,.voice-recorder b{font-size:17px!important;line-height:1.75}.hero-definition>span:not(:first-child),.journey-preview-grid .journey-year{font-size:14px!important}
@@ -126,6 +126,8 @@ button,input,select{min-height:44px}
 .family-recipe-grid{grid-template-columns:repeat(auto-fill,minmax(260px,1fr));margin-bottom:28px}
 .family-journey-list article,.family-recipe-grid article{border:1px solid #c0aa86;background:#f6efdf;padding:22px}
 .family-journey-list img,.family-recipe-grid img,.admin-photo{width:100%;max-height:280px;object-fit:cover;margin-bottom:14px}
+.admin-audio-preview p{margin:0 0 6px;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:#5c5348}
+.admin-audio{display:block;width:min(100%,420px);height:40px;margin:8px 0 14px}
 .family-recipe-grid ul,.family-recipe-grid ol,.admin-row ul,.admin-row ol{margin:8px 0 0;padding-left:18px}
 .family-recipe-grid li,.admin-row li{margin:4px 0}
 .admin-login .contribution-form{max-width:560px}
@@ -239,3 +241,33 @@ body{background-color:#efe4cf;background-image:radial-gradient(1200px 480px at 8
 .kitchen-list .kitchen-mini p{margin:0;max-width:36ch;font-size:15px;line-height:1.55;color:#5c5348}
 .kitchen-list .kitchen-mini .dish-link-label{display:inline-block;margin-top:14px;font-size:14px}
 .kitchen-list .cookbook-link{margin-top:2px;padding:6px 8px 0 4px}
+.shared-dish-photos{margin:28px 0 8px;padding-top:22px;border-top:1px solid var(--line)}
+.shared-dish-photos h3{font-size:28px;margin:0 0 6px}
+.shared-dish-photos>p{margin:0;color:#5c5348;font-size:15px}
+.shared-dish-photos ul{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;margin:16px 0 0;padding:0}
+.shared-dish-photos figure{margin:0}
+.shared-dish-photos img{width:100%;height:180px;object-fit:cover;border:1px solid #c6b18c;background:#f6efdf}
+.shared-dish-photos figcaption{margin-top:8px;font-size:13px;line-height:1.45;color:#5c5348}
+.public-after-note{margin:4px 0 16px;color:#5c5348;font-size:15px}
+.word-pronunciations{display:grid;gap:16px;margin:16px 0}
+.word-pronunciations figure{margin:0}
+.word-pronunciations audio{width:min(100%,420px)}
+.word-pronunciations figcaption{margin-top:8px;color:#5c5348;font-size:14px}
+.community-board{display:grid;gap:48px}
+.community-board h2{font-size:34px;margin:0 0 8px}
+.community-recipe{margin:22px 0;padding-top:18px;border-top:1px solid var(--line)}
+.community-recipe img{width:min(100%,280px);height:180px;object-fit:cover;border:1px solid #c6b18c}
+.community-recipe h3{margin:12px 0 4px}
+.food-records{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 20px;align-items:stretch}
+.food-list-card{display:flex;padding:0;border-top:0;min-width:0}
+.food-list-card>a{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:start;gap:12px 16px;flex:1;width:100%;padding:22px 22px 18px;text-decoration:none}
+.food-list-card>a>div{display:flex;flex-direction:column;align-self:stretch;min-width:0;min-height:100%}
+.food-list-card .food-index{margin-top:6px;min-width:2.8em;line-height:1;align-self:start}
+.food-list-card>a>svg{margin:4px 0 0;align-self:start;color:var(--red)}
+.food-records h3{margin:6px 0 8px;line-height:1.25}
+.food-records p{margin:0;line-height:1.55}
+.food-list-card .dish-link-label{margin-top:auto;padding-top:14px}
+@media(max-width:700px){
+  .food-records{grid-template-columns:1fr;gap:12px}
+  .food-list-card>a{padding:18px 16px 16px;gap:10px 12px}
+}

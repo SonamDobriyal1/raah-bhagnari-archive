@@ -38,6 +38,47 @@ export async function storePrivateImage(buffer,ext,name){
   return `pending/${objectName}`;
 }
 
+export async function storeContributionPhoto(reference,buffer,ext){
+  if(!/^RAAH-C-[0-9a-f-]{36}$/i.test(reference||'')||!MIME[ext])throw fail(400,'The photograph could not be used.');
+  const storagePath=`${reference}/photo.${ext}`;
+  await upload('archive-photos',storagePath,buffer,ext);
+  return storagePath;
+}
+
+export async function readContributionPhoto(storagePath){
+  if(!/^RAAH-C-[0-9a-f-]{36}\/photo\.(jpg|png|webp)$/i.test(storagePath||''))throw fail(400,'The photograph could not be used.');
+  const encoded=storagePath.split('/').map(encodeURIComponent).join('/');
+  const response=await fetch(new URL(`/storage/v1/object/archive-photos/${encoded}`,projectUrl()),{headers:headers(),signal:AbortSignal.timeout(20000)});
+  if(!response.ok)throw fail(404,'The photograph could not be used.');
+  return Buffer.from(await response.arrayBuffer());
+}
+
+const AUDIO={webm:'audio/webm',m4a:'audio/mp4',ogg:'audio/ogg',wav:'audio/wav',mp3:'audio/mpeg'};
+
+export async function storePublicAudio(buffer,ext,name){
+  if(!AUDIO[ext]||!/^[\w.-]+$/.test(name||''))throw fail(400,'The recording could not be used.');
+  const bucket='archive-audio';
+  await fetch(new URL('/storage/v1/bucket',projectUrl()),{method:'POST',headers:headers({'Content-Type':'application/json'}),body:JSON.stringify({id:bucket,name:bucket,public:true,file_size_limit:3000000,allowed_mime_types:Object.values(AUDIO)}),signal:AbortSignal.timeout(15000)}).catch(()=>{});
+  const objectName=`pronunciations/${name}.${ext}`;
+  const response=await fetch(new URL(`/storage/v1/object/${bucket}/${objectName}`,projectUrl()),{method:'POST',headers:headers({'Content-Type':AUDIO[ext],'x-upsert':'false'}),body:buffer,signal:AbortSignal.timeout(20000)});
+  if(!response.ok)throw fail(502,'The recording could not be published. Run scripts/desk-schema.sql so the archive-audio bucket exists.');
+  return `${projectUrl().origin}/storage/v1/object/public/${bucket}/${objectName}`;
+}
+
+export async function readContributionAudio(storagePath){
+  if(!/^RAAH-C-[0-9a-f-]{36}\/recording\.(webm|m4a|ogg|wav|mp3)$/i.test(storagePath||''))throw fail(400,'The recording could not be used.');
+  const encoded=storagePath.split('/').map(encodeURIComponent).join('/');
+  const response=await fetch(new URL(`/storage/v1/object/archive-recordings/${encoded}`,projectUrl()),{headers:headers(),signal:AbortSignal.timeout(20000)});
+  if(!response.ok)throw fail(404,'The recording could not be used.');
+  return Buffer.from(await response.arrayBuffer());
+}
+
+export async function deletePublicAudio(url){
+  const match=/^https:\/\/[a-z0-9-]+\.supabase\.co\/storage\/v1\/object\/public\/archive-audio\/(pronunciations\/[\w.-]+)$/.exec(url||'');
+  if(!match)return;
+  await fetch(new URL('/storage/v1/object/archive-audio',projectUrl()),{method:'DELETE',headers:headers({'Content-Type':'application/json'}),body:JSON.stringify({prefixes:[match[1]]}),signal:AbortSignal.timeout(15000)});
+}
+
 export async function readStoredImage(objectName){
   if(!/^pending\/[\w.-]+$/.test(objectName||''))throw fail(400,'The image could not be used.');
   const response=await fetch(new URL(`/storage/v1/object/${PENDING_BUCKET}/${objectName.slice('pending/'.length)}`,projectUrl()),{headers:headers(),signal:AbortSignal.timeout(20000)});

@@ -44,6 +44,14 @@ export default async function handler(req,res){
   if(!sessionFrom(req))return res.status(401).json({error:'Please sign in to the curator desk.'});
   try{
     if(req.method==='GET'&&route==='/desk')return res.status(200).json(await store.readDesk());
+    if(req.method==='GET'&&route==='/contributions/media'){
+      const reference=new URLSearchParams(String(req.url||'').split('?')[1]||'').get('reference')||(typeof req.query?.reference==='string'?req.query.reference:'');
+      const file=await store.contributionMedia(reference);
+      res.setHeader('Content-Type',file.type);
+      res.setHeader('Content-Disposition','inline');
+      res.status(200).end(file.buffer);
+      return;
+    }
     if(req.method!=='POST')return res.status(405).json({error:'That action is not available.'});
     const body=readJson(req);
     if(!body)return res.status(400).json({error:'The form could not be read.'});
@@ -59,7 +67,11 @@ export default async function handler(req,res){
       '/journey-requests/dismiss':()=>store.dismissJourneyRequest(body.id),
       '/recipe-submissions/approve':()=>store.approveRecipeSubmission(body.id),
       '/recipe-submissions/reject':()=>store.rejectRecipeSubmission(body.id),
-      '/contributions/review':()=>store.reviewRegisterEntry(body.reference,body.status)
+      '/contributions/review':()=>store.reviewRegisterEntry(body.reference,body.status),
+      '/contributions/publish-photo':()=>store.publishDishPhoto(body.reference),
+      '/contributions/publish-pronunciation':()=>store.publishPronunciation(body.reference),
+      '/contributions/publish-memory':()=>store.publishMemory(body.reference),
+      '/contributions/publish-recipe':()=>store.publishRegisterRecipe(body.reference)
     };
     const action=actions[route];
     if(!action)return res.status(404).json({error:'That curator action does not exist.'});

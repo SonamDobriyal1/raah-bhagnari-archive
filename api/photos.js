@@ -17,13 +17,13 @@ export function validatePhotoMetadata(value){
  const fields={};const limits={title:200,record:40,photographer:120,location:1000,photographedOn:10,name:120,contact:200,message:4000};
  for(const [key,max]of Object.entries(limits)){if(value[key]!=null&&typeof value[key]!=='string')return {error:'Please use text for '+key+'.'};fields[key]=(value[key]||'').trim();if(fields[key].length>max)return {error:'Please shorten '+key+'.'}}
  if(!fields.title)return {error:'Please name the photograph.'};
- if(fields.record&&!/^RAAH-\d{4}$/.test(fields.record))return {error:'The word record ID is not recognised.'};
+ if(fields.record&&!/^RAAH-(?:RC-|CR-)?\d{4}$/.test(fields.record))return {error:'The record ID is not recognised.'};
  if(fields.photographedOn&&!/^\d{4}-\d{2}-\d{2}$/.test(fields.photographedOn))return {error:'Please choose a valid photograph date.'};
  if(!['Keep me anonymous','Name me as entered','Use my family name only'].includes(value.credit))return {error:'Please choose a credit preference.'};
  if(!['Ask me before any publication','Private research only','Public after review'].includes(value.access))return {error:'Please choose how the photograph may be used.'};
  return {value:{...fields,credit:value.credit,access:value.access,photoConsent:true,consent:true}};
 }
-function configured(env){return env.ARCHIVE_PHOTOS_ENABLED==='true'&&(!!(env.SUPABASE_URL&&env.SUPABASE_SERVICE_ROLE_KEY)||relayConfigured(env))}
+function configured(env){if(env.ARCHIVE_PHOTOS_ENABLED==='false')return false;return !!(env.SUPABASE_URL&&env.SUPABASE_SERVICE_ROLE_KEY)||relayConfigured(env)}
 function result(status,data){return Response.json(data,{status,headers:{'Cache-Control':'no-store'}})}
 export async function GET(request){return withCors(result(200,{enabled:configured(process.env),maxBytes:MAX_BYTES,acceptedTypes:Object.keys(TYPES)}),request)}
 export async function handlePhoto(request,{env=process.env,fetcher=fetch}={}){

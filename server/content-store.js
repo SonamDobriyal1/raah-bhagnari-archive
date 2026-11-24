@@ -1,11 +1,13 @@
-import {randomBytes} from 'node:crypto';
+import {randomBytes,randomUUID} from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import {dishPhotoLinks} from '../src/dishPhotos.js';
 import {displayMeaning,themes} from '../src/library.js';
 import {routeLabel} from '../src/routeStops.js';
 import * as cloud from './cloud-desk.js';
-import {registerContributions,reviewContribution} from './register-queue.js';
-import {supabaseConfigured} from './supabase-rest.js';
+import {readContributionAudio,readContributionPhoto,storeContributionPhoto} from './supabase-storage.js';
+import {contributionRecord,registerContributions,reviewContribution} from './register-queue.js';
+import {supabaseConfigured,supabaseRest} from './supabase-rest.js';
 
 let root=process.cwd();
 let storeMode='auto';
@@ -57,6 +59,33 @@ function readInbox(){return useCloud()?cloud.readInbox():readJson(inboxFile(),em
 function savePublished(published){return useCloud()?cloud.writePublished(published):writeJson(publishedFile(),published)}
 function saveInbox(inbox){return useCloud()?cloud.writeInbox(inbox):writeJson(inboxFile(),inbox)}
 
+async function cookbookRecipes(){
+  try{return JSON.parse(await fs.readFile(path.join(root,'content','recipes.json'),'utf8'))}
+  catch(error){if(error.code==='ENOENT')return [];throw error}
+}
+
+function sharedCredit(credit,name){
+  if((credit==='Name me as entered'||credit==='Use my family name only')&&clip(name,120))return clip(name,120);
+  return 'A family';
+}
+
+function sharedPhoto(published,{name,credit,description,image,wordIds}){
+  return {
+    id:nextRecipeId(published.recipes),
+    community:true,
+    name:clip(String(name||'').replace(/^dish photo:\s*/i,''),140)||'A family dish',
+    devanagari:'',
+    credit:credit||'A family',
+    description:clip(description,240),
+    ingredients:[],
+    method:[],
+    image,
+    wordIds,
+    status:'shared-photo',
+    source:'Shared dish photo'
+  };
+}
+
 async function sourceEntries(){
   try{return JSON.parse(await fs.readFile(path.join(root,'content','dictionary.json'),'utf8'))}
   catch(error){if(error.code==='ENOENT')return [];throw error}
@@ -77,6 +106,11 @@ function decodeImage(dataUrl){
   const ext=sniff(buffer);
   if(!ext||buffer.length>1200000)throw fail(400,'Please use a JPG, PNG or WebP image under 1.2 MB.');
   return {buffer,ext};
+}
+
+async function writeAudio(buffer,ext,name){
+  if(useCloud())return cloud.writeAudio(buffer,ext,name);
+  return writeUpload(buffer,ext,'audio',name);
 }
 
 async function writeUpload(buffer,ext,folder,name){
@@ -119,7 +153,7 @@ async function removePublic(urlPath){
 }
 
 function savedUpload(urlPath){
-  if(!/^\/uploads\/(journeys|recipes)\/[\w.-]+$/.test(urlPath||''))return '';
+  if(!/^\/uploads\/(journeys|recipes|audio)\/[\w.-]+$/.test(urlPath||''))return '';
   return path.join(root,'public',urlPath.slice(1));
 }
 
@@ -147,9 +181,34 @@ async function deskFrom(published,inbox){
   };
 }
 
+const fileTypes={jpg:'image/jpeg',jpeg:'image/jpeg',png:'image/png',webp:'image/webp',webm:'audio/webm',m4a:'audio/mp4',ogg:'audio/ogg',wav:'audio/wav',mp3:'audio/mpeg'};
+
+export async function contributionMedia(reference){
+  const row=await contributionRecord(reference);
+  if(!row?.storage_path)throw fail(404,'That file could not be found.');
+  const ext=String(row.storage_path).split('.').pop().toLowerCase();
+  const type=fileTypes[ext];
+  if(!type)throw fail(404,'That file could not be found.');
+  if(row.storage_bucket==='archive-photos')return {buffer:await readContributionPhoto(row.storage_path),type};
+  if(row.storage_bucket==='archive-recordings')return {buffer:await readContributionAudio(row.storage_path),type};
+  throw fail(404,'That file could not be found.');
+}
+
+async function attachVoicePreview(item){
+  if(item.preview!=='audio')return item;
+  try{
+    const file=await contributionMedia(item.reference);
+    return {...item,mediaData:`data:${file.type};base64,${file.buffer.toString('base64')}`};
+  }catch(error){
+    console.error('Voice preview',error.message);
+    return item;
+  }
+}
+
 async function deskWithRegister(){
   const desk=await deskFrom(await readPublished(),await readInbox());
-  desk.contributions=await registerContributions();
+  const contributions=await registerContributions();
+  desk.contributions=await Promise.all(contributions.map(attachVoicePreview));
   return desk;
 }
 
@@ -437,9 +496,14 @@ export function approveRecipeSubmission(id){
     const published=await readPublished();
     const recipeId=nextRecipeId(published.recipes);
     const recipe=recipeFrom({...submission,credit:submission.credit||'Anonymous'},'',recipeId);
+    let sharedImage='';
     if(submission.imagePath){
       const buffer=useCloud()?await cloud.readPrivate(submission.imagePath):await fs.readFile(privatePath(submission.imagePath));
-      recipe.image=await writeUpload(buffer,path.extname(submission.imagePath).slice(1),'recipes',recipeId);
+      const ext=path.extname(submission.imagePath).slice(1);
+      recipe.image=await writeUpload(buffer,ext,'recipes',recipeId);
+      const wordIds=dishPhotoLinks({record:submission.record,title:submission.name},await cookbookRecipes());
+      if(wordIds.length)sharedImage=await writeUpload(buffer,ext,'recipes','dish-'+randomBytes(4).toString('hex'));
+      if(wordIds.length)published.recipes.push(sharedPhoto({...published,recipes:[...published.recipes,recipe]},{name:submission.name,credit:recipe.credit,description:submission.description,image:sharedImage,wordIds}));
       await removePrivate(submission.imagePath);
     }
     published.recipes.push(recipe);
@@ -447,5 +511,149 @@ export function approveRecipeSubmission(id){
     const saved=await savePublished(published);
     await saveInbox(inbox);
     return deskFrom(saved||published,inbox);
+  });
+}
+
+function familyRecipes(recipes){
+  return recipes.filter(item=>!['shared-photo','album-photo','pronunciation','story'].includes(item.status));
+}
+
+export function addRegisterRecipe(input){
+  return enqueue(async()=>{
+    if(!supabaseConfigured())throw fail(503,'Online submissions are not open yet. Please keep or download your draft.');
+    if(input?.website)throw fail(400,'Please take a moment to check your contribution before sending.');
+    if(typeof input?.elapsed!=='number'||input.elapsed<1500)throw fail(400,'Please take a moment to check your contribution before sending.');
+    if(input?.consent!==true)throw fail(400,'Please confirm you have permission to offer this material.');
+    if(!['Name me as entered','Use my family name only','Keep me anonymous'].includes(input?.credit))throw fail(400,'Please choose how your material can be credited.');
+    const title=clip(input?.title,200);
+    const message=clip(input?.message,12000);
+    if(!title||!message)throw fail(400,'Please add a title and tell us about your contribution.');
+    const record=clip(input?.record,40);
+    if(record&&!/^RAAH-(?:RC-|CR-)?\d{4}$/.test(record))throw fail(400,'The record ID is not recognised.');
+    const reference='RAAH-C-'+randomUUID();
+    const image=input?.imageData?decodeImage(input.imageData):null;
+    let storagePath='';
+    if(image)storagePath=await storeContributionPhoto(reference,image.buffer,image.ext);
+    try{
+      await supabaseRest('contributions',{method:'POST',prefer:'return=minimal',body:{reference,type:'recipe',title,message,source:clip(input?.source,2000),name:clip(input?.name,120),contact:clip(input?.contact,200),record,credit:input.credit,access:'Public after review',consent:true,consent_version:'2026-11-03',status:'pending',...(storagePath?{storage_bucket:'archive-photos',storage_path:storagePath}:{})}});
+    }catch(error){
+      throw error.status?error:fail(502,'The archive could not receive the contribution. Your draft is still here; save it and try again later.');
+    }
+    return {reference,status:'pending'};
+  });
+}
+
+export function publishRegisterRecipe(reference){
+  return enqueue(async()=>{
+    const row=await contributionRecord(reference);
+    if(!row)throw fail(404,'That recipe could not be found.');
+    if(row.type!=='recipe')throw fail(400,'Only a recipe from the register can be published this way.');
+    if(row.access==='Private research only')throw fail(400,'This recipe was offered for private research, so it stays off the page.');
+    const published=await readPublished();
+    if(row.status==='approved'||published.recipes.some(item=>item.source===`Register recipe ${reference}`))throw fail(409,'That recipe is already on the page.');
+    const id=nextRecipeId(published.recipes);
+    const recipe=recipeFrom({name:row.title,credit:sharedCredit(row.credit,row.name),description:row.message,method:row.message,ingredients:''},'',id);
+    recipe.source=`Register recipe ${reference}`;
+    if(row.storage_path){
+      if(row.storage_bucket!=='archive-photos')throw fail(400,'The photograph could not be used.');
+      const ext=String(row.storage_path).split('.').pop().toLowerCase();
+      const image=await writeUpload(await readContributionPhoto(row.storage_path),ext==='jpeg'?'jpg':ext,'recipes','dish-'+randomBytes(4).toString('hex'));
+      recipe.image=image;
+      const wordIds=[id,...dishPhotoLinks({record:row.record,title:row.title},await cookbookRecipes())];
+      published.recipes.push({...sharedPhoto({...published,recipes:[...published.recipes,recipe]},{name:row.title,credit:recipe.credit,description:clip(row.message,240),image,wordIds}),source:`Shared dish photo ${reference}`});
+    }
+    published.recipes.push(recipe);
+    await savePublished(published);
+    await reviewContribution(reference,'approved');
+    return deskWithRegister();
+  });
+}
+
+export function publishPronunciation(reference){
+  return enqueue(async()=>{
+    const row=await contributionRecord(reference);
+    if(!row)throw fail(404,'That recording could not be found.');
+    if(row.type!=='voice')throw fail(400,'Only a pronunciation can be placed on a word.');
+    if(row.access==='Private research only')throw fail(400,'This recording was offered for private research, so it stays off the page.');
+    const published=await readPublished();
+    if(row.status==='approved'||published.recipes.some(item=>item.source===`Pronunciation ${reference}`||item.source===`Story ${reference}`))throw fail(409,'That recording is already on the page.');
+    if(row.storage_bucket!=='archive-recordings')throw fail(400,'The recording could not be used.');
+    const ext=String(row.storage_path||'').split('.').pop().toLowerCase();
+    const audio=await writeAudio(await readContributionAudio(row.storage_path),ext,randomBytes(4).toString('hex'));
+    const wordIds=/^RAAH-\d{4}$/.test(row.record||'')?[row.record]:[];
+    const onWord=wordIds.length>0;
+    published.recipes.push({
+      id:nextRecipeId(published.recipes),
+      community:true,
+      name:clip(row.title,140)||'A family pronunciation',
+      devanagari:'',
+      credit:sharedCredit(row.credit,row.name),
+      description:clip(row.message,240),
+      ingredients:[],
+      method:[],
+      image:audio,
+      wordIds,
+      status:onWord?'pronunciation':'story',
+      source:onWord?`Pronunciation ${reference}`:`Story ${reference}`
+    });
+    await savePublished(published);
+    await reviewContribution(reference,'approved');
+    return deskWithRegister();
+  });
+}
+
+export function publishMemory(reference){
+  return enqueue(async()=>{
+    const row=await contributionRecord(reference);
+    if(!row)throw fail(404,'That memory could not be found.');
+    if(row.type!=='memory')throw fail(400,'Only a memory can be published this way.');
+    if(row.access==='Private research only')throw fail(400,'This memory was offered for private research, so it stays off the page.');
+    const published=await readPublished();
+    if(row.status==='approved'||published.recipes.some(item=>item.source===`Story ${reference}`))throw fail(409,'That memory is already on the page.');
+    let audio='';
+    if(row.storage_path){
+      if(row.storage_bucket!=='archive-recordings')throw fail(400,'The recording could not be used.');
+      const ext=String(row.storage_path).split('.').pop().toLowerCase();
+      audio=await writeAudio(await readContributionAudio(row.storage_path),ext,randomBytes(4).toString('hex'));
+    }
+    const wordIds=/^RAAH-\d{4}$/.test(row.record||'')?[row.record]:[];
+    published.recipes.push({
+      id:nextRecipeId(published.recipes),
+      community:true,
+      name:clip(row.title,140)||'A family memory',
+      devanagari:'',
+      credit:sharedCredit(row.credit,row.name),
+      description:clip(row.message,2000),
+      ingredients:[],
+      method:[],
+      image:audio,
+      wordIds,
+      status:'story',
+      source:`Story ${reference}`
+    });
+    await savePublished(published);
+    await reviewContribution(reference,'approved');
+    return deskWithRegister();
+  });
+}
+
+export function publishDishPhoto(reference){
+  return enqueue(async()=>{
+    const row=await contributionRecord(reference);
+    if(!row)throw fail(404,'That photograph could not be found.');
+    if(row.type!=='photograph')throw fail(400,'Only a photograph can be published this way.');
+    if(row.access==='Private research only')throw fail(400,'This photograph was offered for private research, so it stays off the page.');
+    const published=await readPublished();
+    if(row.status==='approved'||published.recipes.some(item=>item.source===`Shared dish photo ${reference}`||item.source===`Album photo ${reference}`))throw fail(409,'That photograph is already on the page.');
+    if(row.storage_bucket!=='archive-photos')throw fail(400,'The photograph could not be used.');
+    const wordIds=dishPhotoLinks({record:row.record,title:row.title},[...await cookbookRecipes(),...familyRecipes(published.recipes)]);
+    const ext=String(row.storage_path||'').split('.').pop().toLowerCase();
+    const image=await writeUpload(await readContributionPhoto(row.storage_path),ext==='jpeg'?'jpg':ext,'recipes','dish-'+randomBytes(4).toString('hex'));
+    const caption=clip(row.message,240).replace(/^Photograph: .*/,'').trim();
+    const photo=sharedPhoto(published,{name:row.title,credit:sharedCredit(row.credit,row.name),description:caption,image,wordIds});
+    published.recipes.push(wordIds.length?{...photo,source:`Shared dish photo ${reference}`}:{...photo,status:'album-photo',source:`Album photo ${reference}`});
+    await savePublished(published);
+    await reviewContribution(reference,'approved');
+    return deskWithRegister();
   });
 }

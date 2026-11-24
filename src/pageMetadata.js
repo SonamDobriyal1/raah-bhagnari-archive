@@ -1,7 +1,7 @@
 const plain=value=>String(value||'').replace(/\s+/g,' ').replace(/[.!?]+$/,'').trim();
 const shorten=(text,limit=160)=>text.length<=limit?text:text.slice(0,limit-1).replace(/\s+\S*$/,'')+'…';
 export function pageMetadata(path,{entries=[],recipes=[]}={}){
- const canonicalPath=({'/community':'/about','/migration':'/journey'})[path]||path;
+ const canonicalPath=({'/migration':'/journey'})[path]||path;
  const count=entries.length||641,recipeCount=recipes.filter(recipe=>!recipe.community).length;
  const pages={
  '/':['Raah — The Bhagnari Community Archive',`Explore ${count} Bhagnari words, ${recipeCount} community recipes and journeys through Sindh and Mumbai. Share your family’s stories, photographs and voice.`],
@@ -9,13 +9,13 @@ export function pageMetadata(path,{entries=[],recipes=[]}={}){
  '/journey':['The Bhagnari Journey: Bhag to Sindh to Mumbai — Raah','From Bhag and Nar to nineteenth-century Sindh, across the sea at Partition to Mahim, and on to the Gulf.'],
  '/words':[`Bhagnari Dictionary: ${count} Words — Raah`,'Search Bhagnari words in Roman and Devanagari, with English meanings and examples. Add how your family says them.'],
  '/dishes':['Bhagnari Recipes & Food Traditions — Raah',`Explore ${recipeCount} recipes from From Bhagnari Kitchen, with ingredients, methods and credits to the community cooks.`],
+ '/community':['Community pages — Raah','Recipes, photographs and pronunciations the curator has approved, each credited to the person who sent it.'],
  '/collections':['Bhagnari Books & Records — Raah','Read the community’s history booklet, Panchayat records, cookbook and aarti book in full.'],
  '/voices':['Bhagnari Oral Histories & Family Recordings — Raah','A listening room for Bhagnari video interviews, oral histories and family recordings. Share a story or begin a conversation with an elder.'],
  '/photographs':['Bhagnari Family Photographs — Raah','Share a family photograph and the story behind it. Browse photographs shared with permission by the Bhagnari community.'],
- '/contribute':["Add Your Family’s Page — Raah",'Send a word, recipe, photograph or a recording of your nani or nana for private review.'],
- '/corrections':['Correction or Removal — Raah','Request a correction, removal or change of credit or permission. Include your contribution reference or the page link for private review.']
+ '/contribute':["Add Your Family’s Page — Raah",'Send a word, recipe, photograph or a recording. Once the curator approves it, it is published on the site.']
  };
- if(pages[canonicalPath])return {title:pages[canonicalPath][0],description:pages[canonicalPath][1],canonicalPath,imageId:'archive',noindex:canonicalPath==='/corrections'};
+ if(pages[canonicalPath])return {title:pages[canonicalPath][0],description:pages[canonicalPath][1],canonicalPath,imageId:'archive',noindex:false};
  const match=path.match(/^\/(words|dishes)\/(RAAH-\d{4})$/);const entry=match&&entries.find(e=>e.id===match[2]);
  if(entry){const meaning=plain(entry.meaning),recipe=match[1]==='dishes'&&recipes.find(r=>r.wordId===entry.id||r.wordIds?.includes(entry.id));
   if(recipe)return {title:`${recipe.name} Recipe — Raah`,description:shorten(`${recipe.description} ${recipe.credit==='Anonymous'?'A community cookbook recipe':`Recipe by ${recipe.credit}`}, with ingredients, method and the original cookbook page.`),canonicalPath:'/dishes/'+recipe.wordId,imageId:entry.id};

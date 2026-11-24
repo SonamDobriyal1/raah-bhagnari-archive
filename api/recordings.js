@@ -3,7 +3,7 @@ import {relayConfigured,relayContribution} from '../server/private-ingest.js';
 import {Buffer} from 'node:buffer';
 import {randomUUID} from 'node:crypto';
 const MAX_BYTES=3_000_000;
-const TYPES={'audio/webm':'webm','audio/mp4':'m4a','audio/ogg':'ogg','audio/wav':'wav','audio/x-wav':'wav','audio/mpeg':'mp3'};
+const TYPES={'audio/webm':'webm','audio/mp4':'m4a','audio/x-m4a':'m4a','audio/m4a':'m4a','audio/ogg':'ogg','audio/wav':'wav','audio/x-wav':'wav','audio/mpeg':'mp3','audio/mp3':'mp3','video/mp4':'m4a'};
 export function validAudio(bytes,type){
  const b=Buffer.from(bytes);if(b.length<12)return false;
  if(type==='audio/webm')return b.subarray(0,4).equals(Buffer.from([0x1a,0x45,0xdf,0xa3]));
@@ -23,9 +23,10 @@ export function validateRecordingMetadata(value){
  if(fields.recordedOn&&!/^\d{4}-\d{2}-\d{2}$/.test(fields.recordedOn))return {error:'Please choose a valid recording date.'};
  if(!['Keep me anonymous','Name me as entered','Use my family name only'].includes(value.credit))return {error:'Please choose a credit preference.'};
  if(!['Ask me before any publication','Private research only','Public after review'].includes(value.access))return {error:'Please choose how the recording may be used.'};
- return {value:{...fields,credit:value.credit,access:value.access,recordingConsent:true,consent:true}};
+ const kind=value.kind==='memory'?'memory':'voice';
+ return {value:{...fields,kind,credit:value.credit,access:value.access,recordingConsent:true,consent:true}};
 }
-function configured(env){return env.ARCHIVE_RECORDINGS_ENABLED==='true'&&(!!(env.SUPABASE_URL&&env.SUPABASE_SERVICE_ROLE_KEY)||relayConfigured(env))}
+function configured(env){if(env.ARCHIVE_RECORDINGS_ENABLED==='false')return false;return !!(env.SUPABASE_URL&&env.SUPABASE_SERVICE_ROLE_KEY)||relayConfigured(env)}
 function result(status,data){return Response.json(data,{status,headers:{'Cache-Control':'no-store'}})}
 export async function GET(request){return withCors(result(200,{enabled:configured(process.env),maxBytes:MAX_BYTES,maxSeconds:120}),request)}
 export async function handleRecording(request,{env=process.env,fetcher=fetch}={}){
@@ -35,13 +36,16 @@ export async function handleRecording(request,{env=process.env,fetcher=fetch}={}
  if(Number(request.headers.get('content-length')||0)>MAX_BYTES+50_000)return result(413,{error:'Please keep the audio under 3 MB. Try a shorter recording.'});
  if(!request.headers.get('content-type')?.startsWith('multipart/form-data'))return result(415,{error:'Please use the recording form to choose an audio file.'});
  let form;try{form=await request.formData()}catch{return result(400,{error:'The upload could not be read. Keep a local copy and try again.'})}
- if(form.get('website')||Number(form.get('elapsed'))<1500||!Number.isFinite(Number(form.get('elapsed'))))return result(400,{error:'Please check the recording before sending it.'});
+ if(form.get('website')||Number(form.get('elapsed'))<400||!Number.isFinite(Number(form.get('elapsed'))))return result(400,{error:'Please check the recording before sending it.'});
  let details;try{details=JSON.parse(form.get('metadata'))}catch{return result(400,{error:'The recording details could not be read.'})}
  const checked=validateRecordingMetadata(details);if(checked.error)return result(400,{error:checked.error});
  const file=form.get('audio');if(!file||typeof file.arrayBuffer!=='function')return result(400,{error:'Please record or choose an audio file first.'});
- const type=file.type.split(';')[0].toLowerCase();if(!TYPES[type])return result(415,{error:'Please use WebM, M4A/MP4, Ogg, WAV or MP3 audio.'});
+ const declared=String(file.type||'').split(';')[0].toLowerCase();
  if(!file.size||file.size>MAX_BYTES)return result(413,{error:'Please keep the audio under 3 MB. Try a shorter recording.'});
- const bytes=Buffer.from(await file.arrayBuffer());if(!validAudio(bytes,type))return result(415,{error:'This file does not match its audio format. Please export it again or make a new recording.'});
+ const bytes=Buffer.from(await file.arrayBuffer());
+ const sniffed=Object.keys(TYPES).find(name=>validAudio(bytes,name));
+ const type=TYPES[declared]&&validAudio(bytes,declared)?declared:sniffed;
+ if(!type||!validAudio(bytes,type))return result(415,{error:'Please use WebM, M4A/MP4, Ogg, WAV or MP3 audio.'});
  if(relayConfigured(env)){try{return await relayContribution(new Request(request.url,{method:'POST',headers:Object.fromEntries([...request.headers].filter(([key])=>!['content-type','content-length'].includes(key))),body:form}),'recording',{env,fetcher})}catch{return result(502,{error:'The archive could not receive this recording. Keep your local copy and try again later.'})}}
  const reference='RAAH-C-'+randomUUID();const bucket=env.SUPABASE_PRIVATE_BUCKET||'archive-recordings';const storagePath=reference+'/recording.'+TYPES[type];
  const base=new URL(env.SUPABASE_URL);if(base.protocol!=='https:')return result(503,{error:'Archive storage needs configuration. Your recording is still here.'});
@@ -49,7 +53,7 @@ export async function handleRecording(request,{env=process.env,fetcher=fetch}={}
  const storageUrl=new URL('/storage/v1/object/'+encodeURIComponent(bucket)+'/'+storagePath,base);let uploaded=false;
  try{
   const sent=await fetcher(storageUrl,{method:'POST',headers:{...headers,'Content-Type':type,'x-upsert':'false'},body:bytes,signal:AbortSignal.timeout(20000)});if(!sent.ok)throw new Error();uploaded=true;
-  const m=checked.value;const row={reference,type:'voice',title:m.title,message:m.message||'Pronunciation recording: '+m.title,source:'Direct audio contribution',name:m.name,contact:m.contact,record:m.record,credit:m.credit,access:m.access,consent:true,consent_version:'2026-11-04-recording',status:'pending',speaker_credit:m.speaker,pronunciation_variant:m.variant,recorded_on:m.recordedOn||null,recording_consent:true,storage_bucket:bucket,storage_path:storagePath,audio_mime:type,audio_bytes:bytes.length};
+  const m=checked.value;const row={reference,type:m.kind,title:m.title,message:m.message||(m.kind==='memory'?m.title:'Pronunciation recording: '+m.title),source:m.kind==='memory'?'Direct memory recording':'Direct audio contribution',name:m.name,contact:m.contact,record:m.record,credit:m.credit,access:m.access,consent:true,consent_version:'2026-11-04-recording',status:'pending',speaker_credit:m.speaker,pronunciation_variant:m.variant,recorded_on:m.recordedOn||null,recording_consent:true,storage_bucket:bucket,storage_path:storagePath,audio_mime:type,audio_bytes:bytes.length};
   const saved=await fetcher(new URL('/rest/v1/contributions',base),{method:'POST',headers:{...headers,'Content-Type':'application/json',Prefer:'return=minimal'},body:JSON.stringify(row),signal:AbortSignal.timeout(10000)});if(!saved.ok)throw new Error();
   return result(201,{reference,status:'pending',message:'Received for private curator review. Nothing has been published.'});
  }catch{

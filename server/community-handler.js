@@ -1,4 +1,4 @@
-import {addJourneyRequest,addRecipeSubmission} from './content-store.js';
+import {addJourneyRequest,addRecipeSubmission,addRegisterRecipe} from './content-store.js';
 import {readJson,requestAllowed,writeCors} from './same-origin.js';
 
 export const config={api:{bodyParser:{sizeLimit:'2mb'}}};
@@ -23,6 +23,7 @@ export default async function handler(req,res){
     const route=routeOf(req);
     if(route==='/journey-request')return res.status(201).json(await addJourneyRequest(body));
     if(route==='/recipe')return res.status(201).json(await addRecipeSubmission(body));
+    if(route==='/register-recipe')return res.status(201).json(await addRegisterRecipe(body));
     return res.status(404).json({error:'That form is not available.'});
   }catch(error){
     return res.status(error.status||500).json({error:error.status?error.message:'The archive could not receive this. Please keep a copy and try again.'});

@@ -13,7 +13,7 @@ const baseWords=sourceDictionary.map(entry=>({
   ...(hindiGlosses.meanings[entry.id]?{hindiProvenance:hindiGlosses.provenance}:{})
 }));
 
-const state={words:baseWords,recipes:sourceRecipes,journeys:[]};
+const state={words:baseWords,recipes:sourceRecipes,journeys:[],dishPhotos:[],albumPhotos:[],pronunciations:[],stories:[]};
 
 function liveArray(read){
   return new Proxy([],{
@@ -38,12 +38,20 @@ export function applyPublished(published){
   state.words=next.words;
   state.recipes=next.recipes;
   state.journeys=next.journeys;
+  state.dishPhotos=next.dishPhotos||[];
+  state.albumPhotos=next.albumPhotos||[];
+  state.pronunciations=next.pronunciations||[];
+  state.stories=next.stories||[];
 }
 
 export const dictionary=liveArray(()=>state.words);
 export const recipes=liveArray(()=>state.recipes);
 export const word=id=>state.words.find(entry=>entry.id===id);
 export const publishedJourneys=()=>state.journeys;
+export const dishPhotos=liveArray(()=>state.dishPhotos);
+export const albumPhotos=liveArray(()=>state.albumPhotos);
+export const pronunciations=liveArray(()=>state.pronunciations);
+export const stories=liveArray(()=>state.stories);
 
 async function loadPublished(){
   const root=import.meta.env?.VITE_SUPABASE_URL;

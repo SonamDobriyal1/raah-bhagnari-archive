@@ -1,8 +1,11 @@
 import React,{useState} from 'react';
-import {recipes} from './catalog.js';
+import {dishPhotos,recipes} from './catalog.js';
 import {deskPath} from './deskApi.js';
+import {photosUnderRecipe} from './dishPhotos.js';
 import {publicImage} from './publicImage.js';
 import {readImageFile} from './readImageFile.js';
+import SharedDishPhotos from './SharedDishPhotos.jsx';
+import {Link} from './components.jsx';
 
 async function send(body){
   const response=await fetch(deskPath('/api/community/recipe'),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
@@ -33,7 +36,7 @@ export default function CommunityKitchen(){
   }
 
   return <section className="community-block">
-    {family.length>0&&<div className="family-recipes"><h2>From family kitchens.</h2><div className="family-recipe-grid">{family.map(recipe=>{const image=publicImage(recipe.image,'recipes');return <article key={recipe.id}>{image&&<img src={image} alt={recipe.name}/>}<h3>{recipe.devanagari&&<span lang="hi">{recipe.devanagari}</span>} {recipe.name}</h3><p>{recipe.description}</p><p className="recipe-credit">{recipe.credit==='Anonymous'?'Cook not named.':`Recipe by ${recipe.credit}.`}</p>{(recipe.ingredients||[]).length>0&&<ul>{(recipe.ingredients||[]).map((item,index)=><li key={index}>{item}</li>)}</ul>}<ol>{(recipe.method||[]).map((step,index)=><li key={index}>{step}</li>)}</ol></article>})}</div></div>}
+    {family.length>0&&<div className="family-recipes"><h2>From family kitchens.</h2><div className="family-recipe-grid">{family.map(recipe=>{const image=publicImage(recipe.image,'recipes');return <article key={recipe.id}>{image&&<img src={image} alt={recipe.name}/>}<h3>{recipe.devanagari&&<span lang="hi">{recipe.devanagari}</span>} {recipe.name}</h3><p>{recipe.description}</p><p className="recipe-credit">{recipe.credit==='Anonymous'?'Cook not named.':`Recipe by ${recipe.credit}.`}</p>{(recipe.ingredients||[]).length>0&&<ul>{(recipe.ingredients||[]).map((item,index)=><li key={index}>{item}</li>)}</ul>}<ol>{(recipe.method||[]).map((step,index)=><li key={index}>{step}</li>)}</ol><SharedDishPhotos photos={photosUnderRecipe(dishPhotos,recipe.id)}/><Link className="text-link" to={'/contribute?type=photograph&record='+encodeURIComponent(recipe.id)+'&title='+encodeURIComponent('Dish photo: '+recipe.name)}>Add a dish photo</Link></article>})}</div></div>}
     <form className="contribution-form" onSubmit={submit}>
       <div className="form-heading"><span>RAAH / A FAMILY RECIPE</span><span>FOR REVIEW</span></div>
       <h2>Cook it the way your family does.</h2>

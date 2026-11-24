@@ -13,7 +13,7 @@ applyPublished(site);
 const removed=new Set(site.removedWordIds||[]);
 const entries=JSON.parse(await fs.readFile('content/dictionary.json','utf8')).filter(entry=>!removed.has(entry.id)).concat((site.words||[]).filter(entry=>entry?.id&&!removed.has(entry.id)));
 const recipes=JSON.parse(await fs.readFile('content/recipes.json','utf8')).concat((site.recipes||[]).filter(entry=>entry?.community));
-const routes=['/','/about','/community','/journey','/migration','/words','/dishes','/collections','/voices','/photographs','/contribute','/corrections','/admin'];
+const routes=['/','/about','/community','/journey','/migration','/words','/dishes','/collections','/voices','/photographs','/contribute','/admin'];
 for(const e of entries){routes.push('/words/'+e.id);if(e.theme==='Food and Drink')routes.push('/dishes/'+e.id)}
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const productionOrigin=process.env.VERCEL_PROJECT_PRODUCTION_URL?`https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`:'';

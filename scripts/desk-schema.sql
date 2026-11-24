@@ -102,8 +102,14 @@ values ('archive-desk', 'archive-desk', true, 2097152, array['image/jpeg','image
 on conflict (id) do update set public = true, file_size_limit = excluded.file_size_limit, allowed_mime_types = excluded.allowed_mime_types;
 
 insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
+values ('archive-audio', 'archive-audio', true, 3000000, array['audio/webm','audio/mp4','audio/ogg','audio/wav','audio/mpeg'])
+on conflict (id) do update set public = true, file_size_limit = excluded.file_size_limit, allowed_mime_types = excluded.allowed_mime_types;
+
+insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
 values ('archive-desk-pending', 'archive-desk-pending', false, 2097152, array['image/jpeg','image/png','image/webp'])
 on conflict (id) do update set public = false, file_size_limit = excluded.file_size_limit, allowed_mime_types = excluded.allowed_mime_types;
 
 drop policy if exists "Public can read published desk photographs" on storage.objects;
 create policy "Public can read published desk photographs" on storage.objects for select to anon, authenticated using (bucket_id = 'archive-desk');
+drop policy if exists "Public can read published pronunciations" on storage.objects;
+create policy "Public can read published pronunciations" on storage.objects for select to anon, authenticated using (bucket_id = 'archive-audio');

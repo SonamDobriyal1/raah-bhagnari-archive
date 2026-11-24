@@ -1,5 +1,5 @@
 import {journeyRequestFromRow,journeyRequestRow,publishedFromRows,recipeSubmissionFromRow,recipeSubmissionRow,rowsFromPublished} from '../src/deskRecords.js';
-import {deleteStoredImage,objectNameFromPublicUrl,readStoredImage,storePrivateImage,storePublicImage} from './supabase-storage.js';
+import {deletePublicAudio,deleteStoredImage,objectNameFromPublicUrl,readStoredImage,storePrivateImage,storePublicAudio,storePublicImage} from './supabase-storage.js';
 import {supabaseRest} from './supabase-rest.js';
 
 const publishedTables=[['desk_journeys','journeys'],['desk_words','words'],['desk_removed_words','removed'],['desk_recipes','recipes']];
@@ -43,10 +43,12 @@ export async function writeInbox(inbox){
 }
 
 export const writeUpload=(buffer,ext,folder,name)=>storePublicImage(buffer,ext,folder,name);
+export const writeAudio=(buffer,ext,name)=>storePublicAudio(buffer,ext,name);
 export const writePrivate=(buffer,ext,name)=>storePrivateImage(buffer,ext,name);
 export const readPrivate=objectName=>readStoredImage(objectName);
 export async function removePrivate(objectName){if(objectName)await deleteStoredImage(objectName)}
 export async function removePublic(url){
   const name=objectNameFromPublicUrl(url);
   if(name)await deleteStoredImage(name);
+  else await deletePublicAudio(url);
 }
