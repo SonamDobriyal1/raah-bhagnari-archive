@@ -17,10 +17,10 @@ export default function RouteMap({place='',stops,title='A family route'}){
       <path d="M224 0c-20 30-22 48-14 73s-1 49-18 71-5 44-21 60-26 25-29 31" fill="none" stroke="#80969c" strokeWidth="2"/>
       <text x="236" y="118" transform="rotate(75 236 118)" className="map-water">Indus</text>
       <text x="28" y="424" className="map-water">Arabian Sea</text>
-      {path&&<path d={path} fill="none" stroke="#8e2a1e" strokeWidth="3.5" strokeDasharray="6 6" strokeLinecap="round"/>}
-      {points.map((point,index)=><g key={`${point.name}-${index}`}><circle cx={point.x} cy={point.y} r="11" fill="#8e2a1e" fillOpacity=".17"/><circle cx={point.x} cy={point.y} r="4" fill="#8e2a1e"/><text x={point.x+16} y={point.y+2} className="map-place">{point.name.slice(0,18)}</text>{point.year&&<text x={point.x+16} y={point.y+28} className="map-date">{point.year.slice(0,16)}</text>}</g>)}
+      {path&&<path d={path} fill="none" stroke="#7c2430" strokeWidth="3.5" strokeDasharray="6 6" strokeLinecap="round"/>}
+      {points.map((point,index)=><g key={`${point.name}-${index}`}><circle cx={point.x} cy={point.y} r="11" fill="#7c2430" fillOpacity=".17"/><circle cx={point.x} cy={point.y} r="4" fill="#7c2430"/><text x={point.x+16} y={point.y+2} className="map-place">{point.name.slice(0,18)}</text>{point.year&&<text x={point.x+16} y={point.y+28} className="map-date">{point.year.slice(0,16)}</text>}</g>)}
       {!points.length&&<text x="118" y="230" className="map-date">Add places to draw the route</text>}
-      <path d="M403 67V28m-6 9 6-9 6 9" fill="none" stroke="#8e2a1e"/>
+      <path d="M403 67V28m-6 9 6-9 6 9" fill="none" stroke="#7c2430"/>
       <text x="398" y="19" className="map-date">N</text>
       <text x="20" y="452" className="map-date">Schematic route · not a scale map</text>
     </svg>

@@ -4,6 +4,11 @@ import {acceptsOrigin,corsHeaders,withCors} from '../server/site-origin.js';
 import {relayContribution} from '../server/private-ingest.js';
 
 const env={ARCHIVE_SITE_URL:'https://archive.vercel.app',ARCHIVE_ALLOWED_ORIGINS:'https://archive.web.app,https://archive.firebaseapp.com',SUPABASE_INGEST_URL:'https://private.example/ingest',ARCHIVE_INGEST_KEY:'test-only'};
+test('the address in the browser is accepted even when Vercel’s deployment hostname differs',()=>{
+ const env={VERCEL_URL:'raah-bhagnari-archive-abc123.vercel.app',ARCHIVE_SITE_URL:' ',SITE_URL:'https://raah-bhagnari-archive.vercel.app'};
+ assert.equal(acceptsOrigin('https://raah-bhagnari-archive.vercel.app','raah-bhagnari-archive.vercel.app',env),true);
+ assert.equal(acceptsOrigin('https://evil.example','raah-bhagnari-archive.vercel.app',env),false);
+});
 test('only exact approved hosting origins receive submission access and CORS headers',()=>{
  assert.equal(acceptsOrigin('https://archive.web.app','archive.vercel.app',env),true);
  for(const origin of ['https://evil.example','https://archive.web.app.evil.example','http://archive.web.app','null']){

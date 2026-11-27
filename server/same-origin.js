@@ -3,7 +3,7 @@ import {allowedOrigins,corsHeaders} from './site-origin.js';
 export function sameOrigin(req){
   const origin=req.headers?.origin;
   if(!origin)return true;
-  try{return new URL(origin).host===String(req.headers['x-forwarded-host']||req.headers.host||'')}
+  try{return new URL(origin).host===String(req.headers['x-forwarded-host']||req.headers.host||'').split(',')[0].trim()}
   catch{return false}
 }
 
