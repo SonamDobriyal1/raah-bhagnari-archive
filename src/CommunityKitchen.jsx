@@ -52,7 +52,7 @@ export default function CommunityKitchen(){
       <label className="consent-label"><input type="checkbox" name="consent" checked={form.consent} onChange={update} required/><span>I have permission to share this recipe, and I understand it will be reviewed before it appears on the site.</span></label>
       <label className="honeypot" aria-hidden="true">Leave blank<input name="website" tabIndex={-1} autoComplete="off"/></label>
       <div className="form-actions"><button className="button" disabled={busy}>{busy?'Sending…':'Submit this recipe for review'}</button></div>
-      {notice&&<p className="form-status" role="status">{notice}</p>}
+      {(busy||notice)&&<p className="form-status" role="status">{busy?'Submitting…':notice}</p>}
     </form>
   </section>;
 }

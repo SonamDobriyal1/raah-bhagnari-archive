@@ -93,7 +93,7 @@ export default function CommunityJourneys(){
       <label className="consent-label"><input type="checkbox" name="consent" checked={form.consent} onChange={update} required/><span>I have permission to share this, and I understand it will be reviewed before it appears on the site.</span></label>
       <label className="honeypot" aria-hidden="true">Leave blank<input name="website" tabIndex={-1} autoComplete="off"/></label>
       <div className="form-actions"><button className="button" disabled={busy}>{busy?'Sending…':'Ask the curator to cover this journey'}</button></div>
-      {notice&&<p className="form-status" role="status">{notice}</p>}
+      {(busy||notice)&&<p className="form-status" role="status">{busy?'Submitting…':notice}</p>}
     </form>
   </section>;
 }
