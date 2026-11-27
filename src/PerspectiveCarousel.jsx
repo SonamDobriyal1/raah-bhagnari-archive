@@ -1,5 +1,5 @@
 import React,{useCallback,useEffect,useRef,useState} from 'react';
-import {animate,motion,useMotionValue,useMotionValueEvent,useTransform} from 'framer-motion';
+import {animate,useMotionValue,useMotionValueEvent,useTransform} from 'framer-motion';
 import {Icon,Link} from './components.jsx';
 
 const springMass=0.95;
@@ -51,7 +51,14 @@ function layoutFor(width,{spacing,perspective,centerScale,edgeScale}){
  };
 }
 
+function cardTransform(pose){
+ return `translateX(${pose.x}px) translateY(-50%) translateZ(${pose.z}px) scale(${pose.scale}) rotateY(${pose.rotateY}deg)`;
+}
+
 function CarouselCard({virtual,progress,image,metrics,rotation,outerRotation,centerScale,edgeScale,page}){
+ const nodeRef=useRef(null);
+ const captionRef=useRef(null);
+ const readRef=useRef(()=>({}));
  const offset=useTransform(progress,value=>virtual-value);
  const x=useTransform(offset,value=>value*metrics.spacing);
  const rotateY=useTransform(offset,value=>outwardRotation(value,rotation,outerRotation));
@@ -60,11 +67,27 @@ function CarouselCard({virtual,progress,image,metrics,rotation,outerRotation,cen
  const height=useTransform(offset,value=>metrics.centerHeight+(metrics.edgeHeight-metrics.centerHeight)*coverAmount(value));
  const zIndex=useTransform(offset,value=>Math.round(40-Math.abs(value)*10));
  const labelOpacity=useTransform(offset,value=>{const distance=Math.abs(value);return distance<0.35?1:distance<0.75?1-(distance-0.35)/0.4:0});
+ readRef.current=()=>({x:x.get(),z:z.get(),rotateY:rotateY.get(),scale:scale.get(),height:height.get(),zIndex:zIndex.get(),opacity:labelOpacity.get()});
+ const pose=readRef.current();
  const distance=Math.abs(virtual-page);
  const hidden=distance>2;
- return <motion.div className="perspective-card" style={{width:metrics.cardWidth,height,x,y:'-50%',z,rotateY,scale,zIndex,marginLeft:-metrics.cardWidth/2}} aria-hidden={hidden?true:undefined}>
-  <Link to={image.href} className="perspective-card-frame" style={{borderRadius:metrics.radius}} tabIndex={hidden?-1:0} aria-label={image.alt}><img src={image.src} alt="" draggable="false"/>{image.label&&<motion.span className="perspective-caption" style={{opacity:labelOpacity}}>{image.label}</motion.span>}</Link>
- </motion.div>;
+ useEffect(()=>{
+  const paint=()=>{
+   const node=nodeRef.current;
+   if(!node)return;
+   const next=readRef.current();
+   node.style.height=next.height+'px';
+   node.style.zIndex=String(next.zIndex);
+   node.style.transform=cardTransform(next);
+   if(captionRef.current)captionRef.current.style.opacity=String(next.opacity);
+  };
+  paint();
+  const stops=[x,z,rotateY,scale,height,zIndex,labelOpacity].map(value=>value.on('change',paint));
+  return ()=>stops.forEach(stop=>stop());
+ },[x,z,rotateY,scale,height,zIndex,labelOpacity]);
+ return <div ref={nodeRef} className="perspective-card" style={{width:metrics.cardWidth,height:pose.height,zIndex:pose.zIndex,marginLeft:-metrics.cardWidth/2,transform:cardTransform(pose)}} aria-hidden={hidden?true:undefined}>
+  <Link to={image.href} className="perspective-card-frame" style={{borderRadius:metrics.radius}} tabIndex={hidden?-1:0} aria-label={image.alt}><img src={image.src} alt="" draggable="false"/>{image.label&&<span ref={captionRef} className="perspective-caption" style={{opacity:pose.opacity}}>{image.label}</span>}</Link>
+ </div>;
 }
 
 export function PerspectiveCarousel({
